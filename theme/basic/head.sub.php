@@ -50,6 +50,12 @@ if($config['cf_add_meta'])
 ?>
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
+<!-- custom styles (optional) -->
+<link href="<?php echo G5_URL ?>/assets/css/plugins.css" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/style.css" rel="stylesheet" />
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
@@ -81,7 +87,7 @@ if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
+<body class="v-light hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true" <?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';
@@ -93,3 +99,16 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
     echo '<a href="'.G5_BBS_URL.'/logout.php">로그아웃</a></div>';
 }
 ?>
+<div data-dsn-temp="light"></div>
+<!-- <div class="preloader">
+    <div class="preloader-after"></div>
+    <div class="preloader-before"></div>
+    <div class="preloader-block">
+        <div class="title">MAKE PRODUCTION</div>
+        <div class="percent">0</div>
+        <div class="loading">loading...</div>
+    </div>
+    <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+    </div>
+</div> -->
