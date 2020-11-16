@@ -197,12 +197,12 @@ include_once(G5_THEME_PATH.'/head.php');
             </section>
 
             <div class="box-seat">
-                <div class="dsn-v-text">
+                <div class="dsn-v-text new-history">
                     <div class="container-fluid">
                         <div class="box-middle-text">
-                            <h2 data-dsn-animate="text">People a Lift</h2>
-                            <p data-dsn-animate="text">When the Escalators Died in Stockholm’s Subway, Reebok Was
-                                There to Give People a Lift.Literally</p>
+                            <h2 data-dsn-animate="text" style="color: #000;">Design new history</h2>
+                            <p data-dsn-animate="text" style="color: #000; font-size: 1.1rem;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
+                            메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
                             <a href="https://vimeo.com/175353205" class="vid">
                                 <div class="play-button">
                                     <div class="play-btn">
