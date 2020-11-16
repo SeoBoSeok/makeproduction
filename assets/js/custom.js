@@ -127,6 +127,7 @@
             arrows : false,
             dots : true,
             fade : true,
+            autoplay: true,
             cssEase : "linear",
         } );
 
@@ -136,6 +137,7 @@
             slidesToShow : 2,
             arrows : false,
             dots : true,
+            autoplay: true,
             responsive : [
 
                 {

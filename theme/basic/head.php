@@ -30,37 +30,39 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <ul class="extend-container">
                     <li class="custom-drop-down">
                         <a href="#">Home</a>
-                        <ul>
+                        <!-- <ul>
                             <li><a href="index.html">Main Demo</a></li>
                             <li><a href="one-page-3.html">One Page Three</a></li>
                             <li><a href="one-page-4.html">One Page Four</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li class="custom-drop-down">
+                    <!-- <li class="custom-drop-down">
                         <a href="#">Slider</a>
                         <ul>
                             <li><a href="slider.html">Slider</a></li>
                             <li><a href="slider2.html">Slider two</a></li>
                             <li><a href="slider3.html">Slider Three</a></li>
                         </ul>
-                    </li>
-                    <li><a href="about.html">About</a></li>
+                    </li> -->
+                    <!-- <li><a href="about.html">Portfolio</a></li> -->
                     <li class="custom-drop-down">
-                        <a href="#">Work</a>
+                        <a href="#">Portfolio</a>
                         <ul>
-                            <li><a href="work.html">Work</a></li>
-                            <li><a href="project-9.html">Header One</a></li>
-                            <li><a href="project-7.html">Header Two</a></li>
-                            <li><a href="project-5.html">Header Three</a></li>
+                            <li><a href="work.html">홍보영상</a></li>
+                            <li><a href="project-9.html">인터뷰 소개</a></li>
+                            <li><a href="project-7.html">현장스케치</a></li>
+                            <li><a href="project-5.html">브이로그</a></li>
+                            <li><a href="project-5.html">유튜브 콘텐츠</a></li>
                         </ul>
                     </li>
-                    <li class="custom-drop-down">
-                        <a href="#">Blog</a>
+                    <!-- <li class="custom-drop-down">
+                        <a href="#">Location</a>
                         <ul>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="post.html">Single Post</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+                    <li><a href="contact.html">Location</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
