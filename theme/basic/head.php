@@ -102,9 +102,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <div class="nav-content">
                 <div class="inner-content">
                     <address class="v-middle">
-                        <span>Egypt</span>
-                        <span>Damietta,El-Mahalla El-Kubra,</span>
-                        <span>01024552406 , 01004392260</span>
+                        <span>메이크 프로덕션(MAKE PRODUCTION)</span>
+                        <span>충남 공주시 감영길 9</span>
+                        <span>010-5120-6024</span>
                     </address>
                 </div>
 
