@@ -156,7 +156,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/con_1_2.png" alt="">
+                                    <img src="assets/img/con_1_3.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>SOLUTION</h3>
@@ -170,7 +170,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/con_2_2.png" alt="">
+                                    <img src="assets/img/con_2_3.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>PLAN</h3>
@@ -184,7 +184,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/con_3_2.png" alt="">
+                                    <img src="assets/img/con_3_3.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>STORY</h3>
@@ -200,8 +200,8 @@ include_once(G5_THEME_PATH.'/head.php');
                 <div class="dsn-v-text new-history">
                     <div class="container-fluid">
                         <div class="box-middle-text">
-                            <h2 data-dsn-animate="text" style="color: #000;">Design new history</h2>
-                            <p data-dsn-animate="text" style="color: #000; font-size: 1.1rem;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
+                            <h2 data-dsn-animate="text" style="color: #fff;">Design new history</h2>
+                            <p data-dsn-animate="text" style="color: #fff; font-size: 1.1rem;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
                             <a href="https://vimeo.com/175353205" class="vid">
                                 <div class="play-button">
@@ -212,7 +212,7 @@ include_once(G5_THEME_PATH.'/head.php');
                             </a>
                         </div>
                         <div class="inner-img" data-dsn-grid="move-up" data-overlay="9">
-                            <img class="has-top-bottom" src="assets/img/makebackground.jpg" alt="">
+                            <img class="has-top-bottom" src="assets/img/video_back.jpg" alt="">
                         </div>
                     </div>
                 </div>
