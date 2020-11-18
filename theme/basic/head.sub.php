@@ -105,7 +105,7 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
 }
 ?>
 <div data-dsn-temp="light"></div>
-<!-- <div class="preloader">
+<div class="preloader">
     <div class="preloader-after"></div>
     <div class="preloader-before"></div>
     <div class="preloader-block">
@@ -116,4 +116,4 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
     <div class="preloader-bar">
         <div class="preloader-progress"></div>
     </div>
-</div> -->
+</div>

@@ -62,8 +62,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                             <li><a href="post.html">Single Post</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="contact.html">Location</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/?p=contact">Contact</a></li>
                 </ul>
             </nav>
         </div>

@@ -514,12 +514,12 @@ include_once(G5_THEME_PATH.'/head.php');
             <section class="contact-up section-margin section-padding">
                 <div class="container">
                     <div class="c-wapp">
-                        <a href="contact.html" class="effect-ajax">
+                        <a href="/?p=contact" class="effect-ajax">
                             <span class="hiring">
                                 WHERE WE ARE
                             </span>
                             <span class="career">
-                                LOCATION
+                                CONTACT
                             </span>
                         </a>
                     </div>
@@ -555,11 +555,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <h4 class="footer-title">Navigation</h4>
                                 <nav>
                                     <ul>
-                                        <li><a href="#">HOME</a></li>
-                                        <li><a href="#">PORTFOLIO</a>
+                                        <li><a href="/">HOME</a></li>
+                                        <li><a href="/?p=work">PORTFOLIO</a>
                                         </li>
-                                        <li><a href="#">LOCATION</a></li>
-                                        <li><a href="#">CONTACT</a>
+                                        <!-- <li><a href="#">LOCATION</a></li> -->
+                                        <li><a href="/?p=contact">CONTACT</a>
                                         </li>
                                     </ul>
                                 </nav>
