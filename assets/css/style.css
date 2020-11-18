@@ -3244,6 +3244,7 @@ body.hamburger-menu .header-top {
   padding: 22px 50px;
   margin: auto;
   background-color: #e6e6e6;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 767px) {
@@ -12601,7 +12602,7 @@ footer .copyright-social ul li:last-child {
   overflow: hidden;
   color: black;
   bottom: 10px;
-  z-index: 999;
+  z-index: 99;
 }
 
 .underline {

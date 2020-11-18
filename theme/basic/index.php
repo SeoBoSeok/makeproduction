@@ -210,7 +210,7 @@ include_once(G5_THEME_PATH.'/head.php');
                             <h2 data-dsn-animate="text" style="color: #fff;">Design new history</h2>
                             <p data-dsn-animate="text" style="color: #fff; font-size: 1.1rem; line-height:1;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
-                            <a href="https://vimeo.com/175353205" class="vid">
+                            <a href="https://www.youtube.com/watch?v=wfyxpslYCMs&feature=emb_logo" class="vid">
                                 <div class="play-button">
                                     <div class="play-btn">
                                         <i class="fas fa-play"></i>
@@ -265,7 +265,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="img-box">
                         <div class="img-cent" data-dsn-grid="move-up">
                             <div class="img-container">
-                                <img data-dsn-y="30%" src="assets/img/bgg.jpg" alt="">
+                                <img data-dsn-y="30%" src="assets/img/blog/test.jpg" alt="">
                             </div>
                         </div>
                     </div>
