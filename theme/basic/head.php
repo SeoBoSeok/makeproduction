@@ -47,7 +47,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <!-- <li><a href="about.html">Portfolio</a></li> -->
                     <li class="custom-drop-down">
                         <a href="#">Portfolio</a>
-                        <ul>
+                        <ul style="display:block;">
                             <li><a href="work.html">홍보영상</a></li>
                             <li><a href="project-9.html">인터뷰 소개</a></li>
                             <li><a href="project-7.html">현장스케치</a></li>
