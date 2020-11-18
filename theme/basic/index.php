@@ -562,7 +562,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="col-md-3 dsn-col-footer">
                             <div class="footer-block col-contact">
                                 <h4 class="footer-title">Contact</h4>
-                                <p><strong>T</strong> <span>:</span> 010-5120-6024</p>
+                                <p><strong>T</strong> <span>:</span>010-5120-6024</p>
                                 <!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
                                 <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
                                         data-hover-text="info@dsngrid.com" href="#">miraedostudio@gmail.com</a>

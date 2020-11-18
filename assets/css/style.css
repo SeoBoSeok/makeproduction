@@ -1744,7 +1744,7 @@ body > * {
 }
 
 .v-light .one-title .title-sub-container .title-sub:before {
-  background-color: #000;
+  background-color: rgb(251,0,5);
 }
 
 .one-title .title-sub-container .title-sub:after {
@@ -6447,7 +6447,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .v-light .intro-about .intro-content-text h6:before {
-  background-color: #000;
+  background-color: rgb(251,0,5);
 }
 
 .intro-about .intro-content-text small {
@@ -12380,6 +12380,7 @@ footer .copyright-social ul li:last-child {
 }
 
 .footer .footer-links .footer-block.col-contact p {
+  width: 100%;
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 10px;
