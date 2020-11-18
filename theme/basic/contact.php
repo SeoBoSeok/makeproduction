@@ -94,7 +94,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     </div>
 
                     <div class="image-zoom" data-dsn="parallax">
-                    <button>Send Message</button>
+                    <a href="https://forms.gle/UczxgpR7xtnnH6ds5" target="_blank"><button type="button">문의하기</button></a>
                     </div>
                 </div>
                 </form>
