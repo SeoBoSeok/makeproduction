@@ -6369,7 +6369,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   right: 0;
   bottom: 0;
   width: calc(50% + 50px);
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .intro-about .background-mask .background-mask-bg {
@@ -6503,7 +6503,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding: 50px;
 }
 
 .intro-about .img-box img {
@@ -6548,11 +6548,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
     bottom: auto;
   }
   .intro-about .img-box {
-    padding: 80px 50px;
+    padding: 0px;
   }
   .intro-about .img-box .img-cent {
-    height: 80vh;
+    height: 50vh;
     margin: 0;
+    margin-top: 20px;
   }
 }
 

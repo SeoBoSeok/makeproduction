@@ -404,17 +404,19 @@
                         } else {
                             let y = dsnGrid.getUndefinedVal( img.data( "dsn-y" ), "10%" );
                             let scale = dsnGrid.getUndefinedVal( img.data( "dsn-scale" ), 1.1 );
-
+                            
                             if ( triggerHook !== 1 ) {
                                 img.css( "top", 0 );
                                 parallax = TweenMax.to( img, 2, { force3D : true, scale : scale, y : y } );
-                            } else
+                            } else {
+                                // console.log('1111');
                                 parallax = TweenMax.to( img, 1, {
                                     force3D : true,
                                     scale : scale,
                                     y : y,
                                     ease : Power0.easeNone,
                                 } );
+                            }
                         }
 
 
@@ -571,7 +573,7 @@
                 this.moveSection();
                 this.animateText();
                 // this.changeColor();
-                // this.headerBlog();
+                this.headerBlog();
 
 
             },

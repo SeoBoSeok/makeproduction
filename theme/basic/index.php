@@ -208,7 +208,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="container-fluid">
                         <div class="box-middle-text">
                             <h2 data-dsn-animate="text" style="color: #fff;">Design new history</h2>
-                            <p data-dsn-animate="text" style="color: #fff; font-size: 1.1rem; line-height:1;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
+                            <p data-dsn-animate="text" style="color: #fff; font-size: 1rem; line-height:1.1;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
                             <a href="https://www.youtube.com/watch?v=wfyxpslYCMs&feature=emb_logo" class="vid">
                                 <div class="play-button">
@@ -228,7 +228,7 @@ include_once(G5_THEME_PATH.'/head.php');
             <section class="intro-about section-margin" data-dsn="color">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" style="z-index: 2;">
                             <div class="intro-content-text">
 
                                 <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
