@@ -151,6 +151,9 @@
             ],
         } );
 
+        $('[data-dsn-col=\"2\"] .slick-slider').on("afterChange", function(event, slick, direction){
+            // $('.contenet-hero__list li:eq('+ direction +') a').addClass("underline");
+        });
 
         $( "[data-dsn-col=\"3\"] .slick-slider" ).slick( {
             infinite : true,
@@ -1602,7 +1605,7 @@
             return;
 
         galleryPortfolio.justifiedGallery( {
-            rowHeight : 300,
+            rowHeight : 330,
             margins : 15,
         } );
 
@@ -1670,12 +1673,12 @@
             if ( effectScroll.isScroller( true ) )
                 sc = effectScroll.getScrollbar();
 
-            setTimeout( function () {
-                TweenLite.to( sc, 1.5, {
-                    scrollTo : $gallery.offset().top - 150, ease :
-                    Expo.easeInOut,
-                } );
-            }, 500 );
+            // setTimeout( function () {
+            //     TweenLite.to( sc, 1.5, {
+            //         scrollTo : $gallery.offset().top - 150, ease :
+            //         Expo.easeInOut,
+            //     } );
+            // }, 500 );
 
         } );
 

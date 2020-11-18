@@ -25,6 +25,13 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <a href="#" class="view-case scroll-down">Scroll Down <img
                                         src="assets/img/arrow-right-dark.png" alt=""></a>
                             </div>
+                            <ul class="contenet-hero__list">
+                                <li><a class="underline" href="/?p=work">홍보영상</a></li>
+                                <li><a class="underline" href="/?p=work">인터뷰 소개</a></li>
+                                <li><a class="underline" href="/?p=work">현장스케치</a></li>
+                                <li><a class="underline" href="/?p=work">브이로그</a></li>
+                                <li><a class="underline" href="/?p=work">유튜브 콘텐츠</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -152,9 +159,9 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="services-item" style="background-color: #f1f1f1;">
+                            <div class="services-item">
                                 <div class="corner corner-top"></div>
-                                <div class="corner corner-bottom"></div>
+                                <!-- <div class="corner corner-bottom"></div> -->
                                 <div class="icon">
                                     <img src="assets/img/con_1_3.png" alt="">
                                 </div>
@@ -167,8 +174,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
                         <div class="col-md-4">
                             <div class="services-item selected">
-                                <div class="corner corner-top"></div>
-                                <div class="corner corner-bottom"></div>
+                                <!-- <div class="corner corner-top"></div> -->
+                                <!-- <div class="corner corner-bottom"></div> -->
                                 <div class="icon">
                                     <img src="assets/img/con_2_3.png" alt="">
                                 </div>
@@ -180,8 +187,8 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="col-md-4">
-                            <div class="services-item" style="background-color: #f1f1f1;">
-                                <div class="corner corner-top"></div>
+                            <div class="services-item">
+                                <!-- <div class="corner corner-top"></div> -->
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
                                     <img src="assets/img/con_3_3.png" alt="">
@@ -201,7 +208,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="container-fluid">
                         <div class="box-middle-text">
                             <h2 data-dsn-animate="text" style="color: #fff;">Design new history</h2>
-                            <p data-dsn-animate="text" style="color: #fff; font-size: 1.1rem;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
+                            <p data-dsn-animate="text" style="color: #fff; font-size: 1.1rem; line-height:1;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
                             <a href="https://vimeo.com/175353205" class="vid">
                                 <div class="play-button">
@@ -240,7 +247,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 </p>
 
                                 <h6 data-dsn-animate="text">WE MAKE STORY</h6>
-                                <small data-dsn-animate="text">통통튀는 아이디어로 새로운 경험을 드리겠습니다</small>
+                                <small data-dsn-animate="text" style="margin-bottom: 10px;">통통튀는 아이디어로 새로운 경험을 드리겠습니다</small>
 
                                 <div class="exper">
                                     <div class="numb-ex">

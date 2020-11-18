@@ -48,11 +48,11 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <li class="custom-drop-down">
                         <a href="#">Portfolio</a>
                         <ul style="display:block;">
-                            <li><a href="work.html">홍보영상</a></li>
-                            <li><a href="project-9.html">인터뷰 소개</a></li>
-                            <li><a href="project-7.html">현장스케치</a></li>
-                            <li><a href="project-5.html">브이로그</a></li>
-                            <li><a href="project-5.html">유튜브 콘텐츠</a></li>
+                            <li><a href="/?p=work">홍보영상</a></li>
+                            <li><a href="/?p=work">인터뷰 소개</a></li>
+                            <li><a href="/?p=work">현장스케치</a></li>
+                            <li><a href="/?p=work">브이로그</a></li>
+                            <li><a href="/?p=work">유튜브 콘텐츠</a></li>
                         </ul>
                     </li>
                     <!-- <li class="custom-drop-down">
@@ -71,7 +71,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     <div class="header-top header-top-hamburger">
         <div class="header-container">
             <div class="logo main-logo">
-                <a href="index.html">
+                <a href="/">
                     <img class="dark-logo" src="assets/img/logo_b.png" alt="" />
                     <img class="light-logo" src="assets/img/logo_w.png" alt="" />
                 </a>

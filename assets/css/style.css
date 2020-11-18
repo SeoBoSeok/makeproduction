@@ -3243,6 +3243,7 @@ body.hamburger-menu .header-top {
   max-width: 2560px;
   padding: 22px 50px;
   margin: auto;
+  background-color: #e6e6e6;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4629,6 +4630,14 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   .next-project .project-title .title-text-header .title-text-header-inner span {
     font-size: 38px;
   }
+  .process_anchor {
+    -webkit-transform: translate(50%, -50%)!important;
+    -ms-transform: translate(50%, -50%)!important;
+    transform: translate(50%, -50%) rotate(90deg)!important;
+    bottom: -18px!important;
+    right: 50%!important;
+    top: initial!important;
+  }
 }
 
 .next-project .project-title .sub-text-header {
@@ -4645,12 +4654,13 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 /* Next/Previous Page */
 .contact-up {
   position: relative;
-  background-color: #090909;
+  /* background-color: #090909; */
   overflow: hidden;
 }
 
 .v-light .contact-up {
   background-color: #e6e6e6;
+  /* background: url("../img/maps_background.jpg") center center no-repeat; */
 }
 
 .contact-up::before {
@@ -5903,7 +5913,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   min-height: 240px;
   margin-right: 2px;
   margin-bottom: 2px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .v-light .brand-client .wapper-client .logo-box {
@@ -6069,7 +6079,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .box-seat .inner-img {
-  height: 60vh;
+  height: 75vh;
   overflow: hidden;
 }
 
@@ -6639,7 +6649,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .v-light .our-services-2 .services-item .corner {
   border-color: #bebebe;
-  display: none;
+  /* display: none; */
 }
 
 .our-services-2 .services-item .corner.corner-top {
@@ -9161,7 +9171,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .header-hero .contenet-hero {
   position: relative;
   width: 100%;
-  padding: 150px 0 120px 0;
+  padding: 120px 0 80px 0;
 }
 
 .header-hero h5 {
@@ -9251,7 +9261,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   line-height: 1.2;
   margin-top: 0;
   font-size: 65px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10763,7 +10773,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 .root-work .filterings {
   position: relative;
   margin: 0 auto;
-  margin-bottom: 120px;
+  margin-bottom: 30px;
   width: 100%;
   z-index: 2;
 }
@@ -10846,7 +10856,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   position: relative;
   padding-left: 30px;
   padding-right: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10864,12 +10874,13 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 }
 
 .root-work .projects-list .item:nth-child(2) {
-  margin-top: 160px;
+  /* margin-top: 160px; */
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 767px) {
   .root-work .projects-list .item:nth-child(2) {
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 }
 
@@ -12574,8 +12585,47 @@ footer .copyright-social ul li:last-child {
 .process_anchor {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -18px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.contenet-hero__list {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -1px;
+  background:rgb(251,0,5);
+  height: 3px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
