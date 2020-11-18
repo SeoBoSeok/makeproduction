@@ -152,7 +152,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="services-item">
+                            <div class="services-item" style="background-color: #f1f1f1;">
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
@@ -180,7 +180,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="col-md-4">
-                            <div class="services-item">
+                            <div class="services-item" style="background-color: #f1f1f1;">
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
