@@ -21,8 +21,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <div class="inner-header">
                 <div class="main-logo">
                     <a href="index.html">
-                        <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
-                        <img class="light-logo" src="assets/img/logo.png" alt="" />
+                        <img class="dark-logo" src="assets/img/logo_b.png" alt="" />
+                        <img class="light-logo" src="assets/img/logo_w.png" alt="" />
                     </a>
                 </div>
             </div>
@@ -72,8 +72,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <div class="header-container">
             <div class="logo main-logo">
                 <a href="index.html">
-                    <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
-                    <img class="light-logo" src="assets/img/logo.png" alt="" />
+                    <img class="dark-logo" src="assets/img/logo_b.png" alt="" />
+                    <img class="light-logo" src="assets/img/logo_w.png" alt="" />
                 </a>
             </div>
 

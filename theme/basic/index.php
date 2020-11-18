@@ -156,7 +156,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/services/1-light.png" alt="">
+                                    <img src="assets/img/con_1_2.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>SOLUTION</h3>
@@ -170,7 +170,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/services/2-light.png" alt="">
+                                    <img src="assets/img/con_2_2.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>PLAN</h3>
@@ -184,7 +184,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/services/3-light.png" alt="">
+                                    <img src="assets/img/con_3_2.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>STORY</h3>
@@ -240,14 +240,13 @@ include_once(G5_THEME_PATH.'/head.php');
                                 </p>
 
                                 <h6 data-dsn-animate="text">WE MAKE STORY</h6>
-                                <small data-dsn-animate="text">Digital Artisit</small>
+                                <small data-dsn-animate="text">통통튀는 아이디어로 새로운 경험을 드리겠습니다</small>
 
                                 <div class="exper">
                                     <div class="numb-ex">
-                                        <span class="word" data-dsn-animate="text">NEW</span>
+                                        <!-- <span class="word" data-dsn-animate="text">NEW</span> -->
+                                        <img src="assets/img/new_off_2.png" alt="" />
                                     </div>
-
-                                    <h4 data-dsn-animate="up">통통튀는 아이디어로<br> 새로운 경험을 드리겠습니다</h4>
                                 </div>
 
                             </div>
@@ -281,9 +280,9 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="wapper-client">
                         <div class="logo-box">
-                            <img src="assets/img/logo/1-light.png" alt="">
-
-                            <div class="info">
+                            <img src="assets/img/process6.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -296,13 +295,13 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/logo/2-light.png" alt="">
-
-                            <div class="info">
+                            <img src="assets/img/process5.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -315,13 +314,14 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/logo/3-light.png" alt="">
+                            <img src="assets/img/process4.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
 
-                            <div class="info">
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -334,13 +334,14 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/logo/4-light.png" alt="">
+                            <img src="assets/img/process3.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
 
-                            <div class="info">
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -353,13 +354,14 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/logo/5-light.png" alt="">
+                            <img src="assets/img/process2.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
 
-                            <div class="info">
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -372,11 +374,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/logo/6-light.png" alt="">
+                            <img src="assets/img/process1.png" alt="">
 
                             <div class="info">
                                 <div class="content">
@@ -525,7 +527,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="col-md-3 dsn-col-footer">
                             <div class="footer-block">
                                 <div class="footer-logo">
-                                    <a href=""><img src="assets/img/logo-dark.png" alt=""></a>
+                                    <a href=""><img src="assets/img/logo_b.png" alt=""></a>
                                 </div>
 
                                 <div class="footer-social">

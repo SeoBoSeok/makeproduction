@@ -567,7 +567,7 @@
                 this.parallaxImg();
                 this.moveSection();
                 this.animateText();
-                this.changeColor();
+                // this.changeColor();
                 // this.headerBlog();
 
 
