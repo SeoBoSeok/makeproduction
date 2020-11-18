@@ -175,7 +175,7 @@ include_once(G5_THEME_PATH.'/head.php');
                             <div class="col-address">
                                 <h4 class="footer-title">Address</h4>
 
-                                <p>충남 공주시 감영길 9</p>
+                                <p><a href="https://map.kakao.com/link/to/메이크스튜디오,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
                             </div>
                         </div>
                     </div>
