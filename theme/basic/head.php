@@ -29,7 +29,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <nav class=" accent-menu main-navigation">
                 <ul class="extend-container">
                     <li class="custom-drop-down">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                         <!-- <ul>
                             <li><a href="index.html">Main Demo</a></li>
                             <li><a href="one-page-3.html">One Page Three</a></li>
