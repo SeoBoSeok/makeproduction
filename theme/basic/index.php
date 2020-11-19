@@ -20,7 +20,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="row align-items-center h-100">
                         <div class="col-lg-12">
                             <div class="contenet-hero">
-                                <h1>MADE BY MAKE<br> PRODUCTION<img src="assets/img/make_dot.svg" /></h1>
+                                <h1>MADE BY MAKE<br> PRODUCTION</h1>
                                 <p>메이크프로덕션에서는 클라이언트의 고민을 이해하고<br />함께 고민하여 솔루션을 제시하는 콘텐츠 제작업체입니다.</p>
                                 <a href="#" class="view-case scroll-down">어떤 영상이 필요하세요?
                                     <!-- <img src="assets/img/arrow-right-dark.png" alt=""></a> -->
