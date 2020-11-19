@@ -52,7 +52,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 </li>
                 <li>
                     <span>Address</span>
-                    <a href="https://map.kakao.com/link/to/메이크스튜디오,36.4528689,127.1223874">충청남도 공주시 반죽동 감영길 9</a>
+                    <a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874">충청남도 공주시 반죽동 감영길 9</a>
                 </li>
                 </ul>
             </div>
@@ -174,7 +174,7 @@ include_once(G5_THEME_PATH.'/head.php');
                             <div class="col-address">
                                 <h4 class="footer-title">Address</h4>
 
-                                <p><a href="https://map.kakao.com/link/to/메이크스튜디오,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
+                                <p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
                             </div>
                         </div>
                     </div>
