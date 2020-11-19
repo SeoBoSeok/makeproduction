@@ -481,7 +481,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                                 <div class="box-content">
                                     <h4>옹아름</h4>
-                                    <p></p>
+                                    <p>팀장 (기획, 마케팅)</p>
                                 </div>
                             </div>
 
@@ -491,12 +491,12 @@ include_once(G5_THEME_PATH.'/head.php');
                                 </div>
 
                                 <div class="box-content">
-                                    <h4>John Doe</h4>
-                                    <p>Engineer</p>
+                                    <h4>직원1</h4>
+                                    <p>디자이너</p>
                                 </div>
                             </div>
 
-                            <div class="team-item slick-slide">
+                            <!-- <div class="team-item slick-slide">
                                 <div class="box-img">
                                     <img src="assets/img/team/4.png" alt="">
                                 </div>
@@ -505,7 +505,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                     <h4>Hesham Megahed</h4>
                                     <p>Founder</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
