@@ -20,10 +20,10 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="row align-items-center h-100">
                         <div class="col-lg-12">
                             <div class="contenet-hero">
-                                <h1>MADE BY MAKE<br> PRODUCTION</h1>
+                                <h1>MADE BY MAKE<br> PRODUCTION<img src="assets/img/make_dot.svg" /></h1>
                                 <p>메이크프로덕션에서는 클라이언트의 고민을 이해하고<br />함께 고민하여 솔루션을 제시하는 콘텐츠 제작업체입니다.</p>
-                                <a href="#" class="view-case scroll-down">Scroll Down <img
-                                        src="assets/img/arrow-right-dark.png" alt=""></a>
+                                <a href="#" class="view-case scroll-down">어떤 영상이 필요하세요?
+                                    <!-- <img src="assets/img/arrow-right-dark.png" alt=""></a> -->
                             </div>
                             <ul class="contenet-hero__list">
                                 <li><a class="underline" href="/?p=work">홍보영상</a></li>
@@ -163,7 +163,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="corner corner-top"></div>
                                 <!-- <div class="corner corner-bottom"></div> -->
                                 <div class="icon">
-                                    <img src="assets/img/con_1_3.png" alt="">
+                                    <img src="assets/img/con_1.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>SOLUTION</h3>
@@ -177,7 +177,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <!-- <div class="corner corner-top"></div> -->
                                 <!-- <div class="corner corner-bottom"></div> -->
                                 <div class="icon">
-                                    <img src="assets/img/con_2_3.png" alt="">
+                                    <img src="assets/img/con_2.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>PLAN</h3>
@@ -191,7 +191,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <!-- <div class="corner corner-top"></div> -->
                                 <div class="corner corner-bottom"></div>
                                 <div class="icon">
-                                    <img src="assets/img/con_3_3.png" alt="">
+                                    <img src="assets/img/con_3.png" alt="">
                                 </div>
                                 <div class="services-header">
                                     <h3>STORY</h3>
@@ -265,7 +265,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="img-box">
                         <div class="img-cent" data-dsn-grid="move-up">
                             <div class="img-container">
-                                <img data-dsn-y="30%" src="assets/img/blog/test.jpg" alt="">
+                                <img data-dsn-y="30%" src="assets/img/making_flim.jpg" alt="">
                             </div>
                         </div>
                     </div>

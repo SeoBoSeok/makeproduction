@@ -6579,7 +6579,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
     padding: 0;
   }
   .intro-about .img-box .img-cent {
-    height: 80vh;
+    height: 60vh;
     margin: 30px 0 0 0;
   }
 }
@@ -9233,7 +9233,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   background-color: #090909;
   padding-top: 0;
   margin-bottom: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .v-light .header-hero.header-hero-2 {
@@ -9241,7 +9241,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .header-hero.header-hero-2 .contenet-hero {
-  padding: 150px 0;
+  padding: 120px 0;
 }
 
 .header-hero.header-hero-2 .bg-circle-dotted {
@@ -9299,12 +9299,13 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 .header-hero.header-hero-2 .view-case {
   color: #fff;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
   height: 15px;
   margin-top: 30px;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 575px) {
@@ -12603,13 +12604,18 @@ footer .copyright-social ul li:last-child {
   cursor: pointer;
   overflow: hidden;
   color: black;
-  bottom: 10px;
+  bottom: -40px;
   z-index: 99;
+}
+
+.contenet-hero__list li {
+  padding: 5px 0;
 }
 
 .underline {
   display: inline;
   position: relative;
+  font-weight: 500;
   overflow: hidden;
 }
 .underline:after {

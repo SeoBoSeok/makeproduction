@@ -1553,11 +1553,11 @@
                 headerSmall.addClass( "header-stickytop" );
                 $( ".sections" ).addClass( "body-pt" );
                 if (bodyScroll > lastScrollTop){
-                    console.log('downscroll code');
+                    // console.log('downscroll code');
                     headerSmall.addClass( "header-stickytop" );
                     $( ".sections" ).addClass( "body-pt" );
                 } else {
-                    console.log('upscroll code');
+                    // console.log('upscroll code');
                     headerSmall.removeClass( "header-stickytop" );
                     $( "body" ).css( "paddingTop", 0 );
                 }
