@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 <div class="row">
                 <div class="col-lg-6">
                     <div class="contenet-hero">
-                    <h5>Lat's Tock</h5>
+                    <h5>Location</h5>
                     <h1>Contact</h1>
                     </div>
                 </div>
@@ -67,8 +67,8 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="form-group">
 
                     <div class="entry">
-                        <label>What's your name?</label>
-                        <input id="form_name" type="text" name="name" placeholder="Type your name" required="required"
+                        <label>이름</label>
+                        <input id="form_name" type="text" name="name" placeholder="이름을 입력해주세요" required="required"
                         data-error="name is required.">
                     </div>
                     <div class="help-block with-errors"></div>
@@ -76,8 +76,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="form-group">
                     <div class="entry">
-                        <label>What's your email address?</label>
-                        <input id="form_email" type="email" name="email" placeholder="Type your Email Address"
+                        <label>이메일</label>
+                        <input id="form_email" type="email" name="email" placeholder="연락받으실 이메일을 입력해주세요"
                         required="required" data-error="Valid email is required.">
                     </div>
                     <div class="help-block with-errors"></div>
@@ -85,9 +85,9 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="form-group">
                     <div class="entry">
-                        <label>What's up?</label>
+                        <label>내용</label>
                         <textarea id="form_message" class="form-control" name="message"
-                        placeholder="Tell us about you and the world" required="required"
+                        placeholder="간단하게 진행하고자 하는 프로젝트 설명해주세요" required="required"
                         data-error="Please,leave us a message."></textarea>
                     </div>
                     <div class="help-block with-errors"></div>
