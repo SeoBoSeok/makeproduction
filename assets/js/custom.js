@@ -1552,22 +1552,22 @@
 
                 headerSmall.addClass( "header-stickytop" );
                 $( ".sections" ).addClass( "body-pt" );
+                if (bodyScroll > lastScrollTop){
+                    console.log('downscroll code');
+                    headerSmall.addClass( "header-stickytop" );
+                    $( ".sections" ).addClass( "body-pt" );
+                } else {
+                    console.log('upscroll code');
+                    headerSmall.removeClass( "header-stickytop" );
+                    $( "body" ).css( "paddingTop", 0 );
+                }
+                lastScrollTop = bodyScroll;
 
             } else {
 
                 headerSmall.removeClass( "header-stickytop" );
                 $( "body" ).css( "paddingTop", 0 );
             }
-            if (bodyScroll > lastScrollTop){
-                console.log('downscroll code');
-                headerSmall.addClass( "header-stickytop" );
-                $( ".sections" ).addClass( "body-pt" );
-            } else {
-                console.log('upscroll code');
-                headerSmall.removeClass( "header-stickytop" );
-                $( "body" ).css( "paddingTop", 0 );
-            }
-            lastScrollTop = bodyScroll;
         } );
 
         var text_menu = $( ".header-top .header-container .menu-icon .text-menu" );
