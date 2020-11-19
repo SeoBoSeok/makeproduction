@@ -580,7 +580,26 @@
         };
 
     }
-
+    // function n() {
+    //     var i = this;
+    //     var r = $(document).height() - i.height() - 150;
+    //     i.off("scroll");
+    //     let t = $(".dsn-nav-bar");
+    //     t.removeClass("header-stickytop");
+    //     let n = 0;
+    //     var a = $(".wrapper").offset()
+    //       , o = $(".header-single-post .container").offset()
+    //       , s = $(".post-full-content").offset()
+    //       , l = 0;
+    //     void 0 !== o ? a = o : a.top <= 70 && (a = s),
+    //     r.getListener(function(e) {
+    //         n = "scroll" === e.type ? i.scrollTop() : e.offset.y;
+    //         let o = 70;
+    //         void 0 !== a && (o = a.top - 100),
+    //         n > o ? l < n ? t.addClass("nav-bg").addClass("hide-nave") : t.removeClass("hide-nave") : t.removeClass("nav-bg").removeClass("hide-nave"),
+    //         l = n
+    //     })
+    // }
     /**
      * Effect SmoothScrollbar
      */
@@ -1518,28 +1537,38 @@
 
         } );
 
-        // wind.on( "scroll", function () {
+        var lastScrollTop = 0;
+        wind.on( "scroll", function () {
+            var bodyScroll = wind.scrollTop(),
+                headerSmall = $( ".site-header , .header-top" )
 
-        //     var bodyScroll = wind.scrollTop(),
-        //         headerSmall = $( ".site-header , .header-top" )
+            ;
+            var $ofContent = $( ".page-content" ).offset();
+            var $top = 70;
+            if ( $ofContent !== undefined ) {
+                $top = $ofContent.top;
+            }
+            if ( bodyScroll > $top ) {
 
-        //     ;
-        //     var $ofContent = $( ".page-content" ).offset();
-        //     var $top = 70;
-        //     if ( $ofContent !== undefined ) {
-        //         $top = $ofContent.top;
-        //     }
-        //     if ( bodyScroll > $top ) {
+                headerSmall.addClass( "header-stickytop" );
+                $( ".sections" ).addClass( "body-pt" );
 
-        //         headerSmall.addClass( "header-stickytop" );
-        //         $( ".sections" ).addClass( "body-pt" );
+            } else {
 
-        //     } else {
-
-        //         headerSmall.removeClass( "header-stickytop" );
-        //         $( "body" ).css( "paddingTop", 0 );
-        //     }
-        // } );
+                headerSmall.removeClass( "header-stickytop" );
+                $( "body" ).css( "paddingTop", 0 );
+            }
+            if (bodyScroll > lastScrollTop){
+                console.log('downscroll code');
+                headerSmall.addClass( "header-stickytop" );
+                $( ".sections" ).addClass( "body-pt" );
+            } else {
+                console.log('upscroll code');
+                headerSmall.removeClass( "header-stickytop" );
+                $( "body" ).css( "paddingTop", 0 );
+            }
+            lastScrollTop = bodyScroll;
+        } );
 
         var text_menu = $( ".header-top .header-container .menu-icon .text-menu" );
         if ( text_menu.length <= 0 ) return;

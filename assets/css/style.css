@@ -3243,7 +3243,8 @@ body.hamburger-menu .header-top {
   max-width: 2560px;
   padding: 22px 50px;
   margin: auto;
-  background-color: #e6e6e6;
+  background-color: rgba(230,230,230,0.7);
+  transition: all 0.7s;
   z-index: 999;
 }
 
@@ -9173,7 +9174,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .header-hero .contenet-hero {
   position: relative;
   width: 100%;
-  padding: 120px 0 80px 0;
+  padding: 100px 0 30px 0;
 }
 
 .header-hero h5 {
@@ -10813,7 +10814,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 .root-work .filterings .filtering-wrap .filtering button {
   color: #fff;
   width: auto;
-  margin: 0 30px 0 0;
+  margin: 0 20px 5px 0;
   padding: 0 5px 5px 5px;
   font-size: 14px;
   font-weight: 500;
@@ -12630,4 +12631,10 @@ footer .copyright-social ul li:last-child {
   left: 0;
   right: auto;
   width: 100%;
+}
+
+.dsn-nav-bar > .header-top.header-stickytop > .header-container, .dsn-nav-bar .site-header.header-stickytop {
+  -webkit-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  transform: translateY(-100px);
 }
