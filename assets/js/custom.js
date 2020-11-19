@@ -509,6 +509,7 @@
                             $('.process_anchor').each(function(i, el){
                                 $(el).attr('src', "assets/img/pd_arrow_b2.png"); 
                             });
+                            $('.new_img').attr('src', "assets/img/new.png");
                         }
                         else {
                             body.addClass( v_b );
@@ -523,6 +524,7 @@
                             $('.process_anchor').each(function(i, el){
                                 $(el).attr('src', "assets/img/pd_arrow_b.png"); 
                             });
+                            $('.new_img').attr('src', "assets/img/new_off.png");
                         }
                         else {
                             body.removeClass( v_b );

@@ -252,7 +252,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="exper">
                                     <div class="numb-ex">
                                         <!-- <span class="word" data-dsn-animate="text">NEW</span> -->
-                                        <img src="assets/img/new_off_2.png" alt="" />
+                                        <img class="new_img" src="assets/img/new_off.png" alt="" />
                                     </div>
                                 </div>
 
