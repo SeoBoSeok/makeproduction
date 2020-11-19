@@ -490,7 +490,7 @@
 
                 $( "[data-dsn=\"color\"]" ).each( function () {
 
-                    let duration = dsnGrid.getUndefinedVal( $( this ).data( "dsn-duration" ), $( this ).outerHeight() + $('.brand-client').outerHeight() + 50 );
+                    let duration = dsnGrid.getUndefinedVal( $( this ).data( "dsn-duration" ), $( this ).outerHeight() + $('.brand-client').outerHeight() + 250 );
 
                     var parallaxIt = new ScrollMagic.Scene( {
                         triggerElement : this,
@@ -499,7 +499,6 @@
                         offset: -200,
                     } )
                         .addTo( controller );
-                    console.log(duration);
                     parallaxIt.on( "enter", function () {
                         if ( isLight ) {
                             body.removeClass( v_b );
