@@ -47,11 +47,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <div class="work-container">
                                     <div class="slick-slider">
                                         <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project3/1.jpg"
+                                            <img class="has-top-bottom" src="assets/img/ct_promo2.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="project-7.html" data-dsn-grid="move-up"
+                                                <a href="/?p=work" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">영상</h5>
@@ -62,11 +62,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                             </div>
                                         </div>
                                         <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project3/1.jpg"
+                                            <img class="has-top-bottom" src="assets/img/ct_interview.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="project-7.html" data-dsn-grid="move-up"
+                                                <a href="/?p=work" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">영상</h5>
@@ -93,11 +93,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div> -->
 
                                         <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project6/1.jpg"
+                                            <img class="has-top-bottom" src="assets/img/ct_work.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="project-6.html" data-dsn-grid="move-up"
+                                                <a href="/?p=work" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">영상</h5>
@@ -109,11 +109,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
 
                                         <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project4/1.jpg"
+                                            <img class="has-top-bottom" src="assets/img/ct_vl.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="project-4.html" data-dsn-grid="move-up"
+                                                <a href="/?p=work" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">영상</h5>
@@ -125,11 +125,11 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
 
                                         <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project5/1.jpg"
+                                            <img class="has-top-bottom" src="assets/img/ct_yt2.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="project-5.html" data-dsn-grid="move-up"
+                                                <a href="/?p=work" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">영상</h5>
@@ -280,7 +280,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
                         <h2 class="title-main">PRODUCTION SYSTEM</h2>
                         <p>
-                            제작 시스템 과정에 대한 자체역량을 보유하고 있어 외주의 외주가 없습니다. 기획, 촬영, 포스트프로덕션을<br />
+                            제작 시스템 과정에 대한 자체역량을 보유하고 있어 외주의 외주가 없습니다. 기획, 촬영, 포스트프로덕션을 
                             포함한 모든 과정을 효율적이고 합리적인 비용으로 솔루션을 제시합니다.
                         </p>
                     </div>
@@ -465,7 +465,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="slick-slider">
                             <div class="team-item slick-slide">
                                 <div class="box-img">
-                                    <img src="assets/img/team/1.png" alt="">
+                                    <img src="assets/img/profile_01.jpg" alt="">
                                 </div>
 
                                 <div class="box-content">
@@ -476,7 +476,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                             <div class="team-item slick-slide">
                                 <div class="box-img">
-                                    <img src="assets/img/team/2.png" alt="">
+                                    <img src="assets/img/profile_02.jpg" alt="">
                                 </div>
 
                                 <div class="box-content">
@@ -487,11 +487,11 @@ include_once(G5_THEME_PATH.'/head.php');
 
                             <div class="team-item slick-slide">
                                 <div class="box-img">
-                                    <img src="assets/img/team/3.png" alt="">
+                                    <img src="assets/img/profile_03.jpg" alt="">
                                 </div>
 
                                 <div class="box-content">
-                                    <h4>직원1</h4>
+                                    <h4>유진</h4>
                                     <p>디자이너</p>
                                 </div>
                             </div>
