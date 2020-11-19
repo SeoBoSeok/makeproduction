@@ -114,8 +114,9 @@
                 body.addClass( "menu-light" );
             else if ( head_p.hasClass( "header-hero-2" ) )
                 body.addClass( "menu-light" );
-        } else
+        } else {
             body.removeClass( "v-light" );
+        }
     }
 
 
@@ -489,32 +490,50 @@
 
                 $( "[data-dsn=\"color\"]" ).each( function () {
 
-                    let duration = dsnGrid.getUndefinedVal( $( this ).data( "dsn-duration" ), $( this ).outerHeight() + 70 );
+                    let duration = dsnGrid.getUndefinedVal( $( this ).data( "dsn-duration" ), $( this ).outerHeight() + $('.brand-client').outerHeight() + 50 );
 
                     var parallaxIt = new ScrollMagic.Scene( {
                         triggerElement : this,
-                        triggerHook : 0.05,
+                        triggerHook : 0.1,
                         duration : duration,
+                        offset: -200,
                     } )
                         .addTo( controller );
-
+                    console.log(duration);
                     parallaxIt.on( "enter", function () {
-                        if ( isLight )
+                        if ( isLight ) {
                             body.removeClass( v_b );
-                        else
+                            $('.process_img').each(function(i, el){
+                                $(el).attr('src', "assets/img/process_" + $(el).data("index") + "b" + ".png");
+                            });
+                            $('.process_anchor').each(function(i, el){
+                                $(el).attr('src', "assets/img/pd_arrow_b2.png"); 
+                            });
+                        }
+                        else {
                             body.addClass( v_b );
+                        }
                     } );
                     parallaxIt.on( "leave", function () {
-                        if ( isLight )
+                        if ( isLight ){
                             body.addClass( v_b );
-                        else
+                            $('.process_img').each(function(i, el){
+                                $(el).attr('src', "assets/img/process_" + $(el).data("index") + "w" + ".png");
+                            });
+                            $('.process_anchor').each(function(i, el){
+                                $(el).attr('src', "assets/img/pd_arrow_b.png"); 
+                            });
+                        }
+                        else {
                             body.removeClass( v_b );
+                        }
 
                     } );
 
                     effectScroll.getListener( function () {
                         parallaxIt.refresh();
                     } );
+
                 } );
             },
             animateText : function () {
@@ -572,7 +591,7 @@
                 this.parallaxImg();
                 this.moveSection();
                 this.animateText();
-                // this.changeColor();
+                this.changeColor();
                 this.headerBlog();
 
 

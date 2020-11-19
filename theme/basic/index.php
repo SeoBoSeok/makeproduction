@@ -20,8 +20,9 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="row align-items-center h-100">
                         <div class="col-lg-12">
                             <div class="contenet-hero">
-                                <h1>MADE BY MAKE<br> PRODUCTION</h1>
-                                <p>메이크프로덕션에서는 클라이언트의 고민을 이해하고<br />함께 고민하여 솔루션을 제시하는 콘텐츠 제작업체입니다.</p>
+                                <!-- <h1>MADE BY MAKE<br> PRODUCTION</h1> -->
+                                <h1><img src="assets/img/main_typo.png" alt="" /></h1>
+                                <!-- <p>메이크프로덕션에서는 클라이언트의 고민을 이해하고<br />함께 고민하여 솔루션을 제시하는 콘텐츠 제작업체입니다.</p> -->
                                 <a href="#" class="view-case scroll-down">어떤 영상이 필요하세요?
                                     <!-- <img src="assets/img/arrow-right-dark.png" alt=""></a> -->
                             </div>
@@ -207,8 +208,8 @@ include_once(G5_THEME_PATH.'/head.php');
                 <div class="dsn-v-text new-history">
                     <div class="container-fluid">
                         <div class="box-middle-text">
-                            <h2 data-dsn-animate="text" style="color: #fff;">Design new history</h2>
-                            <p data-dsn-animate="text" style="color: #fff; font-size: 1rem; line-height:1.1;">체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.
+                            <h2 data-dsn-animate="text" style="color: #fff;margin:10px 0px;">Design new history</h2>
+                            <p data-dsn-animate="text" style="color: #fff; font-size: 1rem; line-height:1.1;">
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
                             <a href="https://www.youtube.com/watch?v=wfyxpslYCMs&feature=emb_logo" class="vid">
                                 <div class="play-button">
@@ -231,8 +232,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="col-lg-6" style="z-index: 2;">
                             <div class="intro-content-text">
 
-                                <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
-                                    data-dsn-opacity="1.2" data-dsn-responsive="tablet">
+                                <h2>
                                     Hello we are, <br /> MAKE PRODUCTION
                                 </h2>
 
@@ -287,8 +287,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="wapper-client">
                         <div class="logo-box">
-                            <img src="assets/img/process6.png" alt="">
-                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <img class="process_img" data-index="1" src="assets/img/process_1w.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
                             <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
@@ -306,8 +306,8 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/process5.png" alt="">
-                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <img class="process_img" data-index="2" src="assets/img/process_2w.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
                             <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
@@ -325,28 +325,8 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/process4.png" alt="">
-                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
-
-                            <!-- <div class="info">
-                                <div class="content">
-                                    <div class="icon">
-                                        <i class="fas fa-plus"></i>
-                                    </div>
-
-                                    <div class="entry">
-                                        <div>
-                                            <h5>Google</h5>
-                                            <a href="#">www.google.com</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-
-                        <div class="logo-box">
-                            <img src="assets/img/process3.png" alt="">
-                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <img class="process_img" data-index="3" src="assets/img/process_3w.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
                             <!-- <div class="info">
                                 <div class="content">
@@ -365,8 +345,8 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/process2.png" alt="">
-                            <img class="process_anchor" src="assets/img/pd_arrow_b.png" alt="anchor" />
+                            <img class="process_img" data-index="4" src="assets/img/process_4w.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
                             <!-- <div class="info">
                                 <div class="content">
@@ -385,9 +365,10 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
 
                         <div class="logo-box">
-                            <img src="assets/img/process1.png" alt="">
+                            <img class="process_img" data-index="5" src="assets/img/process_5w.png" alt="">
+                            <img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
-                            <div class="info">
+                            <!-- <div class="info">
                                 <div class="content">
                                     <div class="icon">
                                         <i class="fas fa-plus"></i>
@@ -400,7 +381,26 @@ include_once(G5_THEME_PATH.'/head.php');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+                        </div>
+
+                        <div class="logo-box">
+                            <img class="process_img" data-index="6" src="assets/img/process_6w.png" alt="">
+
+                            <!-- <div class="info">
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+
+                                    <div class="entry">
+                                        <div>
+                                            <h5>Google</h5>
+                                            <a href="#">www.google.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

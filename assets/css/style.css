@@ -9174,7 +9174,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .header-hero .contenet-hero {
   position: relative;
   width: 100%;
-  padding: 100px 0 30px 0;
+  padding: 150px 0 80px 0;
 }
 
 .header-hero h5 {
@@ -9214,6 +9214,9 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 @media only screen and (max-width: 767px) {
   .header-hero h1 {
     font-size: 55px;
+  }
+  .header-hero .contenet-hero {
+    padding: 100px 0 30px 0;
   }
 }
 
