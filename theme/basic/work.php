@@ -40,43 +40,50 @@ include_once(G5_THEME_PATH.'/head.php');
                                     All
                                 </button>
                                 <button type="button" data-filter=".ad">홍보영상</button>
-                                <button type="button" data-filter=".interview">인터뷰</button>
+                                <button type="button" data-filter=".docu">미니다큐</button>
                                 <button type="button" data-filter=".sketch">현장스케치</button>
                                 <button type="button" data-filter=".vlog">브이로그</button>
-                                <button type="button" data-filter=".youtube">유튜브</button>
+                                <button type="button" data-filter=".contents">콘텐츠</button>
+                                <button type="button" data-filter=".education">교육영상</button>
                             </div>
                         </div>
                     </div>
 
                     <div class="projects-list gallery">
                         <div class="item ad">
-                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/VU2HdhkJedA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="item ad">
-                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/8nWFYdzGAWQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/or_vDaBnDZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item ad">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/kWUjBop9EEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item ad">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/tmvTWvt0AqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>                        
+                        <div class="item ad">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/VU2HdhkJedA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item interview">
+                        <div class="item ad">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/8nWFYdzGAWQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item docu">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/2EeFFFQcohM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/mDvC1FMdVOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item interview">
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/LTIrMLYQTDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item interview">
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/8GT-7KQuWgM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item interview">
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/nQn9c3eFQ68" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>     
-                        <div class="item interview">
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/PTNRUO_5T8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div> 
-                        <div class="item interview">
+                        <div class="item docu">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/3ETxJEHs1Ag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item sketch">
@@ -88,18 +95,36 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="item vlog">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/WUBI4OyrHjQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item youtube">
+                        <div class="item contents">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/6Mi-JKrs4zA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item contents">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/job8rnG5MEY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item contents">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/rFL86k7EvnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item contents">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/ysP-VRFPbuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item youtube">
+                        <div class="item contents">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/hxu5hgbQFOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item youtube">
+                        <div class="item contents">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/PHIWIa83oIc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item youtube">
+                        <div class="item contents">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/rx4Rs_zNEgo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>            
+                        </div>
+                        <div class="item education">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/8KnCem_PMLw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item education">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/ysP-VRFPbuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item education">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/bHr6iTXHR_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>   
                     </div>
                 </div>
             </div>

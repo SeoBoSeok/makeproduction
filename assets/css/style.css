@@ -9248,7 +9248,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .header-hero.header-hero-2 .contenet-hero {
-  padding: 120px 0;
+  padding: 150px 0 160px;
 }
 
 .header-hero.header-hero-2 .bg-circle-dotted {
@@ -9311,7 +9311,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   text-transform: uppercase;
   letter-spacing: 2px;
   height: 15px;
-  margin-top: 30px;
+  margin-top: 80px;
   text-decoration: underline;
 }
 
@@ -10784,7 +10784,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 .root-work .filterings {
   position: relative;
   margin: 0 auto;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   width: 100%;
   z-index: 2;
 }
@@ -12611,7 +12611,7 @@ footer .copyright-social ul li:last-child {
   cursor: pointer;
   overflow: hidden;
   color: black;
-  bottom: -40px;
+  bottom: -70px;
   z-index: 99;
 }
 

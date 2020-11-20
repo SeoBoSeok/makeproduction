@@ -48,11 +48,12 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <li class="custom-drop-down">
                         <a href="#">Portfolio</a>
                         <ul style="display:block;">
-                            <li><a href="/?p=work">홍보영상</a></li>
-                            <li><a href="/?p=work">인터뷰 소개</a></li>
-                            <li><a href="/?p=work">현장스케치</a></li>
-                            <li><a href="/?p=work">브이로그</a></li>
-                            <li><a href="/?p=work">유튜브 콘텐츠</a></li>
+                            <li><a href="/?p=work&category=ad">홍보영상</a></li>
+                            <li><a href="/?p=work&category=docu">미니다큐</a></li>
+                            <li><a href="/?p=work&category=sketch">현장스케치</a></li>
+                            <li><a href="/?p=work&category=vlog">브이로그</a></li>
+                            <li><a href="/?p=work&category=contents">콘텐츠</a></li>
+                            <li><a href="/?p=work&category=education">교육영상</a></li>
                         </ul>
                     </li>
                     <!-- <li class="custom-drop-down">

@@ -23,15 +23,16 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <!-- <h1>MADE BY MAKE<br> PRODUCTION</h1> -->
                                 <h1><img src="assets/img/main_typo.png" alt="" /></h1>
                                 <!-- <p>메이크프로덕션에서는 클라이언트의 고민을 이해하고<br />함께 고민하여 솔루션을 제시하는 콘텐츠 제작업체입니다.</p> -->
-                                <a href="#" class="view-case scroll-down">어떤 영상이 필요하세요?
+                                <span><a href="#" class="view-case scroll-down">어떤 영상이 필요하세요?</a></span>
                                     <!-- <img src="assets/img/arrow-right-dark.png" alt=""></a> -->
                             </div>
                             <ul class="contenet-hero__list">
-                                <li><a class="underline" href="/?p=work">홍보영상</a></li>
-                                <li><a class="underline" href="/?p=work">인터뷰 소개</a></li>
-                                <li><a class="underline" href="/?p=work">현장스케치</a></li>
-                                <li><a class="underline" href="/?p=work">브이로그</a></li>
-                                <li><a class="underline" href="/?p=work">유튜브 콘텐츠</a></li>
+                                <li><a class="underline" href="/?p=work&category=ad">홍보영상</a></li>
+                                <li><a class="underline" href="/?p=work&category=docu">미니다큐</a></li>
+                                <li><a class="underline" href="/?p=work&category=sketch">현장스케치</a></li>
+                                <li><a class="underline" href="/?p=work&category=vlog">브이로그</a></li>
+                                <li><a class="underline" href="/?p=work&category=contents">콘텐츠</a></li>
+                                <li><a class="underline" href="/?p=work&category=education">교육영상</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,8 +53,8 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="/?p=work" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
+                                                <a href="/?p=work&category=ad" data-dsn-grid="move-up"
+                                                    class="">
 
                                                     <h5 class="cat">영상</h5>
                                                     <h4>홍보영상</h4>
@@ -67,39 +68,24 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="/?p=work" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
+                                                <a href="/?p=work&category=docu" data-dsn-grid="move-up"
+                                                    class="">
 
                                                     <h5 class="cat">영상</h5>
-                                                    <h4>인터뷰 소개</h4>
+                                                    <h4>미니다큐</h4>
                                                     <span><span>Veiw Project</span></span>
                                                 </a>
 
                                             </div>
                                         </div>
-                                        <!-- <div class="work-item slick-slide">
-                                            <img class="has-top-bottom" src="assets/img/project/project3/1.jpg"
-                                                alt="">
-                                            <div class="item-border"></div>
-                                            <div class="item-info">
-                                                <a href="project-7.html" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
-
-                                                    <h5 class="cat">Photography</h5>
-                                                    <h4>Nile - Kabutha</h4>
-                                                    <span><span>Veiw Project</span></span>
-                                                </a>
-
-                                            </div>
-                                        </div> -->
 
                                         <div class="work-item slick-slide">
                                             <img class="has-top-bottom" src="assets/img/ct_work.jpg"
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="/?p=work" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
+                                                <a href="/?p=work&category=sketch" data-dsn-grid="move-up"
+                                                    class="">
 
                                                     <h5 class="cat">영상</h5>
                                                     <h4>현장스케치</h4>
@@ -114,8 +100,8 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="/?p=work" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
+                                                <a href="/?p=work&category=vlog" data-dsn-grid="move-up"
+                                                    class="">
 
                                                     <h5 class="cat">영상</h5>
                                                     <h4>브이로그</h4>
@@ -130,11 +116,27 @@ include_once(G5_THEME_PATH.'/head.php');
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="/?p=work" data-dsn-grid="move-up"
-                                                    class="effect-ajax">
+                                                <a href="/?p=work&category=contents" data-dsn-grid="move-up"
+                                                    class="">
 
                                                     <h5 class="cat">영상</h5>
-                                                    <h4>유튜브 콘텐츠</h4>
+                                                    <h4>콘텐츠</h4>
+                                                    <span><span>Veiw Project</span></span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="work-item slick-slide">
+                                            <img class="has-top-bottom" src="assets/img/education.jpg"
+                                                alt="">
+                                            <div class="item-border"></div>
+                                            <div class="item-info">
+                                                <a href="/?p=work&category=education" data-dsn-grid="move-up"
+                                                    class="">
+
+                                                    <h5 class="cat">영상</h5>
+                                                    <h4>교육영상</h4>
                                                     <span><span>Veiw Project</span></span>
                                                 </a>
 

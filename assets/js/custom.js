@@ -1693,7 +1693,7 @@
         } );
     }
 
-    function LoadingPage() {
+    function LoadingPage(word) {
 
         const filter = $( ".filtering" );
         const gallery = $( ".gallery" );
@@ -1717,6 +1717,17 @@
 
         } );
 
+        if (word) {
+            setTimeout(function() {
+                (function () {
+        
+                    $gallery.isotope( {
+                        filter : word,
+                    } );
+        
+                })();
+            }, 100);
+        }
 
         filter.on( "click", "button", function () {
             $( this ).addClass( "active" ).siblings().removeClass( "active" );
@@ -2089,5 +2100,17 @@ function initMap() {
 
 }
 
-
+function activeCategory(word) {
+    $( ".gallery" ).isotope( {
+        // options
+        itemSelector : ".item",
+        transitionDuration : "0.5s",
+    } ).isotope({"filter": "." + word});
+    $('[data-filter]').each(function(i, el){
+        $(el).removeClass('active');
+        if($(el).data('filter') == '.'+word){
+            $(el).addClass('active');
+        }
+    });
+}
 
