@@ -498,7 +498,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                             <div class="team-item slick-slide">
                                 <div class="box-img">
-                                    <img src="assets/img/team/4.png" alt="">
+                                    <img src="assets/img/member4.jpg" alt="">
                                 </div>
 
                                 <div class="box-content">
