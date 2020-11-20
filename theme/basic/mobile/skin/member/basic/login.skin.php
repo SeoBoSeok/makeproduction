@@ -55,4 +55,6 @@ function flogin_submit(f)
     }
     return false;
 }
+
+$('.preloader').css('display', 'none');
 </script>
