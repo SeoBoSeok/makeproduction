@@ -213,7 +213,7 @@ include_once(G5_THEME_PATH.'/head.php');
                             <h2 data-dsn-animate="text" style="color: #fff;margin:10px 0px;">Design new history</h2>
                             <p data-dsn-animate="text" style="color: #fff; font-size: 1rem; line-height:1.1;">
                             메이크 프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 퀄리티를 만들어나갑니다.</p>
-                            <a href="https://www.youtube.com/watch?v=wfyxpslYCMs&feature=emb_logo" class="vid">
+                            <a href="https://www.youtube.com/watch?v=7SbY5hKDukw&feature=emb_logo" class="vid">
                                 <div class="play-button">
                                     <div class="play-btn">
                                         <i class="fas fa-play"></i>

@@ -51,6 +51,9 @@ include_once(G5_THEME_PATH.'/head.php');
 
                     <div class="projects-list gallery">
                         <div class="item ad">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/eDeo10H37ek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="item ad">
                             <iframe width="100%" height="280" src="https://www.youtube.com/embed/or_vDaBnDZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item ad">
