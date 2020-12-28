@@ -67,22 +67,22 @@ $result = sql_query($sql);
                         <?php
                         }
                         ?>
-                        <div class="item contents">
+                        <!-- <div class="item contents">
                             <a href="https://www.youtube.com/watch?v=Uwiov3dTXYk&feature=emb_logo" class="vid"><img src="/assets/img/video/video28.png" alt="thumbnail" /></a>
-                            <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item ad">
                             <a href="https://www.youtube.com/watch?v=_O6atOpI1ig&feature=emb_logo" class="vid"><img src="/assets/img/video/video29.png" alt="thumbnail" /></a>
-                            <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/_O6atOpI1ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/_O6atOpI1ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item sketch">
                             <a href="https://www.youtube.com/watch?v=eJufEEVeCOM&feature=emb_logo" class="vid"><img src="/assets/img/video/video30.png" alt="thumbnail" /></a>
-                            <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/eJufEEVeCOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/eJufEEVeCOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="item sketch">
                             <a href="https://www.youtube.com/watch?v=2cQSyqSXusY&feature=emb_logo" class="vid"><img src="/assets/img/video/video31.png" alt="thumbnail" /></a>
-                            <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/2cQSyqSXusY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                        </div>
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/2cQSyqSXusY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> -->
                         <div class="item ad">
                             <a href="https://www.youtube.com/watch?v=eDeo10H37ek&feature=emb_logo" class="vid"><img src="/assets/img/video/video1.jpg" alt="thumbnail" /></a>
                             <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/eDeo10H37ek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
