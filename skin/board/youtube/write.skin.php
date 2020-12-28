@@ -4,7 +4,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
-
+<style>
+.header-container {display: none}
+</style>
 <section id="bo_w">
     <h2 id="container_title"><?php echo $g5['title'] ?></h2>
 
@@ -139,7 +141,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             </td>
         </tr>
 
-        <?php for ($i=1; $is_link && $i<=G5_LINK_COUNT; $i++) { ?>
+        <?php for ($i=1; $is_link && $i<=1; $i++) { ?>
         <tr>
             <th scope="row"><label for="wr_link<?php echo $i ?>">링크 #<?php echo $i ?></label></th>
             <td><input type="text" name="wr_link<?php echo $i ?>" value="<?php if($w=="u"){echo$write['wr_link'.$i];} ?>" id="wr_link<?php echo $i ?>" class="frm_input" size="50" placeholder="<?php echo ($i==1)?'Youtube링크를 입력해 주세요':''?>"></td>
@@ -160,9 +162,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             </td>
         </tr>
 
-        <?php for ($i=0; $is_file && $i<$file_count; $i++) { ?>
+        <?php for ($i=0; $is_file && $i<1; $i++) { ?>
         <tr>
-            <th scope="row">파일 #<?php echo $i+1 ?></th>
+            <th scope="row">영상썸네일</th>
             <td>
                 <input type="file" name="bf_file[]" title="파일첨부 <?php echo $i+1 ?> :  용량 <?php echo $upload_max_filesize ?> 이하만 업로드 가능" class="frm_file frm_input">
                 <?php if ($is_file_content) { ?>

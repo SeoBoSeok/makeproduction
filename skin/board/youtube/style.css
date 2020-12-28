@@ -248,6 +248,12 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 #bo_vc_sns li {float:left;margin:0 20px 0 0}
 #bo_vc_sns input {margin:0 0 0 5px}
 
-#bo_gall a {
+/* customize */
+#bo_gall a, #bo_gall a.btn_b02, #bo_gall .button, #bo_gall button:not([data-filter]):not(.mfp-arrow) {
     padding: 10px 30px;
 }
+#bo_sch input, #bo_sch select {
+    padding: 10px 30px;   
+}
+#container_title {padding-top: 50px;}
+#fwrite {padding-bottom: 50px;}

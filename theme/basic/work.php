@@ -8,8 +8,8 @@ if (G5_IS_MOBILE) {
 }
 
 include_once(G5_THEME_PATH.'/head.php');
-// $sql = " select * from g5_write_makeproduction";
-// $result = sql_query($sql);
+$sql = " SELECT a.wr_subject, a.wr_content, a.wr_link1, a.wr_1, b.bf_file FROM makeproduction.g5_write_makeproduction a join makeproduction.g5_board_file b on b.wr_id = a.wr_id WHERE b.bo_table = 'makeproduction'";
+$result = sql_query($sql);
 ?>
 
 <?php
@@ -58,6 +58,15 @@ include_once(G5_THEME_PATH.'/head.php');
                     </div>
 
                     <div class="projects-list gallery">
+                        <?php
+                        for ($i=0; $row=sql_fetch_array($result); $i++) { ?>
+                            <div class="item <?=$row['wr_1']?>">
+                                <a href="https://www.youtube.com/watch?v=<?=end(explode("/", $row['wr_link1']))?>&feature=emb_logo" class="vid"><img src="/data/file/makeproduction/<?=$row['bf_file']?>" alt="thumbnail" /></a>
+                                <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            </div>
+                        <?php
+                        }
+                        ?>
                         <div class="item contents">
                             <a href="https://www.youtube.com/watch?v=Uwiov3dTXYk&feature=emb_logo" class="vid"><img src="/assets/img/video/video28.png" alt="thumbnail" /></a>
                             <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
