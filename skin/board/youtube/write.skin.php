@@ -164,7 +164,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
         <?php for ($i=0; $is_file && $i<1; $i++) { ?>
         <tr>
-            <th scope="row">영상썸네일</th>
+            <th scope="row">영상썸네일(535x280)</th>
             <td>
                 <input type="file" name="bf_file[]" title="파일첨부 <?php echo $i+1 ?> :  용량 <?php echo $upload_max_filesize ?> 이하만 업로드 가능" class="frm_file frm_input">
                 <?php if ($is_file_content) { ?>
