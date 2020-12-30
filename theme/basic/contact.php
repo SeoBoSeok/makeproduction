@@ -61,7 +61,10 @@ include_once(G5_THEME_PATH.'/head.php');
             <div class="col-lg-6">
             <div class="form-box">
                 <h3>문의 / 신청</h3>
-                <form id="contact-form" class="form" method="post" action="contact.php" data-toggle="validator">
+                <div class="image-zoom" data-dsn="parallax">
+                    <a href="https://forms.gle/UczxgpR7xtnnH6ds5" target="_blank"><button type="button">문의하기</button></a>
+                </div>
+                <!-- <form id="contact-form" class="form" method="post" action="contact.php" data-toggle="validator">
                 <div class="messages"></div>
                 <div class="input__wrap controls">
                     <div class="form-group">
@@ -97,7 +100,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     <a href="https://forms.gle/UczxgpR7xtnnH6ds5" target="_blank"><button type="button">문의하기</button></a>
                     </div>
                 </div>
-                </form>
+                </form> -->
             </div>
             </div>
         </div>
