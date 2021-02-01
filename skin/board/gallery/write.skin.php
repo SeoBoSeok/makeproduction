@@ -4,7 +4,23 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
+<main class="main-root">
+    <!-- <div id="dsn-scrollbar"> -->
+        <header>
+            <div class="container header-hero">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contenet-hero">
+                            <h5>Our WOrk</h5>
+                            <h1><?php echo $g5['title'] ?></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <div class="wrapper">
+            <div class="container">
 <section id="bo_w">
     <h2 class="sound_only"><?php echo $g5['title'] ?></h2>
 
@@ -248,6 +264,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
         return true;
     }
+    $('.preloader').css('display', 'none');
+    $('.header-container').css('display', 'none');
     </script>
 </section>
+    </div>
+    </div>
+    <!-- </div> -->
+    </main>
 <!-- } 게시물 작성/수정 끝 -->

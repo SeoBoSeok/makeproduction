@@ -1,15 +1,31 @@
 <?php
 if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가
+include_once(G5_PATH.'/head.php');
 include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
-
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
 <!-- 게시물 읽기 시작 { -->
+<!-- 게시판 목록 시작 { -->
+    <main class="main-root">
+    <!-- <div id="dsn-scrollbar"> -->
+        <header>
+            <div class="container header-hero">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contenet-hero">
+                            <h5>Our WOrk</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <div class="wrapper">
+            <div class="container">
 <article id="bo_v" style="width:<?php echo $width; ?>">
     <header>
         <h2 id="bo_v_title">
@@ -40,7 +56,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 	        <?php ob_start(); ?>
 
 	        <ul class="btn_bo_user bo_v_com">
-				<li><a href="<?php echo $list_href ?>" class="btn_b01 btn" title="목록"><i class="fa fa-list" aria-hidden="true"></i><span class="sound_only">목록</span></a></li>
+				<li><a href="/?p=design" class="btn_b01 btn" title="목록"><i class="fa fa-list" aria-hidden="true"></i><span class="sound_only">목록</span></a></li>
 	            <?php if ($reply_href) { ?><li><a href="<?php echo $reply_href ?>" class="btn_b01 btn" title="답변"><i class="fa fa-reply" aria-hidden="true"></i><span class="sound_only">답변</span></a></li><?php } ?>
 	            <?php if ($write_href) { ?><li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기"><i class="fa fa-pencil" aria-hidden="true"></i><span class="sound_only">글쓰기</span></a></li><?php } ?>
 	        	<?php if($update_href || $delete_href || $copy_href || $move_href || $search_href) { ?>
@@ -218,8 +234,82 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     include_once(G5_BBS_PATH.'/view_comment.php');
 	?>
 </article>
-<!-- } 게시판 읽기 끝 -->
 
+<!-- } 게시판 읽기 끝 -->
+    </div>
+    </div>
+    </main>
+    <footer class="footer">
+            <div class="container">
+                <div class="footer-links p-relative">
+                    <div class="row">
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block">
+                                <div class="footer-logo">
+                                    <a href=""><img src="assets/img/logo_b.png" alt=""></a>
+                                </div>
+
+                                <div class="footer-social">
+
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                    <h5 class="" style="margin-top: 10px;">사업자등록번호</h5>
+                                    <p>202-10-55167</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block col-menu">
+                                <h4 class="footer-title">Navigation</h4>
+                                <nav>
+                                    <ul>
+                                        <li><a href="/">HOME</a></li>
+                                        <li><a href="/?p=work">PORTFOLIO</a>
+                                        </li>
+                                        <!-- <li><a href="#">LOCATION</a></li> -->
+                                        <li><a href="/?p=contact">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block col-contact">
+                                <h4 class="footer-title">Contact</h4>
+                                <p><strong>T</strong> <span>:</span><a class="link-hover"
+                                        data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
+                                <!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
+                                <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
+                                        data-hover-text="info@dsngrid.com" href="mailto:miraedostudio@gmail.com">miraedostudio@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="col-address">
+                                <h4 class="footer-title">Address</h4>
+
+                                <p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="text-center">
+                        <p>© 2020 MAKE PRODUCTION</p>
+                        <div class="copright-text over-hidden">Designed by <a class="link-hover"
+                                data-hover-text="DSN Grid" href="#" target="_blank">PAM FOREST</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 <script>
 <?php if ($board['bo_download_point'] < 0) { ?>
 $(function() {
@@ -296,5 +386,8 @@ function excute_good(href, $el, $tx)
         }, "json"
     );
 }
+$('.preloader').css('display', 'none');
+// $('.header-container').css('display', 'none');
 </script>
 <!-- } 게시글 읽기 끝 -->
+<?php include_once(G5_PATH.'/tail.php'); ?>
