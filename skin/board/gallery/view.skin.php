@@ -7,7 +7,40 @@ include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
-
+<style>
+    .detailed_info {
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+    margin-left: 1px;
+}
+.detailed_info dl {
+    width: 50%;
+    border-spacing: 0;
+    display: table;
+    border: 1px #e1e1e1 solid;
+    float: left;
+    margin-top: -1px;
+    margin-left: -1px;
+    border-collapse: collapse;
+}
+.detailed_info dl dt {
+    background: #fff9fa;
+    font-size: 15px;
+    width: 15%;
+    vertical-align: middle;
+    width: 35%;
+}
+.detailed_info dl dd {
+    opacity: 0.7;
+    vertical-align: middle;
+}
+.detailed_info dl dt, .detailed_info dl dd {
+    display: table-cell;
+    border: 1px #e1e1e1 solid;
+    padding: 15px 20px;
+}
+</style>
 <!-- 게시물 읽기 시작 { -->
 <!-- 게시판 목록 시작 { -->
     <main class="main-root">
@@ -26,7 +59,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
         <div class="wrapper">
             <div class="container">
-<article id="bo_v" style="width:<?php echo $width; ?>">
+<article id="bo_v" style="width:<?php echo $width; ?>; background-color: inherit;">
     <header>
         <h2 id="bo_v_title">
             <?php if ($category_name) { ?>
