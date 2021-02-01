@@ -115,7 +115,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             <?php if ($is_member) { // 임시 저장된 글 기능 ?>
             <script src="<?php echo G5_JS_URL; ?>/autosave.js"></script>
             <?php if($editor_content_js) echo $editor_content_js; ?>
-            <button type="button" id="btn_autosave" class="btn_frmline">임시 저장된 글 (<span id="autosave_count"><?php echo $autosave_count; ?></span>)</button>
+            <button type="button" id="btn_autosave" class="btn_frmline" style="padding: 0 10px;">임시 저장된 글 (<span id="autosave_count"><?php echo $autosave_count; ?></span>)</button>
             <div id="autosave_pop">
                 <strong>임시 저장된 글 목록</strong>
                 <ul></ul>
@@ -265,7 +265,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         return true;
     }
     $('.preloader').css('display', 'none');
-    $('.header-container').css('display', 'none');
+    // $('.header-container').css('display', 'none');
     </script>
 </section>
     </div>
@@ -273,3 +273,74 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     <!-- </div> -->
     </main>
 <!-- } 게시물 작성/수정 끝 -->
+<footer class="footer">
+            <div class="container">
+                <div class="footer-links p-relative">
+                    <div class="row">
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block">
+                                <div class="footer-logo">
+                                    <a href=""><img src="assets/img/logo_b.png" alt=""></a>
+                                </div>
+
+                                <div class="footer-social">
+
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                    <h5 class="" style="margin-top: 10px;">사업자등록번호</h5>
+                                    <p>202-10-55167</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block col-menu">
+                                <h4 class="footer-title">Navigation</h4>
+                                <nav>
+                                    <ul>
+                                        <li><a href="/">HOME</a></li>
+                                        <li><a href="/?p=work">PORTFOLIO</a>
+                                        </li>
+                                        <!-- <li><a href="#">LOCATION</a></li> -->
+                                        <li><a href="/?p=contact">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="footer-block col-contact">
+                                <h4 class="footer-title">Contact</h4>
+                                <p><strong>T</strong> <span>:</span><a class="link-hover"
+                                        data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
+                                <!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
+                                <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
+                                        data-hover-text="info@dsngrid.com" href="mailto:miraedostudio@gmail.com">miraedostudio@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 dsn-col-footer">
+                            <div class="col-address">
+                                <h4 class="footer-title">Address</h4>
+
+                                <p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="text-center">
+                        <p>© 2020 MAKE PRODUCTION</p>
+                        <div class="copright-text over-hidden">Designed by <a class="link-hover"
+                                data-hover-text="DSN Grid" href="#" target="_blank">PAM FOREST</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>  
