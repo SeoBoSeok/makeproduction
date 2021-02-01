@@ -7,9 +7,9 @@ include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
 <style>
-    a {
+    /* a {
         background-color: black;
-    }
+    } */
 </style>
 
 <!-- 게시판 목록 시작 { -->

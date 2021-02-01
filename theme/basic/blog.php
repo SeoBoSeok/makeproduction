@@ -124,7 +124,7 @@ $result = sql_query($sql);
         
         // echo sizeof($xml->channel->item). "개 <br><br>";
         $arr_blog_img = [
-            "/data/file/gallery/blog_image.jpg",
+            "/assets/img/blog_image.jpg",
             // "https://phinf.pstatic.net/image.nmv/blog_2021_01_26_3198/b5c8d5b6-5f81-11eb-bb05-48df379cc9e4_01.jpg?type=f238x238",
             // "https://postfiles.pstatic.net/MjAyMTAxMjBfMTM1/MDAxNjExMTA1MjcxMjg1.LIRVdYECHb7snbMQJaBNUSJ8cBWD8DEIRYhIm9w_wGMg.RUKoji3S3uCgWLjqdSN-T0ZosH-ju4OEorq0dP9IYuYg.JPEG.fhjskk1/IMG_1184.jpg?type=f238",
             // "https://phinf.pstatic.net/image.nmv/blog_2021_01_15_2128/7135e953-570a-11eb-a4d6-48df37ae3dc4_02.jpg?type=f238x238",
