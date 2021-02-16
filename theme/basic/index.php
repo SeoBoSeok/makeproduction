@@ -561,6 +561,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                         <li><a href="/?p=work">PORTFOLIO</a>
                                         </li>
                                         <!-- <li><a href="#">LOCATION</a></li> -->
+                                        <li><a href="/?p=blog">BLOG</a>
                                         <li><a href="/?p=contact">CONTACT</a>
                                         </li>
                                     </ul>
