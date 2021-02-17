@@ -498,7 +498,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                 </div>
                             </div>
 
-                            <div class="team-item slick-slide">
+                            <!-- <div class="team-item slick-slide">
                                 <div class="box-img">
                                     <img src="assets/img/member4.jpg" alt="">
                                 </div>
@@ -507,7 +507,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                     <h4>신승철</h4>
                                     <p>Assistant Director</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -576,7 +576,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                         data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
                                 <!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
                                 <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-                                        data-hover-text="info@dsngrid.com" href="mailto:miraedostudio@gmail.com">miraedostudio@gmail.com</a>
+                                        data-hover-text="info@dsngrid.com" href="mailto:makedesgin0724@gmail.com">makedesgin0724@gmail.com</a>
                                 </p>
                             </div>
                         </div>
