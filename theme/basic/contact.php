@@ -48,7 +48,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 </li>
                 <li>
                     <span>Email</span>
-                    <a href="mailto:miraedostudio@gmail.com">miraedostudio@gmail.com</a>
+                    <a href="mailto:miraedostudio@gmail.com">makedesign0724@gmail.com</a>
                 </li>
                 <li>
                     <span>Address</span>
