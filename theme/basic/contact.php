@@ -48,7 +48,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 </li>
                 <li>
                     <span>Email</span>
-                    <a href="mailto:miraedostudio@gmail.com">makedesign0724@gmail.com</a>
+                    <a href="mailto:makedesign0724@gmail.com">makedesign0724@gmail.com</a>
                 </li>
                 <li>
                     <span>Address</span>
@@ -168,7 +168,7 @@ include_once(G5_THEME_PATH.'/head.php');
                                         data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
                                 <!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
                                 <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-                                        data-hover-text="info@dsngrid.com" href="mailto:miraedostudio@gmail.com">miraedostudio@gmail.com</a>
+                                        data-hover-text="info@dsngrid.com" href="mailto:makedesign0724@gmail.com">makedesign0724@gmail.com</a>
                                 </p>
                             </div>
                         </div>
