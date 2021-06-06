@@ -403,6 +403,14 @@ $result = sql_query($sql);
 									<h3 class="section-title2 back-to-position to-right delay-0">LATEST PROJECT</h3>
 										<div class="project-list row mlmr3" id="slider2">
 											<?php
+												$category = array(
+													"ad" => "홍보영상",
+													"docu" => "미니다큐",
+													"sketch" => "현장스케치",
+													"vlog" => "브이로그",
+													"contents" => "콘텐츠",
+													"education" => "교육영"
+												);
                         for ($i=0; $row=sql_fetch_array($result); $i++) { ?>
                             <div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
                                 <a href="https://www.youtube.com/watch?v=<?=end(explode("/", $row['wr_link1']))?>&feature=emb_logo" class="vid">
@@ -411,7 +419,7 @@ $result = sql_query($sql);
                                 <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 																<div class="project-txtCont">
 																	<div class="project-title"><?=$row['wr_subject']?></div>
-																	<div class="project-customer"><?=$row['wr_1']?></div>
+																	<div class="project-customer"><?=$category[$row['wr_1']]?></div>
 																</div>
                             </div>
                         <?php
