@@ -9,7 +9,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 // Youtube IFrame Player API에서 사용하는 이름이기 때문에,
 // 다르게 지정하면 동작하지 않습니다!
 // 그리고 함수는 전역(Global) 등록해야 합니다!
-function onYouTubePlayerAPIReady() {
+window.onYouTubeIframeAPIReady = function () {
   // <div id="player"></div>
   new YT.Player('player', {
     videoId: 'gdjh5VWTyCU', // 최초 재생할 유튜브 영상 ID
