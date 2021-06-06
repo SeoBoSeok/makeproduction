@@ -19,7 +19,7 @@ $(function() {
 });
 </script>
 <![endif]-->
-
+<script type="text/javascript" src="<?php echo G5_URL ?>/assets/js/main-new.js"></script>
 <?php run_event('tail_sub'); ?>
 <?php
 if(isset($_REQUEST['category'])){

@@ -51,27 +51,18 @@ if($config['cf_add_meta'])
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="discrption" content="MAKE PRODUCTION" />
 <meta name="keyword" content="production, make" />
-<link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon" />
-<link rel="icon" href="/assets/img/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+<link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
 <!-- Font Google -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
-<!--Google Fonts - 나눔고딕-->
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
 <!-- custom styles (optional) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-<!-- <link href="<?php echo G5_URL ?>/assets/css/plugins.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/style.css" rel="stylesheet" /> -->
-<link href="<?php echo G5_URL ?>/assets/css/bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" id="simple-share-buttons-adder-font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=5.1.10" type="text/css" media="all">
-<link href="<?php echo G5_URL ?>/assets/css/new.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/main.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/common.css" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/plugins.css" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/style.css" rel="stylesheet" />
 <!--[if lte IE 8]>
-<script src="<?php //echo G5_JS_URL ?>/html5.js"></script>
+<script src="<?php echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
 <script>
 // 자바스크립트에서 사용하는 전역변수 선언
@@ -100,17 +91,6 @@ if(G5_IS_MOBILE) {
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
-<!-- <script type="text/javascript" src="https://ygp.co.kr/wp-content/themes/hello/assets/js/bootstrap.min.js?ver=1.0"></script> -->
-<!-- <script type="text/javascript" src="<?php //echo G5_URL ?>/assets/js/pack.js"></script> -->
-<!-- <script type="text/javascript" src="<?php //echo G5_URL ?>/assets/js/main.js"></script>
-<script type="text/javascript" src="<?php //echo G5_URL ?>/assets/js/global.js"></script> -->
-<!--GSAP(Animation)-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
-<!--ScrollMagic-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-
-<script type="text/javascript" src="<?php echo G5_URL ?>/assets/js/youtube.js"></script>
 </head>
 <body class="v-light hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true" <?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php
@@ -124,7 +104,7 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
     echo '<a href="'.G5_BBS_URL.'/logout.php">로그아웃</a></div>';
 }
 ?>
-<div data-dsn-temp="dark"></div>
+<div data-dsn-temp="light"></div>
 <!-- <div class="preloader">
     <div class="preloader-after"></div>
     <div class="preloader-before"></div>
@@ -137,13 +117,3 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
         <div class="preloader-progress"></div>
     </div>
 </div> -->
-<div class="pre-loader">
-	<div class="load-con">
-		<img src="/assets/img/logo_b.png" class="animated fadeInDown" alt="">
-		<div class="spinner">
-			<div class="bounce1"></div>
-			<div class="bounce2"></div>
-			<div class="bounce3"></div>
-		</div>
-	</div>
-</div>
