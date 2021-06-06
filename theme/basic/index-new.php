@@ -691,7 +691,7 @@ $result = sql_query($sql);
 									<div class="col-md-3 dsn-col-footer">
 											<div class="footer-block">
 													<div class="footer-logo">
-															<a href=""><img src="assets/img/logo_b.png" alt=""></a>
+															<a href=""><img src="assets/img/logo.png" alt=""></a>
 													</div>
 
 													<div class="footer-social">

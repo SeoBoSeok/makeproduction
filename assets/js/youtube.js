@@ -21,6 +21,7 @@ function onYouTubePlayerAPIReady() {
     events: {
       // 영상이 준비되었을 때,
       onReady: function (event) {
+        document.querySelector('.pre-loader').style.display = "none";
         event.target.mute() // 음소거!
       }
     }

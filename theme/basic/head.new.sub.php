@@ -139,7 +139,7 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
 </div> -->
 <div class="pre-loader">
 	<div class="load-con">
-		<img src="/assets/img/logo_b.png" class="animated fadeInDown" alt="">
+		<img src="/assets/img/logo.png" class="animated fadeInDown" alt="">
 		<div class="spinner">
 			<div class="bounce1"></div>
 			<div class="bounce2"></div>
