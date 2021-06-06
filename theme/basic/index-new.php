@@ -410,19 +410,16 @@ $result = sql_query($sql);
 																</a>
                                 <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 																<div class="project-txtCont">
-																	<div class="project-title">스케일 넘치는 올영세일</div>
-																	<div class="project-customer">올리브영</div>
+																	<div class="project-title"><?=$row['wr_subject']?></div>
+																	<div class="project-customer"><?=$row['wr_1']?></div>
 																</div>
                             </div>
                         <?php
                         }
 											?>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
+											<!-- <div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
 												<a href="project/%EC%8A%A4%EC%BC%80%EC%9D%BC-%EB%84%98%EC%B9%98%EB%8A%94-%EC%98%AC%EC%98%81%EC%84%B8%EC%9D%BC/index.html"
 													title="스케일 넘치는 올영세일" class="project-inner">
-													<!-- <div class="project-imgCont"
-														style="background-image:url(wp-content/uploads/2021/05/%EA%B7%B8%EB%A6%B0%EC%8A%A4%ED%86%A0%EC%96%B4-Branding-Film-min-768x432.png);">
-													</div> -->
 													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
 													<div class="project-txtCont">
 														<div class="project-title">스케일 넘치는 올영세일</div>
@@ -499,7 +496,7 @@ $result = sql_query($sql);
 													</div>
 												</a>
 											</div>
-										</div>
+										</div> -->
 
 										<!-- <p class="recentP1">At You’ve Got Pictures, we believe that the best advertisements are those that
 											feature precise and compelling messaging. We make this the highest priority in all of our work.
@@ -748,10 +745,9 @@ $result = sql_query($sql);
 </main>
 
 
-
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/dsn-grid.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/dsn-grid.js"></script>
+<script src="/assets/js/custom.js"></script>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
 ?>

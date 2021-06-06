@@ -1,3 +1,6 @@
+/* == magnific popup == */
+@import url("plugins/magnific-popup.css");
+@import url("plugins/youtubepopup.css");
 /*COMMON*/
 body {
   font-family: 'Nanum Gothic', sans-serif;

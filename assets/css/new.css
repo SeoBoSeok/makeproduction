@@ -5578,3 +5578,7 @@ footer .copyright-social ul li:last-child {
 .v-light .footer .copyright .copright-text a {
   color: #000;
 }
+#section6 img {
+  max-height: 207px;
+  overflow: hidden;
+}
