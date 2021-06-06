@@ -263,7 +263,9 @@ $result = sql_query($sql);
 											src="https://player.vimeo.com/video/381873881?title=0&amp;badge=0&amp;byline=0&amp;portrait=0"
 											width="100%" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen
 											allowfullscreen></iframe> -->
-											<iframe class="back-to-position-y to-top delay-3" width="100%" height="563" src="https://www.youtube.com/embed/DbFNscyl6zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<div class="scale-video">
+												<iframe class="back-to-position-y to-top delay-3" width="100%" height="563" src="https://www.youtube.com/embed/DbFNscyl6zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
 									</div>
 									
 								</div>
@@ -414,7 +416,7 @@ $result = sql_query($sql);
                         for ($i=0; $row=sql_fetch_array($result); $i++) { ?>
                             <div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
                                 <a href="https://www.youtube.com/watch?v=<?=end(explode("/", $row['wr_link1']))?>&feature=emb_logo" class="vid">
-																	<img src="/data/file/makeproduction/<?=$row['bf_file']?>" alt="thumbnail" />
+																	<img src="https://img.youtube.com/vi/<?=end(explode("/", $row['wr_link1']))?>/hqdefault.jpg" alt="thumbnail" />
 																</a>
                                 <!-- <iframe width="100%" height="280" src="https://www.youtube.com/embed/Uwiov3dTXYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 																<div class="project-txtCont">
