@@ -110,7 +110,7 @@ if(!defined('G5_IS_ADMIN'))
 <!--ScrollMagic-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
-<script type="text/javascript" src="<?php echo G5_URL ?>/assets/js/youtube.js"></script>
+<!-- <script type="text/javascript" src="<?php // echo G5_URL ?>/assets/js/youtube.js"></script> -->
 </head>
 <body class="v-light hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true" <?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php

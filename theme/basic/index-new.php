@@ -46,83 +46,18 @@ $result = sql_query($sql);
 											<ul id="top-menu" class="gnb nav navbar-nav">
 												<li id="menu-item-61"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-													<a href="portfolio/commercial-video/index.html"><span>PORTFOLIO</span></a>
-													<ul class="sub-menu">
-														<li id="menu-item-62"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
-																href="portfolio/commercial-video/index.html">COMMERCIAL VIDEO</a></li>
-														<li id="menu-item-63"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a
-																href="portfolio/360vr/index.html">360VR</a></li>
-														<li id="menu-item-64"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a
-																href="portfolio/short-films/index.html">SHORT FILMS</a></li>
-													</ul>
+													<a href="/?p=about"><span>ABOUT</span></a>
 												</li>
 												<li id="menu-item-65"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
-														href="awards/index.html"><span>AWARDS</span></a></li>
+														href="/?p=portfolio"><span>PORTFOLIO</span></a></li>
 												<li id="menu-item-66"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-													<a href="what-we-do/advertisement-video-production-service/index.html"><span>WHAT WE
-															DO</span></a>
-													<ul class="sub-menu">
-														<li id="menu-item-67"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a
-																href="what-we-do/advertisement-video-production-service/index.html">ADVERTISEMENT VIDEO
-																PRODUCTION SERVICE</a></li>
-														<li id="menu-item-68"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
-																href="what-we-do/performance-video-media-commerce/index.html">PERFORMANCE VIDEO MEDIA
-																COMMERCE</a></li>
-														<li id="menu-item-69"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a
-																href="what-we-do/fashion-film-mill-brick/index.html">FASHION FILM + MILL BRICK</a></li>
-														<li id="menu-item-70"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a
-																href="what-we-do/production-coordinate-usa/index.html">PRODUCTION COORDINATE | USA</a>
-														</li>
-														<li id="menu-item-71"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a
-																href="what-we-do/360-virtual-reality/index.html">360 VIRTUAL REALITY</a></li>
-														<li id="menu-item-72"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a
-																href="what-we-do/3d-vfx-character/index.html">3D / VFX / CHARACTER</a></li>
-														<li id="menu-item-73"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a
-																href="what-we-do/sound-engineering-glad-studio/index.html">SOUND ENGINEERING + GLAD
-																STUDIO</a></li>
-														<li id="menu-item-74"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a
-																href="what-we-do/visual-engineering-lab/index.html">VISUAL ENGINEERING LAB</a></li>
-													</ul>
-												</li>
-												<li id="menu-item-75"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75">
-													<a href="people/ygp-people/index.html"><span>PEOPLE</span></a>
-													<ul class="sub-menu">
-														<li id="menu-item-76"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a
-																href="people/ygp-people/index.html">YGP PEOPLE</a></li>
-														<li id="menu-item-77"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a
-																href="people/careers/index.html">CAREERS</a></li>
-														<li id="menu-item-78"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a
-																href="people/open-session/index.html">OPEN SESSION</a></li>
-													</ul>
+													<a href="/?p=business"><span>BUSINESS</span></a>
 												</li>
 												<li id="menu-item-79"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-													<a href="contact/projectrequest/index.html"><span>CONTACT</span></a>
-													<ul class="sub-menu">
-														<li id="menu-item-80"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a
-																href="contact/projectrequest/index.html">PROJECT REQUEST</a></li>
-														<li id="menu-item-81"
-															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a
-																href="contact/contact/index.html">CONTACT</a></li>
-													</ul>
+													<a href="/?p=contact"><span>CONTACT</span></a>
 												</li>
 											</ul>
 										</div>
@@ -139,66 +74,17 @@ $result = sql_query($sql);
 										<ul id="top-menu" class="mgnb nav navbar-nav">
 											<li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-												<a href="portfolio/commercial-video/index.html"><span>PORTFOLIO</span></a>
-												<ul class="sub-menu">
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
-															href="portfolio/commercial-video/index.html">COMMERCIAL VIDEO</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a
-															href="portfolio/360vr/index.html">360VR</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a
-															href="portfolio/short-films/index.html">SHORT FILMS</a></li>
-												</ul>
+												<a href="/?p=about"><span>ABOUT</span></a>
 											</li>
 											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
-													href="awards/index.html"><span>AWARDS</span></a></li>
+													href="/?p=portfolio"><span>PORTFOLIO</span></a></li>
 											<li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-												<a href="what-we-do/advertisement-video-production-service/index.html"><span>WHAT WE
-														DO</span></a>
-												<ul class="sub-menu">
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a
-															href="what-we-do/advertisement-video-production-service/index.html">ADVERTISEMENT VIDEO
-															PRODUCTION SERVICE</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
-															href="what-we-do/performance-video-media-commerce/index.html">PERFORMANCE VIDEO MEDIA
-															COMMERCE</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a
-															href="what-we-do/fashion-film-mill-brick/index.html">FASHION FILM + MILL BRICK</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a
-															href="what-we-do/production-coordinate-usa/index.html">PRODUCTION COORDINATE | USA</a>
-													</li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a
-															href="what-we-do/360-virtual-reality/index.html">360 VIRTUAL REALITY</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a
-															href="what-we-do/3d-vfx-character/index.html">3D / VFX / CHARACTER</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a
-															href="what-we-do/sound-engineering-glad-studio/index.html">SOUND ENGINEERING + GLAD
-															STUDIO</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a
-															href="what-we-do/visual-engineering-lab/index.html">VISUAL ENGINEERING LAB</a></li>
-												</ul>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75">
-												<a href="people/ygp-people/index.html"><span>PEOPLE</span></a>
-												<ul class="sub-menu">
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a
-															href="people/ygp-people/index.html">YGP PEOPLE</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a
-															href="people/careers/index.html">CAREERS</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a
-															href="people/open-session/index.html">OPEN SESSION</a></li>
-												</ul>
+												<a href="/?p=business"><span>BUSINESS</span></a>
 											</li>
 											<li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-												<a href="contact/projectrequest/index.html"><span>CONTACT</span></a>
-												<ul class="sub-menu">
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a
-															href="contact/projectrequest/index.html">PROJECT REQUEST</a></li>
-													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a
-															href="contact/contact/index.html">CONTACT</a></li>
-												</ul>
+												<a href="/?p=contact"><span>CONTACT</span></a>
 											</li>
 										</ul>
 									</div>
@@ -213,9 +99,23 @@ $result = sql_query($sql);
 			<!-- YOUTUBE VIDEO SECTION -->
 			<section class="youtube">
 				<div class="youtube__area">
-					<div id="player"></div>
+					<!-- <div id="player"></div> -->
+					<video class="bg-video__content" autoplay muted loop>
+						<source src="/assets/videos/main.mp4" type="video/mp4" />
+						Your browser is not supported!
+					</video>
 				</div>
-				<div class="youtube__cover"></div>
+				<div class="youtube__cover">
+					<div class="inner">
+						<img src="/assets/img/new/main-01.png" alt="make01" class="make__d make__d--img1">
+						<img src="/assets/img/new/main-02.png" alt="make02" class="make__d make__d--img2">
+						<img src="/assets/img/new/main-03.png" alt="make03" class="make__d make__d--img3">
+						<img src="/assets/img/new/main-04.png" alt="make04" class="make__d make__d--img4">
+						<img src="/assets/img/new/main-05.png" alt="make05" class="make__d make__d--img5">
+						<img src="/assets/img/new/main-06.png" alt="make06" class="make__d make__d--img6">
+						<img src="/assets/img/new/main-07.png" alt="make07" class="make__d make__d--img7">
+					</div>
+				</div>
 			</section>
 			<!-- YOUTUBE VIDEO SECTION -->
 			<div id="content" class="site-content">
@@ -229,6 +129,7 @@ $result = sql_query($sql);
 									<p class="section-desc">Highlight Reels</p>
 									
 								</div> -->
+								<div id="divider"></div>
 								<div class="front-section scroll-spy" id="section2">
 									<div class="container standard">
 										<div style="border-top: 1px solid #fff;"></div>
@@ -277,7 +178,7 @@ $result = sql_query($sql);
 
 											<div class="wapper-client">
 													<div class="logo-box back-to-position-y to-top delay-0">
-															<img class="process_img" data-index="1" src="assets/img/process_1w.png" alt="">
+															<img class="process_img" data-index="1" src="/assets/img/new/pro-01.png" alt="">
 															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 															<!-- <div class="info">
 																	<div class="content">
@@ -296,7 +197,7 @@ $result = sql_query($sql);
 													</div>
 
 													<div class="logo-box back-to-position-y to-top delay-1">
-															<img class="process_img" data-index="2" src="assets/img/process_2w.png" alt="">
+															<img class="process_img" data-index="2" src="/assets/img/new/pro-02.png" alt="">
 															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 															<!-- <div class="info">
 																	<div class="content">
@@ -315,7 +216,7 @@ $result = sql_query($sql);
 													</div>
 
 													<div class="logo-box back-to-position-y to-top delay-2">
-															<img class="process_img" data-index="3" src="assets/img/process_3w.png" alt="">
+															<img class="process_img" data-index="3" src="/assets/img/new/pro-03.png" alt="">
 															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
 															<!-- <div class="info">
@@ -335,7 +236,7 @@ $result = sql_query($sql);
 													</div>
 
 													<div class="logo-box back-to-position-y to-top delay-3">
-															<img class="process_img" data-index="4" src="assets/img/process_4w.png" alt="">
+															<img class="process_img" data-index="4" src="/assets/img/new/pro-04.png" alt="">
 															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
 															<!-- <div class="info">
@@ -355,7 +256,7 @@ $result = sql_query($sql);
 													</div>
 
 													<div class="logo-box back-to-position-y to-top delay-4">
-															<img class="process_img" data-index="5" src="assets/img/process_5w.png" alt="">
+															<img class="process_img" data-index="5" src="/assets/img/new/pro-05.png" alt="">
 															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
 
 															<!-- <div class="info">
@@ -375,7 +276,7 @@ $result = sql_query($sql);
 													</div>
 
 													<div class="logo-box back-to-position-y to-top delay-5">
-															<img class="process_img" data-index="6" src="assets/img/process_6w.png" alt="">
+															<img class="process_img" data-index="6" src="/assets/img/new/pro-06.png" alt="">
 
 															<!-- <div class="info">
 																	<div class="content">
@@ -399,6 +300,21 @@ $result = sql_query($sql);
 								<div class="front-section scroll-spy" id="section5">
 									<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
 									<p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p>
+									<div class="inner">
+										<div class="clinets">
+											<div class="clinet back-to-position-y to-top delay-1">
+												<img src="/assets/img/new/client-01.svg" alt="공주시" />
+												<img src="/assets/img/new/client-02.svg" alt="디지털보존솔루션랩" class="back_black" />
+												<img src="/assets/img/new/client-03.svg" alt="공동체세움" />
+											</div>
+											<div class="clinet back-to-position-y to-top delay-3">
+												<img src="/assets/img/new/client-04.svg" alt="국립중앙박물관" />
+												<img src="/assets/img/new/client-05.svg" alt="퍼즐랩" />
+												<img src="/assets/img/new/client-06.svg" alt="염암공과대학교" />
+												<img src="/assets/img/new/client-07.svg" alt="국립중앙도서관" />
+											</div>
+										</div>
+									</div>
 								</div>
 								<div class="front-section scroll-spy" id="section6">
 								<div class="container">
@@ -527,168 +443,13 @@ $result = sql_query($sql);
 				</div>
 
 			</div><!-- #content -->
-			<!-- <footer id="colophon" class="site-footer" role="contentinfo">
-				<div id="footer">
-					<div class="footer-top">
-						<div class="container">
-							<div class="footer-topCont">
-								<div class="row no-mar">
-									<div class="col-xs-12 col-sm-8 col-md-5 col-lg-4 no-pad footer-top-item footer-top-item1">
-										<div class="footer-contactCont">
-											<p class="footer-title">CONTACT</p>
-											<p class="footerP1">Feel free to contact, Contact page can provide more informations.</p>
-											<p class="footerP1">You’ve Got Pictures<br>739-23, Hannam-dong, Yongsan-gu, Seoul, Korea</p>
-											<p class="footerP1">Tel : +82.2.749.8312 | FAX +82.2.749.8653 | E-Mail info@ygp.co.kr</p>
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-push-0 col-md-4 col-lg-6 no-pad footer-top-item">
-										<p class="footer-title">BRAND</p>
-										<ul class="bottom_brand">
-											<li>
-												<a href="http://www.gladstudio.kr/" class="footer_brand foot_brand1" title="GLAD"
-													target="_blank">
-													<img src="wp-content/uploads/2021/04/foot_brand1%EF%B9%96v=2.png" alt="GLAD" class="light">
-													<img src="wp-content/uploads/2021/04/foot_brand1%EF%B9%96v=2.png" alt="GLAD" class="dark">
-												</a>
-											</li>
-											<li>
-												<a href="http://millbrick.kr/" class="footer_brand footer_brand2" title="mill brick"
-													target="_blank">
-													<img src="wp-content/uploads/2021/04/foot_brand2%EF%B9%96v=2.png" alt="mill brick"
-														class="light">
-													<img src="wp-content/uploads/2021/04/foot_brand2%EF%B9%96v=2.png" alt="mill brick"
-														class="dark">
-												</a>
-											</li>
-											<li>
-												<a href="http://penpaperandplot.com/" class="footer_brand footer_brand3"
-													title="pen paper and plot" target="_blank">
-													<img src="wp-content/uploads/2021/04/foot_brand3%EF%B9%96v=2.png" alt="pen paper and plot"
-														class="light">
-													<img src="wp-content/uploads/2021/04/foot_brand3%EF%B9%96v=2.png" alt="pen paper and plot"
-														class="dark">
-												</a>
-											</li>
-											<li>
-												<a href="http://weareknuckles.com/" class="footer_brand footer_brand4" title="Sen jose Studio"
-													target="_blank">
-													<img src="wp-content/uploads/2021/04/foot_brand4%EF%B9%96v=2.png" alt="Sen jose Studio"
-														class="light">
-													<img src="wp-content/uploads/2021/04/foot_brand4%EF%B9%96v=2.png" alt="Sen jose Studio"
-														class="dark">
-												</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-pull-0 col-md-3 col-lg-2 no-pad footer-top-item">
-										<nav id="footer-navigation" class="footer-navigation" role="navigation" aria-label="Footer Menu">
-											<div class="menu-footer-container">
-												<ul id="footer-menu" class="fnb nav navbar-nav">
-													<li id="menu-item-108"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a
-															href="company/our-history/index.html">OUR HISTORY</a></li>
-													<li id="menu-item-109"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a
-															href="company/core-values/index.html">CORE VALUES</a></li>
-													<li id="menu-item-110"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a
-															href="company/downloads/index.html">DOWNLOADS</a></li>
-													<li id="menu-item-111"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a
-															href="people/open-session/index.html">OPEN SESSION</a></li>
-													<li id="menu-item-112"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a
-															href="people/careers/index.html">CAREERS</a></li>
-													<li id="menu-item-2443"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2443"><a
-															href="job-board/index.html">JOB BOARD</a></li>
-												</ul>
-											</div>
-										</nav> #site-navigation -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="footer-bottom">
-						<div class="container">
-							<div class="row no-mar">
-								<div class="col-xs-pull-0 col-xs-12 col-sm-push-0 col-sm-12 col-md-push-5 col-md-2 col-lg-2 no-pad">
-									<a href="index.html" title="<%=CB_NAME%>" class="footerLogo hoverBt">
-										<img alt="<%=CB_NAME%>" src="wp-content/uploads/2018/02/foot_logo.png" class="footerLogoImg" />
-									</a>
-								</div>
-								<div class="col-xs-pull-0 col-xs-12 col-sm-pull-0 col-sm-12 col-md-pull-2 col-md-5 col-lg-5 no-pad">
-									<p class="footerP2">Copyright © 2017 You've Got Pictures Co., Ltd. All rights reserved.</p>
-								</div>
-
-								<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 no-pad">
-									<ul class="fsnb nav navbar-nav">
-										<li class="facebook"><a href="https://www.facebook.com/helloygp/" title="facebook" target="_blank">
-											</a></li>
-										<li class="vimeo"><a href="https://vimeo.com/ygp" title="vimeo" target="_blank"> </a></li>
-										<li class="instagram"><a href="https://www.instagram.com/ygp_production" title="instagram"
-												target="_blank"> </a></li>
-										<li class="linkedin"><a href="https://www.linkedin.com/company/ygp" title="linkedin"
-												target="_blank"> </a></li>
-									</ul>
-								</div>
-
-
-
-							</div>
-
-						</div>
-					</div> -->
-					<!-- <div id="topcontrol" title="Scroll Back to Top"><img src="wp-content/uploads/2018/02/totop.png"
-							style="width:51px; height:42px"></div> -->
-
-					<!-- <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-											aria-hidden="true">&times;</span></button>
-									<div class="ssba-classic-2 ssba ssbp-wrap left ssbp--theme-1">
-										<div style="text-align:center"><span class="ssba-share-text">Share this...</span><br /><a
-												data-site="" class="ssba_facebook_share"
-												href="http://www.facebook.com/sharer.php?u=https://ygp.co.kr/" target="_blank"><img
-													src="wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png"
-													style="width: 40px;" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" />
-												<div title="Facebook" class="ssbp-text">Facebook</div>
-											</a><a data-site="linkedin" class="ssba_linkedin_share ssba_share_link"
-												href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://ygp.co.kr/"
-												target=&quot;_blank&quot;><img
-													src="wp-content/plugins/simple-share-buttons-adder/buttons/somacro/linkedin.png"
-													style="width: 40px;" title="LinkedIn" class="ssba ssba-img" alt="Share on LinkedIn" />
-												<div title="Linkedin" class="ssbp-text">Linkedin</div>
-											</a><a data-site="email" class="ssba_email_share"
-												href="mailto:?subject=유브갓픽쳐스&#038;body=%20https://ygp.co.kr/"><img
-													src="wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png"
-													style="width: 40px;" title="Email" class="ssba ssba-img" alt="Email this to someone" />
-												<div title="email" class="ssbp-text">email</div>
-											</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-			</footer>
 		</div><!-- .site-content-contain -->
 	</div><!-- #page -->
-<main>
-	<header class="header scrolled">
-
-	</header>
-
-	<div class="wrapper">
-			
-	</div>
 
 	<footer class="footer">
 			<div class="container">
 					<div class="footer-links p-relative">
+						<!-- <img src="/assets/img/pro-01.svg" alt="svg" /> -->
 							<div class="row">
 									<div class="col-md-3 dsn-col-footer">
 											<div class="footer-block">
@@ -752,12 +513,23 @@ $result = sql_query($sql);
 					</div>
 			</div>
 	</footer>
-</main>
+
 
 
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/dsn-grid.js"></script>
 <script src="/assets/js/custom.js"></script>
+<script>
+const video = document.querySelector('video');
+// video.onloadeddata = function() {
+//   alert("Browser has loaded the current frame");
+// };
+video.addEventListener('loadeddata', function() {
+  setTimeout(function() {
+    document.querySelector('.pre-loader').style.display = "none";
+  }, 500);
+});
+</script>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
 ?>

@@ -104,7 +104,7 @@ function random(min, max) {
   return parseFloat((Math.random() * (max - min) + min).toFixed(2))
 }
 function floatingObject(selector, delay, size) {
-  gsap.to(selector, random(1.5, 2.5), {
+  gsap.to(selector, random(2.5, 5), {
     y: size,
     repeat: -1, // 무한 반복.
     yoyo: true, // 애니메이션 뒤로, 앞으로.
@@ -112,10 +112,13 @@ function floatingObject(selector, delay, size) {
     delay: random(0, delay),
   });
 }
-// floatingObject('.floating1', 1, 15);
-// floatingObject('.floating2', .5, 15);
-// floatingObject('.floating3', 1.5, 20);
-
+floatingObject('.make__d--img1', 1, 15);
+floatingObject('.make__d--img2', .5, 15);
+floatingObject('.make__d--img3', 1.5, 20);
+floatingObject('.make__d--img4', 1, 15);
+floatingObject('.make__d--img5', .5, 15);
+floatingObject('.make__d--img6', 1.5, 20);
+floatingObject('.make__d--img7', 2, 20);
 /** REWARDS SLIDER */
 // new Swiper('.awards .swiper-container', {
 //   autoplay: true,
@@ -170,3 +173,4 @@ $("#simple-menu").on("click",function(e){
    }
   }
  });
+
