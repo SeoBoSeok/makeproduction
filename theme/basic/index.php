@@ -100,7 +100,7 @@ $result = sql_query($sql);
 			<section class="youtube">
 				<div class="youtube__area">
 					<!-- <div id="player"></div> -->
-					<video class="bg-video__content" autoplay muted loop>
+					<video class="bg-video__content" defaultMuted autoplay muted loop playsinline oncontextmenu="return false;" preload="auto">
 						<source src="/assets/videos/main.mp4" type="video/mp4" />
 						Your browser is not supported!
 					</video>

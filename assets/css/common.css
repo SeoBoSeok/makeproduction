@@ -455,6 +455,27 @@ footer .logo {
 @media (min-width: 481px) and (max-width: 767px) {
   
   /* CSS */
+  .clinets {
+    display: none;
+  }
+  .clinets_mobile {
+    display: block;
+  }
+
+  .inner {
+    width: 750px;
+  }
+
+  .clinets_mobile .clinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clinets_mobile .clinet img {
+    width: 350px;
+    margin: 30px auto;
+  }
   
 }
 
@@ -466,5 +487,26 @@ footer .logo {
 @media (min-width: 320px) and (max-width: 480px) {
   
   /* CSS */
+  .clinets {
+    display: none;
+  }
+  .clinets_mobile {
+    display: block;
+  }
+
+  .inner {
+    width: 750px;
+  }
+
+  .clinets_mobile .clinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clinets_mobile .clinet img {
+    width: 350px;
+    margin: 30px auto;
+  }
   
 }
