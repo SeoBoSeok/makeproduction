@@ -452,7 +452,20 @@ footer .logo {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 1024px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 767px) {
   
   /* CSS */
   .clinets {
@@ -463,7 +476,7 @@ footer .logo {
   }
 
   .inner {
-    width: 750px;
+    width: 680px;
   }
 
   .clinets_mobile .clinet {
@@ -473,7 +486,34 @@ footer .logo {
   }
 
   .clinets_mobile .clinet img {
-    width: 350px;
+    width: 250px;
+    margin: 30px auto;
+  }
+  
+}
+
+@media (max-width: 680px) {
+  
+  /* CSS */
+  .clinets {
+    display: none;
+  }
+  .clinets_mobile {
+    display: block;
+  }
+
+  .inner {
+    width: 600px;
+  }
+
+  .clinets_mobile .clinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clinets_mobile .clinet img {
+    width: 230px;
     margin: 30px auto;
   }
   
@@ -484,7 +524,7 @@ footer .logo {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   
   /* CSS */
   .clinets {
@@ -495,7 +535,7 @@ footer .logo {
   }
 
   .inner {
-    width: 750px;
+    width: 420px;
   }
 
   .clinets_mobile .clinet {
@@ -505,7 +545,7 @@ footer .logo {
   }
 
   .clinets_mobile .clinet img {
-    width: 350px;
+    width: 130px;
     margin: 30px auto;
   }
   

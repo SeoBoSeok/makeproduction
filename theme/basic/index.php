@@ -295,8 +295,10 @@ $result = sql_query($sql);
 							</section>
 								</div>
 								<div class="front-section scroll-spy" id="section5">
-									<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
-									<p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p>
+									<div class="inner">
+										<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
+										<p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p>
+									</div>
 									<div class="inner">
 										<div class="clinets">
 											<div class="clinet back-to-position-y to-top delay-1">

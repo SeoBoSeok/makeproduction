@@ -301,7 +301,7 @@
   position: absolute;
   bottom: 0;
   left: 50%;
-  z-index: 999;
+  z-index: 9;
 }
 #player {
   width: 100%;
@@ -610,7 +610,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  z-index: 99999;
+  z-index: 9;
 }
 
 #section2::before {
