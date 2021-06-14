@@ -373,3 +373,98 @@ footer .copyright {
 footer .logo {
   margin: 30px auto 0;
 }
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+.clinets_mobile {
+  display: none;
+}
+
+.back_black {
+  background-color: #333;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { */
+@media (max-width: 1024px) {   
+
+  /* CSS */
+  .entry-content {
+    padding-top: 0;
+  }
+
+  .wapper-client {
+    flex-wrap: wrap;
+  }
+  
+  #section3 {
+    padding: 100px 0 50px;
+  }
+
+  #section4 {
+    padding: 50px 0;
+    background-size: cover;
+  }
+
+  #section5 {
+    padding: 50px 0;
+  }
+
+  .clinets {
+    display: none;
+  }
+  .clinets_mobile {
+    display: block;
+  }
+
+  .inner {
+    width: 750px;
+  }
+
+  .clinets_mobile .clinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clinets_mobile .clinet img {
+    width: 350px;
+    margin: 30px auto;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}

@@ -5197,7 +5197,7 @@ ul.tagsUl > li > a {display: block; text-align: center; color: #999; white-space
 
 .wapper-client {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 .wapper-client .logo-box {
