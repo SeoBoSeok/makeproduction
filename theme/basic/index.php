@@ -23,9 +23,9 @@ $result = sql_query($sql);
 
 							<div class="col-xs-6 col-sm-12 col-md-12 brand no-pad">
 								<h1 id="logo">
-									<a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="120"
+									<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="120"
 											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스" itemprop="logo" /></a>
-									<a href="index.html" class="white_logo" rel="home" itemprop="url"><img width="144" height="120"
+									<a href="/" class="white_logo" rel="home" itemprop="url"><img width="144" height="120"
 											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스"
 											itemprop="logo"></a>
 								</h1>
@@ -44,6 +44,10 @@ $result = sql_query($sql);
 									<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 										<div class="menu-main-container">
 											<ul id="top-menu" class="gnb nav navbar-nav">
+												<li id="menu-item-60"
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
+													<a href="/"><span>HOME</span></a>
+												</li>
 												<li id="menu-item-61"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
 													<a href="/?p=about"><span>ABOUT</span></a>
@@ -56,7 +60,7 @@ $result = sql_query($sql);
 													<a href="/?p=business"><span>BUSINESS</span></a>
 												</li>
 												<li id="menu-item-79"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79 notp">
 													<a href="/?p=contact"><span>CONTACT</span></a>
 												</li>
 											</ul>
@@ -72,6 +76,10 @@ $result = sql_query($sql);
 								<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 									<div class="menu-main-container">
 										<ul id="top-menu" class="mgnb nav navbar-nav">
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
+												<a href="/"><span>HOME</span></a>
+											</li>
 											<li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
 												<a href="/?p=about"><span>ABOUT</span></a>
@@ -467,7 +475,7 @@ $result = sql_query($sql);
 					<div class="footer-links p-relative">
 						<!-- <img src="/assets/img/pro-01.svg" alt="svg" /> -->
 							<div class="row">
-									<div class="col-md-3 dsn-col-footer">
+									<div class="col-md-3 col-sm-6 col-xs-6 dsn-col-footer">
 											<div class="footer-block">
 													<div class="footer-logo">
 															<a href=""><img src="assets/img/logo.png" alt=""></a>
@@ -480,7 +488,7 @@ $result = sql_query($sql);
 											</div>
 									</div>
 
-									<div class="col-md-3 dsn-col-footer">
+									<div class="col-md-3 col-sm-6 col-xs-6 dsn-col-footer not">
 											<div class="footer-block col-menu">
 													<h4 class="footer-title">Navigation</h4>
 													<nav>
@@ -497,7 +505,7 @@ $result = sql_query($sql);
 											</div>
 									</div>
 
-									<div class="col-md-3 dsn-col-footer">
+									<div class="col-md-3 col-sm-6 col-xs-6 dsn-col-footer">
 											<div class="footer-block col-contact">
 													<h4 class="footer-title">Contact</h4>
 													<p><strong>T</strong> <span>:</span><a class="link-hover"
@@ -509,7 +517,7 @@ $result = sql_query($sql);
 											</div>
 									</div>
 
-									<div class="col-md-3 dsn-col-footer">
+									<div class="col-md-3 col-sm-6 col-xs-6 dsn-col-footer">
 											<div class="col-address">
 													<h4 class="footer-title">Address</h4>
 

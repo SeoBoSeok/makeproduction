@@ -361,6 +361,7 @@ a:hover,a:active {	color: #000;	outline: 0;}
 .scrolled .gnb.nav.navbar-nav {text-align: right; padding-right: 0;}
 .gnb.nav.navbar-nav > li {display:inline-block; float:none; position: static;}
 .gnb.nav.navbar-nav > li > a {font-family: 'Open Sans', 'Noto Sans';   display:block; font-size:13px; line-height:19px; color:#999; font-weight:700; letter-spacing: .3em; padding:22px 30px; text-align: right; -webkit-transition:all .3s ease; transition:all .3s ease;}
+.gnb.nav.navbar-nav > li.notp > a {padding-right: 0;}
 .black_bg .gnb.nav.navbar-nav > li > a {color: #999;}
 .gnb.nav.navbar-nav > li.active > a, .gnb.nav.navbar-nav > li > a:hover, .gnb.nav.navbar-nav > li > a:focus, .gnb.nav.navbar-nav > li > a:active, .gnb.nav.navbar-nav > li.current-menu-item > a, .gnb.nav.navbar-nav > li.current-menu-parent > a {background: none; color:#666; font-weight: 700;}
 .black_bg .gnb.nav.navbar-nav > li.active > a, .black_bg .gnb.nav.navbar-nav > li > a:hover, .black_bg .gnb.nav.navbar-nav > li > a:focus, .black_bg .gnb.nav.navbar-nav > li > a:active, .black_bg .gnb.nav.navbar-nav > li.current-menu-item > a, .black_bg .gnb.nav.navbar-nav > li.current-menu-parent > a {color: #fff;}
@@ -5394,6 +5395,9 @@ footer .copyright-social ul li:last-child {
 @media only screen and (max-width: 767px) {
   .footer .footer-links .dsn-col-footer:nth-of-type(n+2) {
     margin-top: 30px;
+  }
+  .footer .footer-links .dsn-col-footer.not {
+    margin-top: 0;
   }
   .youtube__cover .make__d {
     height: 70px;
