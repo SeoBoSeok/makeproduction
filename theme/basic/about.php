@@ -43,6 +43,10 @@ include_once(G5_THEME_PATH.'/head-new.php');
 									<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 										<div class="menu-main-container">
 											<ul id="top-menu" class="gnb nav navbar-nav">
+                        <li id="menu-item-60"
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
+													<a href="/"><span>HOME</span></a>
+												</li>
 												<li id="menu-item-61"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
 													<a href="/?p=about"><span>ABOUT</span></a>
@@ -56,7 +60,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 												</li>
 												<li id="menu-item-79"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-													<a href="/?p=contact"><span>CONTACT</span></a>
+													<a href="/?p=new-contact"><span>CONTACT</span></a>
 												</li>
 											</ul>
 										</div>
@@ -71,7 +75,11 @@ include_once(G5_THEME_PATH.'/head-new.php');
 								<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 									<div class="menu-main-container">
 										<ul id="top-menu" class="mgnb nav navbar-nav">
-											<li
+                      <li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
+												<a href="/"><span>HOME</span></a>
+											</li>
+                      <li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
 												<a href="/?p=about"><span>ABOUT</span></a>
 											</li>
@@ -83,7 +91,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 											</li>
 											<li
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-												<a href="/?p=contact"><span>CONTACT</span></a>
+												<a href="/?p=new-contact"><span>CONTACT</span></a>
 											</li>
 										</ul>
 									</div>
@@ -153,7 +161,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 																	</li>
 																	<!-- <li><a href="#">LOCATION</a></li> -->
 																	<li><a href="/?p=blog">BLOG</a>
-																	<li><a href="/?p=contact">CONTACT</a>
+																	<li><a href="/?p=new-contact">CONTACT</a>
 																	</li>
 															</ul>
 													</nav>
@@ -184,7 +192,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 
 					<div class="copyright">
 							<div class="text-center">
-									<p>© 2020 MAKE PRODUCTION</p>
+									<p>© 2021 MAKE PRODUCTION</p>
 									<div class="copright-text over-hidden">Designed by <a class="link-hover"
 													data-hover-text="DSN Grid" href="#" target="_blank">PAM FOREST</a>
 									</div>
