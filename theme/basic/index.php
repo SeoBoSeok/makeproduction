@@ -23,10 +23,10 @@ $result = sql_query($sql);
 
 							<div class="col-xs-6 col-sm-12 col-md-12 brand no-pad">
 								<h1 id="logo">
-									<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="120"
-											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스" itemprop="logo" /></a>
-									<a href="/" class="white_logo" rel="home" itemprop="url"><img width="144" height="120"
-											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스"
+									<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="100"
+											src="/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스" itemprop="logo" /></a>
+									<a href="/" class="white_logo" rel="home" itemprop="url"><img width="144" height="100"
+											src="/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스"
 											itemprop="logo"></a>
 								</h1>
 							</div>
@@ -367,97 +367,6 @@ $result = sql_query($sql);
                         <?php
                         }
 											?>
-											<!-- <div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/%EC%8A%A4%EC%BC%80%EC%9D%BC-%EB%84%98%EC%B9%98%EB%8A%94-%EC%98%AC%EC%98%81%EC%84%B8%EC%9D%BC/index.html"
-													title="스케일 넘치는 올영세일" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">스케일 넘치는 올영세일</div>
-														<div class="project-customer">올리브영</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/%EC%9B%94%EB%93%9C%EC%BD%98-x-%EA%B9%80%EC%97%B0%EA%B2%BD-%EB%AD%90%EB%8B%88%EB%AD%90%EB%8B%88%ED%95%B4%EB%8F%84-%EC%9B%94%EB%93%9C%EC%BD%98/index.html"
-													title="[월드콘 X 김연경] 뭐니뭐니해도 월드콘" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">[월드콘 X 김연경] 뭐니뭐니해도 월드콘</div>
-														<div class="project-customer">월드콘</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/%EB%B8%8C%EB%A3%A8%EC%9E%89-%EC%BD%A4%EB%B6%80%EC%B0%A8-x-%EC%8B%A0%EC%84%B8%EA%B2%BD-%EC%9E%90%EA%B8%B0%EA%B4%80%EB%A6%AC%ED%8E%B8-full%EB%B2%84%EC%A0%84/index.html"
-													title="[브루잉 콤부차 X 신세경] 자기관리편 Full버전" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">[브루잉 콤부차 X 신세경] 자기관리편 Full버전</div>
-														<div class="project-customer">콤부차</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/%EC%A7%80%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A0%88%EC%8B%9C%ED%94%BC/index.html"
-													title="지구를 위한 레시피" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">지구를 위한 레시피</div>
-														<div class="project-customer">Aromatica</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/snapask/index.html" title="Snapask" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">Snapask</div>
-														<div class="project-customer">Snapask</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/7%EB%B2%88%EA%B0%80-%ED%94%BC%EC%9E%90-%EC%A0%9C%ED%92%88-%ED%8E%B8/index.html"
-													title="7번가 피자 &#8211; 제품 편" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">7번가 피자 &#8211; 제품 편</div>
-														<div class="project-customer">7번가피자</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/7%EB%B2%88%EA%B0%80-%ED%94%BC%EC%9E%90-%EC%83%98%EB%B2%A4%ED%8B%80%EB%A6%AC-%ED%8E%B8/index.html"
-													title="7번가 피자 &#8211; 샘&#038;벤틀리 편" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">7번가 피자 &#8211; 샘&#038;벤틀리 편</div>
-														<div class="project-customer">7번가피자</div>
-													</div>
-												</a>
-											</div>
-											<div class="col-xs-6 col-sm-4 col-md-4 project-item pad3">
-												<a href="project/%EC%A7%80%EA%B5%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A0%88%EC%8B%9C%ED%94%BC/index.html"
-													title="지구를 위한 레시피" class="project-inner">
-													<img src="/data/file/makeproduction/0_RZtBqjFi_32bb91394e34407f5f9fcb54232e50c486b022c5.png" alt="thumbnail" title="">
-													<div class="project-txtCont">
-														<div class="project-title">지구를 위한 레시피</div>
-														<div class="project-customer">Aromatica</div>
-													</div>
-												</a>
-											</div>
-										</div> -->
-
-										<!-- <p class="recentP1">At You’ve Got Pictures, we believe that the best advertisements are those that
-											feature precise and compelling messaging. We make this the highest priority in all of our work.
-											Our diverse portfolio includes video content shaped by digital storytelling as well as traditional
-											15-second TV commercials. Using our in-house system, we oversee all stages of content creation
-											from planning to production and post-production, for smoother, more streamlined project execution.
-											From start to finish, we engage in open communication with our clients to ensure highquality
-											content and effective message delivery.</p>
-										<p class="recentP2">메시지를 아름답고 정확하게 전달하는것. 이것이 우리가 추구하는 광고이고 우리가 해야할 가장 첫번째 임무입니다. 유브갓픽쳐스는 디지털 시대에 맞는
-											스토리텔링 기반의 영상부터 전통적 15초 TVCF까지 다양한 스펙트럼을 가지고 작업을 합니다. 유브갓픽쳐스는 기획,제작, 후반의 전체 모든 프로세스를 인하우스 시스템으로
-											구축하고 있습니다. 인하우스 시스템이 가져다 주는 효율은 작업 과정을 부드럽게 하고 프로젝트 시작부터 끝까지 열린 커뮤니케이션을 통해 좋은 그림과 전달력을 갖게합니다.</p> -->
 
 									</div>
 								</div>
