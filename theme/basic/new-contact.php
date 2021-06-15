@@ -103,7 +103,8 @@ include_once(G5_THEME_PATH.'/head-new.php');
 		</header><!-- #masthead -->
 		<div class="site-content-contain">
         <div class="">
-          <div class="map-custom" id="map" data-lat="36.4528689" data-len="127.1223981" data-zoom="17">
+          <!-- 36.4696336,127.1409435,17z -->
+          <div class="map-custom" id="map" data-lat="36.4696336" data-len="127.1409435" data-zoom="15">
         </div>
 		</div><!-- .site-content-contain -->
     <!-- CONTACT -->

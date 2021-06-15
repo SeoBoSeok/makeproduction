@@ -28,7 +28,8 @@ include_once(G5_THEME_PATH.'/head.php');
     <div class="wrapper">
     <div class="root-contact">
         <div class="container-fluid">
-        <div class="map-custom" id="map" data-dsn-lat="36.4528689" data-dsn-len="127.1223981" data-dsn-zoom="17">
+        <!-- 36.4696336,127.1409435,17z -->
+        <div class="map-custom" id="map" data-dsn-lat="36.4696336" data-dsn-len="127.1409435" data-dsn-zoom="15">
         </div>
         </div>
 

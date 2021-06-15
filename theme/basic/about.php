@@ -110,19 +110,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
 						<article id="post-2" class="post-2 page type-page status-publish hentry">
 							<div class="entry-content">
 
-								<div class="front-section" id="section_2_1">
-                  <div class="inner">
-                    <div class="title">ABOUT</div>
-                    <div class="category">
-                      <div class="cat_items">
-                        <!-- <h3>메이크 프로덕션은 다양한 분야의 크리에이티브 창작물을 만들고 있습니다.</h3> -->
-                      </div>
-                    </div>
-                    <div class="table">
-                      
-                    </div>
-                  </div>
-								</div>
+              <div class="container-fluid pd0">
+                <img src="/assets/img/new/about_back.png" alt="메이크프로덕션" />
+              </div>
 								
 							</div>
 						</article>
