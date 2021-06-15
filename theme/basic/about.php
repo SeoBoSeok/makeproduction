@@ -9,99 +9,17 @@ if (G5_IS_MOBILE) {
 
 include_once(G5_THEME_PATH.'/head-new.php');
 ?>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
 <div class="wrap">
 		<!-- <a class="skip-link screen-reader-text" href="#content">Skip to content</a> -->
 
-		<header id="masthead" class="site-header" role="banner">
-    <div class="header scrolled">
-		<div class="header scrolled">
-				<div class="container">
-					<div class="main-menu navbar">
-
-						<div class="row no-mar">
-
-							<div class="col-xs-6 col-sm-12 col-md-12 brand no-pad">
-								<h1 id="logo">
-									<a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="120"
-											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스" itemprop="logo" /></a>
-									<a href="index.html" class="white_logo" rel="home" itemprop="url"><img width="144" height="120"
-											src="http://makeproduction.kr/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스"
-											itemprop="logo"></a>
-								</h1>
-							</div>
-
-							<div class="col-xs-6 visible-xs no-pad">
-								<a class="hamburger hamburger--collapse" id="simple-menu" href="#">
-									<div class="hamburger-box">
-										<div class="hamburger-inner"></div>
-									</div>
-								</a>
-							</div>
-
-							<div class="hidden-xs col-sm-12 col-md-12 no-pad">
-								<div class="gnb_wrap">
-									<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
-										<div class="menu-main-container">
-											<ul id="top-menu" class="gnb nav navbar-nav">
-                        <li id="menu-item-60"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-													<a href="/"><span>HOME</span></a>
-												</li>
-												<li id="menu-item-61"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-													<a href="/?p=about"><span>ABOUT</span></a>
-												</li>
-												<li id="menu-item-65"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
-														href="/?p=portfolio"><span>PORTFOLIO</span></a></li>
-												<li id="menu-item-66"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-													<a href="/?p=business"><span>BUSINESS</span></a>
-												</li>
-												<li id="menu-item-79"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-													<a href="/?p=new-contact"><span>CONTACT</span></a>
-												</li>
-											</ul>
-										</div>
-									</nav><!-- #site-navigation -->
-								</div>
-							</div>
-
-						</div>
-
-						<div class="mgnb_wrap">
-							<div class="container">
-								<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
-									<div class="menu-main-container">
-										<ul id="top-menu" class="mgnb nav navbar-nav">
-                      <li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-												<a href="/"><span>HOME</span></a>
-											</li>
-                      <li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-61">
-												<a href="/?p=about"><span>ABOUT</span></a>
-											</li>
-											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
-													href="/?p=portfolio"><span>PORTFOLIO</span></a></li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-												<a href="/?p=business"><span>BUSINESS</span></a>
-											</li>
-											<li
-												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-												<a href="/?p=new-contact"><span>CONTACT</span></a>
-											</li>
-										</ul>
-									</div>
-								</nav><!-- #site-navigation -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header><!-- #masthead -->
+    <?php
+      include_once(G5_THEME_PATH.'/header_part.php');
+    ?>
 		<div class="site-content-contain">
 
 			<div id="content" class="site-content">
@@ -110,11 +28,160 @@ include_once(G5_THEME_PATH.'/head-new.php');
 						<article id="post-2" class="post-2 page type-page status-publish hentry">
 							<div class="entry-content">
 
-              <div class="container-fluid pd0">
-                <img src="/assets/img/new/about_back.png" alt="메이크프로덕션" />
-              </div>
+                <div class="container-fluid pd0">
+                  <!-- <img src="/assets/img/new/about_back.png" alt="메이크프로덕션" /> -->
+                  <div class="about__title--wrapper">
+                    <div class="inner poheight">
+                      <div class="about__title--item">
+                        <img src="/assets/img/new/about-typo.png" alt="메이크프로덕션" />
+                      </div>
+                      <div class="about__image--item">
+                        <!-- <img src="/assets/img/new/befor.png" alt="메이크프로덕션" style="clip: rect(0px, 414px, 568px, 0px);" /> -->
+                        <!-- <img src="/assets/img/new/after.png" alt="메이크프로덕션" style="clip: rect(0px, 1100px, 568px, 414px);" />
+                        <img src="/assets/img/new/after-arw.png" alt="메이크프로덕션" id="after-arw" /> -->
+                        <div class="juxtapose">
+                            <img src="/assets/img/new/befor.png" />
+                            <img src="/assets/img/new/after.png" />
+                        </div>
+                        <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+                        <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+                      </div>
+                    </div>
+                  </div>
+                </div>
 								
+                <section class="inner" id="about_second">
+                  <div class="about__items">
+                    <div class="about__items--box">
+                      <div class="about__detail">
+                        <div class="about__detail--title">
+                          기획영상
+                        </div>
+                        <div class="about__detail--sub">
+                          현장스케치/인터뷰/홍보영상
+                        </div>
+                        <div class="about__detail--contents">
+                          크리에이티브의 퀄리티와 속도를 동시에 만족시킵니다.
+                          크리에이티브에 대한 고민은 우리 전문가들에게 맡기세요.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="about__items--box">
+                    <div class="about__detail--title">
+                          광고영상
+                        </div>
+                        <div class="about__detail--sub">
+                          바이럴/DID광고
+                        </div>
+                        <div class="about__detail--contents">
+                          올인원 체제 안에서 모든 파트간의
+                          가장 극대화된 효율지점을 찾아
+                          최적화된 광고제작 시스템의 완성을 이룹니다.
+                        </div>
+                    </div>
+                    <div class="about__items--box">
+                      <div class="about__detail--title">
+                          스트리밍 송출
+                        </div>
+                        <div class="about__detail--sub">
+                          행사영상 송출
+                        </div>
+                        <div class="about__detail--contents">
+                          다양한 이벤트를 위한 방송급 동영상
+                          환경을 제공. 여러분의 콘텐츠를 스트리밍이나
+                          VOD를 통해 라이브로 신속하고 안전하게 제공할 수 있습니다.
+                        </div>
+                    </div>
+                  </div>
+                </section>
+
 							</div>
+
+              <div class="container-fluid pd0" id="about_third">
+                <div class="inner">
+                  <div class="slick__wrapper">
+                    <div class="slick__item">
+                      <img src="/assets/img/new/eq-image01.jpg" alt="메이크프로덕션" />
+                      <img src="/assets/img/new/eq-content01.png" class="image__wrapper" alt="메이크프로덕션" />
+                    </div>
+                    <div class="slick__item">
+                      <img src="/assets/img/new/eq-image02.jpg" alt="메이크프로덕션" />
+                      <img src="/assets/img/new/eq-content021.png" class="image__wrapper" alt="메이크프로덕션" />
+                    </div>
+                  </div>
+                  <div class="equiment__list">
+                    <div class="equiment__item">
+                      <img src="/assets/img/new/simbol-01.svg" alt="메이크프로덕션" />
+                    </div>
+                    <div class="equiment__item">
+                      <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
+                    </div>
+                    <div class="equiment__item">
+                      <img src="/assets/img/new/simbol-03.svg" alt="메이크프로덕션" />
+                    </div>
+                    <div class="equiment__item">
+                      <img src="/assets/img/new/simbol-04.svg" alt="메이크프로덕션" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="demo" id="section-wipes">
+
+                <div class="container-fluid pd0" id="pinContainer">
+                  <section class="panel img1 team1">						
+                    <div class="container caption">
+                      <div class="row align-items-center">
+                        <div class="container caption">
+                          <div class="row align-items-center">
+                            <div class="col-lg-12">	
+                              <div class="caption__wrapper">
+                                <h2 class="title">SONG GUK JIN</h2>
+                                <p>CEO</p>
+                                <div class="cont">체계적인 기획으로 창의적인<br>콘텐츠를 만들어내는<br />프로덕션</div>
+                              </div>								
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="panel img2 team2">						
+                    <div class="container caption">
+                      <div class="row align-items-center">
+                      <div class="container caption">
+                          <div class="row align-items-center">
+                            <div class="col-lg-12">	
+                              <div class="caption__wrapper">
+                                <h2 class="title">ONG A REUM</h2>
+                                <p>팀장 (마케팅/기획)</p>
+                                <div class="cont">보이는 것과 보아야할 것 사이에서<br>완벽함을 추구</div>
+                              </div>								
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="panel img3 team3">						
+                    <div class="container caption">
+                      <div class="row align-items-center">
+                      <div class="container caption">
+                          <div class="row align-items-center">
+                            <div class="col-lg-12">	
+                              <div class="caption__wrapper left">
+                                <h2 class="title">SONG YU JIN</h2>
+                                <p>Designer</p>
+                                <div class="cont">열정과 아이디어로<br>소통을 디자인하다</div>
+                              </div>								
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+
 						</article>
 					</main>
 				</div>
@@ -123,76 +190,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
 		</div><!-- .site-content-contain -->
 	</div><!-- #page -->
 
-	<footer class="footer">
-			<div class="container">
-					<div class="footer-links p-relative">
-						<!-- <img src="/assets/img/pro-01.svg" alt="svg" /> -->
-							<div class="row">
-									<div class="col-md-3 dsn-col-footer">
-											<div class="footer-block">
-													<div class="footer-logo">
-															<a href=""><img src="assets/img/logo.png" alt=""></a>
-													</div>
-
-													<div class="footer-social">
-															<h5 class="" style="margin-top: 10px;">사업자등록번호</h5>
-															<p>202-10-55167</p>
-													</div>
-											</div>
-									</div>
-
-									<div class="col-md-3 dsn-col-footer">
-											<div class="footer-block col-menu">
-													<h4 class="footer-title">Navigation</h4>
-													<nav>
-															<ul>
-																	<li><a href="/">HOME</a></li>
-																	<li><a href="/?p=work">PORTFOLIO</a>
-																	</li>
-																	<!-- <li><a href="#">LOCATION</a></li> -->
-																	<li><a href="/?p=blog">BLOG</a>
-																	<li><a href="/?p=new-contact">CONTACT</a>
-																	</li>
-															</ul>
-													</nav>
-											</div>
-									</div>
-
-									<div class="col-md-3 dsn-col-footer">
-											<div class="footer-block col-contact">
-													<h4 class="footer-title">Contact</h4>
-													<p><strong>T</strong> <span>:</span><a class="link-hover"
-																	data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
-													<!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
-													<p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-																	data-hover-text="info@dsngrid.com" href="mailto:makedesgin0724@gmail.com">makedesgin0724@gmail.com</a>
-													</p>
-											</div>
-									</div>
-
-									<div class="col-md-3 dsn-col-footer">
-											<div class="col-address">
-													<h4 class="footer-title">Address</h4>
-
-													<p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
-											</div>
-									</div>
-							</div>
-					</div>
-
-					<div class="copyright">
-							<div class="text-center">
-									<p>© 2021 MAKE PRODUCTION</p>
-									<div class="copright-text over-hidden">Designed by <a class="link-hover"
-													data-hover-text="DSN Grid" href="#" target="_blank">PAM FOREST</a>
-									</div>
-							</div>
-					</div>
-			</div>
-	</footer>
-
-
-
+  <?php
+    include_once(G5_THEME_PATH.'/footer_part.php');
+  ?>
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/dsn-grid.js"></script>
 <script src="/assets/js/custom.js"></script>
@@ -200,6 +200,35 @@ include_once(G5_THEME_PATH.'/head-new.php');
 setTimeout(function() {
   document.querySelector('.pre-loader').style.display = "none";
 }, 500);
+
+$(document).ready(function(){
+  var controller = new ScrollMagic.Controller();
+  // define movement of panels
+  var wipeAnimation = new TimelineMax()
+    .fromTo("section.panel.team2", 1, {x: "-100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from left
+    .fromTo("section.panel.team3", 1, {x:  "100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from right
+    .fromTo("section.panel.team4", 1, {y: "-100%"}, {y: "0%", autoAlpha: 1, ease: Linear.easeNone}); // in from top
+  // create scene to pin and link animation
+  new ScrollMagic.Scene({
+      triggerElement: "#pinContainer",
+      triggerHook: "onLeave",
+      duration: "1000%"
+    })
+    .setPin("#pinContainer")
+    .setTween(wipeAnimation)
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+});
+
+$('.slick__wrapper').slick({
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  prevArrow: '<img class="slick__make slick__make--left" src="/assets/img/new/con_arw_l.png" alt="메이크프로덕션" />',
+  nextArrow: '<img class="slick__make slick__make--right" src="/assets/img/new/con_arw_r.png" alt="메이크프로덕션" />'
+});
+
 </script>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
