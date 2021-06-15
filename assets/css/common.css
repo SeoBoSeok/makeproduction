@@ -550,3 +550,251 @@ footer .logo {
   }
   
 }
+
+.box-info-contact {
+  position: relative;
+  background-color: #333;
+  height: 100%;
+  padding: 30px;
+}
+
+.v-light .box-info-contact {
+  background-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 991px) {
+  .v-light .box-info-contact {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* .box-info-contact {
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: transparent;
+  } */
+}
+
+.box-info-contact h3 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .box-info-contact h3 {
+    font-size: 25px;
+  }
+}
+
+.box-info-contact h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .box-info-contact h5 {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+}
+
+.box-info-contact ul li {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .box-info-contact ul li {
+    margin-top: 10px;
+  }
+}
+
+.box-info-contact ul li span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  min-width: 120px;
+}
+
+.v-light .box-info-contact ul li span {
+  color: #000;
+}
+
+@media only screen and (max-width: 400px) {
+  .box-info-contact ul li span {
+    min-width: auto;
+    margin-right: 15px;
+  }
+}
+
+.box-info-contact ul li a {
+  position: relative;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  line-height: 1.7;
+  color: white;
+}
+
+.box-info-contact ul li a::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #3535359c;
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  transition: transform 0.4s cubic-bezier(0.28, 0.38, 0, 0.81), -webkit-transform 0.4s cubic-bezier(0.28, 0.38, 0, 0.81);
+}
+
+.v-light .box-info-contact ul li a::before {
+  background-color: #bebebe;
+}
+
+.box-info-contact ul li a:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #3535359c;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  transition: transform 0.4s cubic-bezier(0.28, 0.38, 0, 0.81) 0.2s, -webkit-transform 0.4s cubic-bezier(0.28, 0.38, 0, 0.81) 0.2s;
+}
+
+.v-light .box-info-contact ul li a:after {
+  background-color: #bebebe;
+}
+
+.box-info-contact ul li a:hover::before {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.box-info-contact ul li a:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.form-box {
+  position: relative;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .form-box {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.form-box h3 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .form-box h3 {
+    font-size: 25px;
+  }
+}
+
+.form-box .form-group {
+  width: 100%;
+}
+
+.form-box .form-group .help-block {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form-box .form-group li {
+  list-style: none;
+}
+
+.entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #3535359c;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.v-light .entry {
+  border-bottom: 1px solid #bebebe;
+}
+
+@media only screen and (max-width: 767px) {
+  .entry {
+    display: block;
+  }
+}
+
+.entry input {
+  height: 100%;
+}
+
+label {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 30px;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.v-light label {
+  color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  label {
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+#map .gm-fullscreen-control,
+#map .gm-bundled-control,
+#map .gm-bundled-control-on-bottom,
+#map .gmnoprint,
+#map .gm-style-cc {
+  display: none !important;
+}
+
+.map-custom {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  pointer-events: none;
+}
+
+.bg-image {
+  background-image: url('/assets/img/new/m-pro-b.png');
+  background-size:cover;
+  height: 404px;
+}
+
+.pd0 {
+  padding:0;
+}

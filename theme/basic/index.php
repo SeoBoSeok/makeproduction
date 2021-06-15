@@ -529,7 +529,7 @@ $result = sql_query($sql);
 
 					<div class="copyright">
 							<div class="text-center">
-									<p>© 2020 MAKE PRODUCTION</p>
+									<p>© 2021 MAKE PRODUCTION</p>
 									<div class="copright-text over-hidden">Designed by <a class="link-hover"
 													data-hover-text="DSN Grid" href="#" target="_blank">PAM FOREST</a>
 									</div>

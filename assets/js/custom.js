@@ -1911,9 +1911,9 @@ function initMap() {
     setTimeout( function () {
         try {
             var map_att = $( "#map" );
-            var lat = map_att.data( "dsn-lat" );
-            var leg = map_att.data( "dsn-len" );
-            var zoom = map_att.data( "dsn-zoom" );
+            var lat = map_att.data( "lat" );
+            var leg = map_att.data( "len" );
+            var zoom = map_att.data( "zoom" );
 
             var letLeng = new google.maps.LatLng( lat, leg );
             var map = new google.maps.Map( map_id, {
