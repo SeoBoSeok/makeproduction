@@ -25,7 +25,7 @@ $result = sql_query($sql);
 				<div class="youtube__area">
 					<!-- <div id="player"></div> -->
 					<video class="bg-video__content" defaultMuted autoplay muted loop playsinline oncontextmenu="return false;" preload="auto">
-						<source src="/assets/videos/main.mp4" type="video/mp4" />
+						<source src="/assets/videos/main_new.mp4" type="video/mp4" />
 						Your browser is not supported!
 					</video>
 				</div>
