@@ -334,11 +334,13 @@ $result = sql_query($sql);
                         }
 											?>
 									</div>
-									<!-- <div class="row">
+									<div class="row" id="section_more">
 										<div class="col">
-											<button class="btn btn-lg">더보기</button>
+											<a href="/?p=portfolio">
+												<button class="btn btn-lg">더보기</button>
+											</a>
 										</div>
-									</div> -->
+									</div>
 								</div>
 							</div>
 						</article>

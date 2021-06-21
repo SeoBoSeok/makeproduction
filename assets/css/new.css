@@ -5750,3 +5750,14 @@ section.brand-client p {
   font-weight: 400;
   color: #fff;
 }
+
+#section_more {
+  padding-bottom: 80px;
+}
+
+#section_more button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
