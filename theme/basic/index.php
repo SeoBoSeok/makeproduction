@@ -11,6 +11,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
 $sql = " SELECT a.wr_subject, a.wr_content, a.wr_link1, a.wr_1, b.bf_file FROM makeproduction.g5_write_makeproduction a join makeproduction.g5_board_file b on b.wr_id = a.wr_id WHERE b.bo_table = 'makeproduction'";
 $result = sql_query($sql);
 ?>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <div class="wrap">
 		<!-- <a class="skip-link screen-reader-text" href="#content">Skip to content</a> -->
 		<?php
@@ -90,7 +93,7 @@ $result = sql_query($sql);
 								</div>
 								<div class="front-section scroll-spy" id="section4">
 									<section class="brand-client section-margin">
-									<div class="inner">
+									<div class="inner pc_process">
 											<h3 class="section-title-new back-to-position-y to-top delay-0">작업 과정</h3>
 											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
 
@@ -211,11 +214,61 @@ $result = sql_query($sql);
 																	</div>
 															</div> -->
 													</div>
+												</div>
 											</div>
+								<div class="container mobile_process">
+									<div class="row">
+										<div class="col">
+										<h3 class="section-title-new back-to-position-y to-top delay-0">작업 과정</h3>
+											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">프로젝트 의뢰</div>
+												<div class="mobile_process_detail">견적산출 및 계약</div>
+											</div>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-22.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">분석/기획</div>
+												<div class="mobile_process_detail">프로젝트 분석, 기획 및 시나리오 작업</div>
+											</div>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-33.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">고객 미팅</div>
+												<div class="mobile_process_detail">고객니즈 내 외부 환경 요소 파악</div>
+											</div>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-44.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">과업 진행</div>
+												<div class="mobile_process_detail">영상 촬영</div>
+											</div>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-55.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">후반 작업</div>
+												<div class="mobile_process_detail">편집 및 사운드를 포함한 후반작업 전반</div>
+											</div>
+											<div class="mobile_process--row">
+												<div class="img">
+													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
+												</div>
+												<div class="mobile_process_title">수정 및 납품</div>
+												<div class="mobile_process_detail">클라이언트 시사 및 컨펌, 수정, 최종완성</div>
+											</div>
+										</div>
 									</div>
+								</div>
 							</section>
 								</div>
-								<div class="front-section scroll-spy" id="section5">
+								<!-- <div class="front-section scroll-spy" id="section5">
 									<div class="inner">
 										<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
 										<p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p>
@@ -252,7 +305,7 @@ $result = sql_query($sql);
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="front-section scroll-spy" id="section6">
 								<div class="container">
 									<h3 class="section-title2 back-to-position to-right delay-0">LATEST PROJECT</h3>
@@ -286,6 +339,60 @@ $result = sql_query($sql);
 							</div>
 						</article>
 					</main>
+					<!-- CUSTOMER -->
+					<section id="customor" style="background: #fff; padding: 30px 0;">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-01.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3" style="background: #333;" >
+									<img src="/assets/img/new/client-02.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-03.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-04.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-05.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-06.svg" alt="공주시" />
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+									<img src="/assets/img/new/client-07.svg" alt="공주시" />
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- CUSTOMER -->
+					<script>
+					$('#customor .row').slick({
+						slidesToShow: 6,
+						slidesToScroll: 1,
+						autoplay: true,
+						autoplaySpeed: 2000,
+						arrows: false,
+						responsive: [ // 반응형 웹 구현 옵션
+							{  
+								breakpoint: 960, //화면 사이즈 960px
+								settings: {
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:4 
+								} 
+							},
+							{ 
+								breakpoint: 768, //화면 사이즈 768px
+								settings: {	
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:3 
+								} 
+							}
+						]
+					});
+					</script>
 				</div>
 
 			</div><!-- #content -->

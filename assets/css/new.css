@@ -318,7 +318,7 @@ th:last-child,td:last-child {	padding-right: 0;}
 --------------------------------------------------------------*/
 a {	color: #222;	text-decoration: none;}
 a:focus {	outline: thin dotted;}
-a:hover,a:active {	color: #000;	outline: 0;}
+a:hover,a:active {	color: #fff;	outline: 0;}
 
 /* Hover effects */
 .posts-navigation a,
@@ -5385,10 +5385,11 @@ footer .copyright-social ul li:last-child {
     left: 0;
   }
   .youtube__cover .make__d--img7 {
+    bottom: 30%;
     right: 0;
   }
   .youtube__cover .make__d {
-    height: 120px;
+    height: 110px;
   }
 }
 
@@ -5399,8 +5400,11 @@ footer .copyright-social ul li:last-child {
   .footer .footer-links .dsn-col-footer.not {
     margin-top: 0;
   }
+  .make__d--img7 {
+    bottom: 30%;
+  }
   .youtube__cover .make__d {
-    height: 70px;
+    height: 60px;
   }
 }
 
@@ -5675,4 +5679,74 @@ footer .copyright-social ul li:last-child {
   position: absolute;
   bottom: 0;
   left: 50%;
+}
+.mobile_process {
+  display: none;
+}
+section.brand-client p {
+  padding: 0 20px;
+}
+@media screen and (max-width: 767px) {
+  .pc_process {
+    display: none;
+  }
+  .mobile_process {
+    display: block;
+  }
+  section.brand-client h3 {
+    font-size: 22px;
+  }
+  section.brand-client p {
+    font-size: 14px;
+  }
+}
+
+.mobile_process--row {
+  width: calc(100% - 40px);
+  margin: 0 20px;
+  float: left;
+  height: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.mobile_process--row::after {
+  content: "";
+  clear: both;
+}
+
+.mobile_process--row .img {
+  width: 15%;
+  height: 50px;
+  float: left;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile_process--row img {
+  width: 30px;
+}
+
+.mobile_process_title {
+  width: 30%;
+  text-align: left;
+  height: 50px;
+  float: left;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.mobile_process_detail {
+  width: 55%;
+  text-align: left;
+  height: 50px;
+  padding-left: 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #fff;
 }
