@@ -348,7 +348,7 @@ a:hover,a:active {	color: #fff;	outline: 0;}
 .black_bg #logo a.white_logo {display: table-cell;}
 #logo img {max-width:100%; width:72px; margin:0 auto;-webkit-transition: all 0.4s ease; transition: all 0.4s ease;}
 
-.scrolled #logo {position: absolute; left: 0; top: 0; height: 47px; z-index: 3; padding-top: 10px;}
+.scrolled #logo {position: absolute; left: 0; top: 0; height: 47px; z-index: 3; padding-top: 10px; padding-bottom: 10px;}
 .scrolled #logo img {width:60px;}
 .scroll-hidden {display:block;}
 .scroll-visible {display:none;}
