@@ -420,6 +420,9 @@ video.addEventListener('loadeddata', function() {
     document.querySelector('.pre-loader').style.display = "none";
   }, 500);
 });
+setTimeout(function () {
+	document.querySelector('.pre-loader').style.display = "none";
+}, 3000);
 </script>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
