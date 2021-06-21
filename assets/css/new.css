@@ -841,10 +841,6 @@ p > embed:only-child,p > iframe:only-child,p > object:only-child {	margin-bottom
 	.recentP3 {font-size: 12px;}
 	.footer-top {padding: 35px 0;}
 	.footer-top-item1 {margin-bottom: 30px;}
-
-  .header.scrolled {
-    padding: 0 10px;
-  }
 }
 @media screen and (max-width: 600px) {
 	#wpadminbar {top: -46px;}
@@ -5355,6 +5351,9 @@ footer .copyright-social ul {
   footer .copyright-social ul {
     margin-top: 0;
     margin-bottom: 10px;
+  }
+  .header.scrolled {
+    padding: 0 10px;
   }
 }
 
