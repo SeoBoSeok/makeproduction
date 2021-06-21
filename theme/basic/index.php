@@ -8,7 +8,7 @@ if (G5_IS_MOBILE) {
 }
 
 include_once(G5_THEME_PATH.'/head-new.php');
-$sql = " SELECT a.wr_subject, a.wr_content, a.wr_link1, a.wr_1, b.bf_file FROM makeproduction.g5_write_makeproduction WHERE b.bo_table = 'makeproduction'";
+$sql = " SELECT wr_subject, wr_content, wr_link1, wr_1 FROM makeproduction.g5_write_makeproduction";
 $result = sql_query($sql);
 ?>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
