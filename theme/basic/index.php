@@ -220,7 +220,7 @@ $result = sql_query($sql);
 									<div class="row">
 										<div class="col">
 										<h3 class="section-title-new back-to-position-y to-top delay-0">작업 과정</h3>
-											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
+											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게<br />표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
 											<div class="mobile_process--row">
 												<div class="img">
 													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
