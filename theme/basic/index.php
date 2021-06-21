@@ -25,7 +25,8 @@ $result = sql_query($sql);
 				<div class="youtube__area">
 					<!-- <div id="player"></div> -->
 					<video class="bg-video__content" playsinline autoplay muted loop id="myVideo">
-						<source src="/assets/videos/main_new.mp4" type="video/mp4" />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main_new.mp4" type="video/mp4" />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type="video/mp4" />
 						Your browser is not supported!
 					</video>
 				</div>
