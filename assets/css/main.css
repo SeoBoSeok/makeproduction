@@ -574,7 +574,7 @@
 .make__d--img3 {
   position: absolute;
   top: 30%;
-  left: -50px;
+  left: 0px;
 }
 .make__d--img4 {
   position: absolute;
@@ -594,8 +594,8 @@
 }
 .make__d--img7 {
   position: absolute;
-  bottom: 20%;
-  right: -100px;
+  bottom: 25%;
+  right: 0;
 }
 #divider {
   height: 10px;

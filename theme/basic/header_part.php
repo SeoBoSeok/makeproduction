@@ -7,10 +7,10 @@
 
           <div class="col-xs-6 col-sm-12 col-md-12 brand no-pad">
             <h1 id="logo">
-              <a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="144" height="100"
-                  src="/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스" itemprop="logo" /></a>
-              <a href="/" class="white_logo" rel="home" itemprop="url"><img width="144" height="100"
-                  src="/assets/img/logo_b.png" class="custom-logo" alt="유브갓픽쳐스"
+              <a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="120" height="80"
+                  src="/assets/img/new/logo.png" class="custom-logo" alt="메이크프로덕션" itemprop="logo" /></a>
+              <a href="/" class="white_logo" rel="home" itemprop="url"><img width="120" height="80"
+                  src="/assets/img/new/logo.png" class="custom-logo" alt="메이크프로덕션"
                   itemprop="logo"></a>
             </h1>
           </div>
