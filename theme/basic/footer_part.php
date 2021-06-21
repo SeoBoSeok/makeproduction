@@ -25,7 +25,7 @@
 																	<li><a href="/?p=work">PORTFOLIO</a>
 																	</li>
 																	<!-- <li><a href="#">LOCATION</a></li> -->
-																	<li><a href="/?p=blog">BLOG</a>
+																	<!-- <li><a href="/?p=blog">BLOG</a> -->
 																	<li><a href="/?p=new-contact">CONTACT</a>
 																	</li>
 															</ul>
