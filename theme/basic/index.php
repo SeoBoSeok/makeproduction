@@ -8,7 +8,7 @@ if (G5_IS_MOBILE) {
 }
 
 include_once(G5_THEME_PATH.'/head-new.php');
-$sql = " SELECT wr_subject, wr_content, wr_link1, wr_1 FROM makeproduction.g5_write_makeproduction ORDER BY wr_id DESC ";
+$sql = " SELECT wr_subject, wr_content, wr_link1, wr_1 FROM makeproduction.g5_write_makeproduction ORDER BY wr_id DESC LIMIT 0, 6";
 $result = sql_query($sql);
 ?>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -333,8 +333,12 @@ $result = sql_query($sql);
                         <?php
                         }
 											?>
-
 									</div>
+									<!-- <div class="row">
+										<div class="col">
+											<button class="btn btn-lg">더보기</button>
+										</div>
+									</div> -->
 								</div>
 							</div>
 						</article>
