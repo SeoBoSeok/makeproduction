@@ -643,6 +643,7 @@
 
 @media only screen and (max-width: 767px) {
   .youtube {
-    height: 50vh;
+    height: 70vh;
+    top: 50px;
   }
 }

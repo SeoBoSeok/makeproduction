@@ -22,7 +22,7 @@
 													<nav>
 															<ul>
 																	<li><a href="/">HOME</a></li>
-																	<li><a href="/?p=work">PORTFOLIO</a>
+																	<li><a href="/?p=portfolio">PORTFOLIO</a>
 																	</li>
 																	<!-- <li><a href="#">LOCATION</a></li> -->
 																	<!-- <li><a href="/?p=blog">BLOG</a> -->

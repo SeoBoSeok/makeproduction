@@ -76,7 +76,7 @@
                   </li>
                   <li
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79">
-                    <a href="/?p=contact"><span>CONTACT</span></a>
+                    <a href="/?p=new-contact"><span>CONTACT</span></a>
                   </li>
                 </ul>
               </div>
