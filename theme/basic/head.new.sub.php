@@ -67,9 +67,9 @@ if($config['cf_add_meta'])
 <link href="<?php echo G5_URL ?>/assets/css/style.css" rel="stylesheet" /> -->
 <link href="<?php echo G5_URL ?>/assets/css/bootstrap.css" rel="stylesheet" />
 <link rel="stylesheet" id="simple-share-buttons-adder-font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=5.1.10" type="text/css" media="all">
-<link href="<?php echo G5_URL ?>/assets/css/new.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/main.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/common.css" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/new.css?ver=<?=G5_CSS_VER?>" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/main.css?ver=<?=G5_CSS_VER?>" rel="stylesheet" />
+<link href="<?php echo G5_URL ?>/assets/css/common.css?ver=<?=G5_CSS_VER?>" rel="stylesheet" />
 <!--[if lte IE 8]>
 <script src="<?php //echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
