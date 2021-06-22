@@ -643,7 +643,7 @@
 
 @media only screen and (max-width: 767px) {
   .youtube {
-    height: 60vh;
+    height: 65vh;
     top: 50px;
   }
   #divider::before {
