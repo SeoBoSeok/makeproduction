@@ -59,8 +59,6 @@ if($config['cf_add_meta'])
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
 <!-- custom styles (optional) -->
-<link href="<?php echo G5_URL ?>/assets/css/plugins.css" rel="stylesheet" />
-<link href="<?php echo G5_URL ?>/assets/css/style.css" rel="stylesheet" />
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
 <![endif]-->
