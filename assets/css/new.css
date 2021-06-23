@@ -4443,7 +4443,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #slider1 .owl-nav > div span {border-radius:50%;display: inline-block;width: 60px;height: 60px;font-size: 0;position: relative;}
 
 
-#section2 {padding:100px 0; background-color: #000; position: relative;}
+#section2 {padding:60px 0 20px; background-color: #000; position: relative;}
 
 #section3 {padding:100px 0;}
 .page-template-front-page .project-title {font-family:'Noto Sans'; color: #000;}
@@ -4479,7 +4479,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	.msl-caption .p1 {font-size: 13px; }
 	.msl-caption .p2 {font-size: 11px;}
 	.front-section#section1 {padding: 10px 0 40px;}
-	#section2 {padding: 50px 0;}
+	#section2 {padding: 50px 0 10px;}
 	#section3 {padding: 50px 0;}
 	.project-txtCont {height: 60px; padding: 10px 0 0;}
 	.project-title {font-size: 13px; }

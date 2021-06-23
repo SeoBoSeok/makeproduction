@@ -62,17 +62,17 @@ $result = sql_query($sql);
 											Make Production creates high quality based on the project document so that the promotional video you want can be clearly expressed.<br />
 											We will give you a new experience with brilliant ideas.
 										</h3>
-										<p class="section-desc2 back-to-position to-left delay-1">
+										<!-- <p class="section-desc2 back-to-position to-left delay-1">
 											메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.<br>
 											통통튀는 아이디어로 새로운 경험을 드리겠습니다.
-										</p>
+										</p> -->
 										<div class="pt40 mt40" style="border-top: 1px solid #fff;"></div>
 										<!-- <img src="wp-content/uploads/2020/12/youtube_logo_1201.png" alt="" class="img-responsive"
 											style="margin: 0 auto;"> -->
-										<div class="mb20"></div>
-									<p class="section-desc2  back-to-position to-right delay-2">홍보관련 업무를 한번에 진행할 수 있기 때문에 공공기관과 다양한 주식회사들과 함께 다양한 결과물을 만들어왔습니다.<br />
+										<!-- <div class="mb20"></div> -->
+									<!-- <p class="section-desc2  back-to-position to-right delay-2">홍보관련 업무를 한번에 진행할 수 있기 때문에 공공기관과 다양한 주식회사들과 함께 다양한 결과물을 만들어왔습니다.<br />
 									다른 여러 업체를 통해 번거로운 작업을 하지 않고, 메이크에서 포스터, 책디자인, 홍보영상, 교육영상등 다양한 미디어 홍보물을 손쉽게 만들어보세요.
-									</p>
+									</p> -->
 									</div>
 								</div>
 								<div class="front-section scroll-spy" id="section3">
