@@ -16,6 +16,7 @@ add_stylesheet('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/boo
 <!-- 게시판 목록 시작 { -->
 <div class="container pt-5">
 <div class="row">
+<h2 id="container_title"><?php echo $g5['title'] ?></h2>
 <div id="bo_list" style="width:<?php echo $width; ?>">
 
     <!-- 게시판 카테고리 시작 { -->

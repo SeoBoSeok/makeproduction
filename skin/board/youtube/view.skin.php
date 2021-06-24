@@ -4,10 +4,13 @@ include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
+add_stylesheet('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', 1);
 ?>
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
+<div class="container pt-5">
+<div class="row">
 <!-- 게시물 읽기 시작 { -->
 <div id="bo_v_table"><?php echo $board['bo_subject']; ?></div>
 
@@ -290,3 +293,5 @@ function excute_good(href, $el, $tx)
 $('.preloader').css('display', 'none');
 </script>
 <!-- } 게시글 읽기 끝 -->
+</div>
+</div>
