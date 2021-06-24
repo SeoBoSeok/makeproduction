@@ -10,9 +10,12 @@ if ($is_nogood) $colspan++;
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
+add_stylesheet('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', 1);
 ?>
 
 <!-- 게시판 목록 시작 { -->
+<div class="container pt-5">
+<div class="row">
 <div id="bo_list" style="width:<?php echo $width; ?>">
 
     <!-- 게시판 카테고리 시작 { -->
@@ -290,3 +293,5 @@ jQuery(function($){
 </script>
 <?php } ?>
 <!-- } 게시판 목록 끝 -->
+</div>
+</div>
