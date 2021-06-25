@@ -95,8 +95,8 @@ $result = sql_query($sql);
 								<div class="front-section scroll-spy" id="section4">
 									<section class="brand-client section-margin">
 									<div class="inner pc_process">
-											<h3 class="section-title-new back-to-position-y to-top delay-0">작업 과정</h3>
-											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
+											<h3 class="section-title-new back-to-position-y to-top delay-0">WORK PROCESS</h3>
+											<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p> -->
 
 											<div class="wapper-client">
 													<div class="logo-box back-to-position-y to-top delay-0">
