@@ -220,8 +220,8 @@ $result = sql_query($sql);
 								<div class="container mobile_process">
 									<div class="row">
 										<div class="col">
-										<h3 class="section-title-new back-to-position-y to-top delay-0">작업 과정</h3>
-											<p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게<br />표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p>
+										<h3 class="section-title-new back-to-position-y to-top delay-0">WORK PROCESS</h3>
+											<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게<br />표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p> -->
 											<div class="mobile_process--row">
 												<div class="img">
 													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
@@ -234,14 +234,14 @@ $result = sql_query($sql);
 													<img src="/assets/img/new/pro-22.svg" alt="" srcset="" />
 												</div>
 												<div class="mobile_process_title">분석/기획</div>
-												<div class="mobile_process_detail">프로젝트 분석, 기획 및 시나리오 작업</div>
+												<div class="mobile_process_detail">프로젝트 분석 및 영상 기획</div>
 											</div>
 											<div class="mobile_process--row">
 												<div class="img">
 													<img src="/assets/img/new/pro-33.svg" alt="" srcset="" />
 												</div>
 												<div class="mobile_process_title">고객 미팅</div>
-												<div class="mobile_process_detail">고객니즈 내 외부 환경 요소 파악</div>
+												<div class="mobile_process_detail">프로젝트 방향성 설정</div>
 											</div>
 											<div class="mobile_process--row">
 												<div class="img">
@@ -255,14 +255,14 @@ $result = sql_query($sql);
 													<img src="/assets/img/new/pro-55.svg" alt="" srcset="" />
 												</div>
 												<div class="mobile_process_title">후반 작업</div>
-												<div class="mobile_process_detail">편집 및 사운드를 포함한 후반작업 전반</div>
+												<div class="mobile_process_detail">색보정 및 인포메이션 정리</div>
 											</div>
 											<div class="mobile_process--row">
 												<div class="img">
 													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
 												</div>
 												<div class="mobile_process_title">수정 및 납품</div>
-												<div class="mobile_process_detail">클라이언트 시사 및 컨펌, 수정, 최종완성</div>
+												<div class="mobile_process_detail">최종 검수 및 납품</div>
 											</div>
 										</div>
 									</div>
