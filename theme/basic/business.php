@@ -87,7 +87,7 @@ Array
                         <div class="item__title">
                           <div class="left"><?= $row['ca_name'] ?>
                             <div class="month">
-                              07
+                              <?= $row['wr_2'] ?>
                             </div>
                           </div>
                           <div class="right">

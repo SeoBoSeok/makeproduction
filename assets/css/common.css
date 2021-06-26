@@ -907,7 +907,7 @@ a.jx-knightlab, a.jx-knightlab span.juxtapose-name {
   height: 100%;
 }
 .slick__wrapper {
-  top: -50px;
+  top: 50px;
 }
 .slick__make {
   position: absolute;
@@ -928,6 +928,7 @@ a.jx-knightlab, a.jx-knightlab span.juxtapose-name {
 }
 .equiment__list {
   display: flex;
+  margin-top: 100px;
 }
 .equiment__item {
   display: flex;

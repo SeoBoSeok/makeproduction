@@ -4454,7 +4454,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .page-template-front-page .project-title {font-family:'Noto Sans'; color: #000;}
 .page-template-front-page .project-customer {font-family: 'Times New Roman', Times, 'Noto Sans';color: #000;}
 
-#section4 {padding: 130px 0; background-image: url("/assets/img/new/pro_back2.png"); background-position: center; background-repeat: no-repeat;}
+#section4 {padding: 120px 0; background-image: url("/assets/img/new/main__back--section2.png"); background-repeat: no-repeat; background-size: cover;}
 #section4 iframe {max-width: 100%; width: 1000px; height: 563px;}
 
 #section5 {padding: 100px 0;}
@@ -5808,4 +5808,17 @@ section.brand-client p {
   bottom: 0;
   right: 0;
   margin: auto;
+}
+
+#section4 .row {
+  margin-top: 50px;
+}
+
+.equiment__list {
+  margin: auto;
+}
+
+.equiment__list img {
+  height: 100px;
+  margin: 0 30px;
 }

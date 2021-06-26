@@ -52,45 +52,8 @@ $result = sql_query($sql);
 					<main id="main" class="site-main" role="main">
 						<article id="post-2" class="post-2 page type-page status-publish hentry">
 							<div class="entry-content">
-
-								<!-- <div class="front-section" id="section1">
-									<h2 class="section-title">You’ve Got Pictures, ideas, peoples and more.</h2>
-									<p class="section-desc">Highlight Reels</p>
-									
-								</div> -->
-								<!-- <div id="divider"></div> -->
-								<!-- <div class="front-section scroll-spy" id="section2">
-									<div class="container standard">
-										<div style="border-top: 1px solid #fff;"></div>
-										<h3 class="section-title italic back-to-position to-right delay-0">									
-											Make Production creates high quality based on the project document<br />so that the promotional video you want can be clearly expressed.
-											
-										</h3> -->
-										<!-- We will give you a new experience with brilliant ideas. -->
-										<!-- <p class="section-desc2 back-to-position to-left delay-1">
-											메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.<br>
-											통통튀는 아이디어로 새로운 경험을 드리겠습니다.
-										</p> -->
-										<!-- <div class="pt40 mt40" style="border-top: 1px solid #fff;"></div> -->
-										<!-- <img src="wp-content/uploads/2020/12/youtube_logo_1201.png" alt="" class="img-responsive"
-											style="margin: 0 auto;"> -->
-										<!-- <div class="mb20"></div> -->
-									<!-- <p class="section-desc2  back-to-position to-right delay-2">홍보관련 업무를 한번에 진행할 수 있기 때문에 공공기관과 다양한 주식회사들과 함께 다양한 결과물을 만들어왔습니다.<br />
-									다른 여러 업체를 통해 번거로운 작업을 하지 않고, 메이크에서 포스터, 책디자인, 홍보영상, 교육영상등 다양한 미디어 홍보물을 손쉽게 만들어보세요.
-									</p> -->
-									<!-- </div>
-								</div> -->
 								<div class="front-section scroll-spy" id="section3">
 									<div class="container text-center">
-										<!-- <h3 class="section-title2 back-to-position-y to-top delay-0">SNS 영상레시피 공모전 영상 제작│공주시│공동체세움</h3>
-										<p class="section-title mb10 type5 back-to-position-y to-top delay-1">공주시 : 행사스케치 &#8211; 공동체 세움 SNS 영상 레시피 공모전</p>
-										<p class="section-desc color_a4 mb30 back-to-position-y to-top delay-2">Director : Song. KJ</p> -->
-										<!-- <div class="box1000 bdt_6b"></div> -->
-
-										<!-- <iframe
-											src="https://player.vimeo.com/video/381873881?title=0&amp;badge=0&amp;byline=0&amp;portrait=0"
-											width="100%" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen
-											allowfullscreen></iframe> -->
 											<div class="inner">
 												<div class="scale-video">
 													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/eJufEEVeCOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -100,186 +63,59 @@ $result = sql_query($sql);
 									
 								</div>
 								<div class="front-section scroll-spy" id="section4">
-									<section class="brand-client section-margin">
-									<div class="inner pc_process">
-											<h3 class="section-title-new back-to-position-y to-top delay-0">WORK PROCESS</h3>
-											<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록<br />기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p> -->
-
-											<div class="wapper-client">
-													<div class="logo-box back-to-position-y to-top delay-0">
-															<img class="process_img" data-index="1" src="/assets/img/new/pro-01.png" alt="">
-															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-
-													<div class="logo-box back-to-position-y to-top delay-1">
-															<img class="process_img" data-index="2" src="/assets/img/new/pro-02.png" alt="">
-															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-
-													<div class="logo-box back-to-position-y to-top delay-2">
-															<img class="process_img" data-index="3" src="/assets/img/new/pro-03.png" alt="">
-															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
-
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-
-													<div class="logo-box back-to-position-y to-top delay-3">
-															<img class="process_img" data-index="4" src="/assets/img/new/pro-04.png" alt="">
-															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
-
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-
-													<div class="logo-box back-to-position-y to-top delay-4">
-															<img class="process_img" data-index="5" src="/assets/img/new/pro-05.png" alt="">
-															<img class="process_anchor" src="assets/img/pd_arrow_b2.png" alt="anchor" />
-
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-
-													<div class="logo-box back-to-position-y to-top delay-5">
-															<img class="process_img" data-index="6" src="/assets/img/new/pro-06.png" alt="">
-
-															<!-- <div class="info">
-																	<div class="content">
-																			<div class="icon">
-																					<i class="fas fa-plus"></i>
-																			</div>
-
-																			<div class="entry">
-																					<div>
-																							<h5>Google</h5>
-																							<a href="#">www.google.com</a>
-																					</div>
-																			</div>
-																	</div>
-															</div> -->
-													</div>
-												</div>
+									<div class="container">
+										<h3 class="section-title-new back-to-position-y to-top delay-0 mb-5">고객사</h3>
+										<div class="row">
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0012_client-01.png" alt="공주시" />
 											</div>
-								<div class="container mobile_process">
-									<div class="row">
-										<div class="col">
-										<h3 class="section-title-new back-to-position-y to-top delay-0">WORK PROCESS</h3>
-											<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1">메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게<br />표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.</p> -->
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">프로젝트 의뢰</div>
-												<div class="mobile_process_detail">견적산출 및 계약</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0013_client-02.png" alt="공주시" />
 											</div>
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-22.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">분석/기획</div>
-												<div class="mobile_process_detail">프로젝트 분석 및 영상 기획</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0011_client-03.png" alt="공주시" />
 											</div>
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-33.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">고객 미팅</div>
-												<div class="mobile_process_detail">프로젝트 방향성 설정</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0010_client-04.png" alt="공주시" />
 											</div>
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-44.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">과업 진행</div>
-												<div class="mobile_process_detail">영상 촬영</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0009_client-05.png" alt="공주시" />
 											</div>
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-55.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">후반 작업</div>
-												<div class="mobile_process_detail">색보정 및 인포메이션 정리</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0008_client-06.png" alt="공주시" />
 											</div>
-											<div class="mobile_process--row">
-												<div class="img">
-													<img src="/assets/img/new/pro-1.svg" alt="" srcset="" />
-												</div>
-												<div class="mobile_process_title">수정 및 납품</div>
-												<div class="mobile_process_detail">최종 검수 및 납품</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0007_client-07.png" alt="공주시" />
+											</div>
+										</div>
+										<div class="row2">
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0006.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0005.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0004.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0003.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0002.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0001.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/client_0000.png" alt="공주시" />
 											</div>
 										</div>
 									</div>
 								</div>
-							</section>
-								</div>
-								<div class="front-section scroll-spy" id="section5">
+								<!-- <div class="front-section scroll-spy" id="section5">
 									<div class="inner">
 										<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
-										<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p> -->
 									</div>
 									<div class="inner">
 										<div class="clinets">
@@ -313,7 +149,7 @@ $result = sql_query($sql);
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="front-section scroll-spy" id="section6">
 								<div class="container">
 									<h3 class="section-title2 back-to-position to-right delay-0">LATEST PROJECT</h3>
@@ -383,29 +219,52 @@ $result = sql_query($sql);
 					</section> -->
 					<!-- CUSTOMER -->
 					<script>
-					// $('#customor .row').slick({
-					// 	slidesToShow: 6,
-					// 	slidesToScroll: 1,
-					// 	autoplay: true,
-					// 	autoplaySpeed: 2000,
-					// 	arrows: false,
-					// 	responsive: [ // 반응형 웹 구현 옵션
-					// 		{  
-					// 			breakpoint: 960, //화면 사이즈 960px
-					// 			settings: {
-					// 				//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-					// 				slidesToShow:4 
-					// 			} 
-					// 		},
-					// 		{ 
-					// 			breakpoint: 768, //화면 사이즈 768px
-					// 			settings: {	
-					// 				//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-					// 				slidesToShow:3 
-					// 			} 
-					// 		}
-					// 	]
-					// });
+					$('#section4 .row').slick({
+						slidesToShow: 5,
+						slidesToScroll: 1,
+						autoplay: true,
+						autoplaySpeed: 2000,
+						arrows: false,
+						responsive: [ // 반응형 웹 구현 옵션
+							{  
+								breakpoint: 960, //화면 사이즈 960px
+								settings: {
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:3 
+								} 
+							},
+							{ 
+								breakpoint: 768, //화면 사이즈 768px
+								settings: {	
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:2 
+								} 
+							}
+						]
+					});
+					$('#section4 .row2').slick({
+						slidesToShow: 5,
+						slidesToScroll: 1,
+						autoplay: true,
+						autoplaySpeed: 2000,
+						arrows: false,
+						responsive: [ // 반응형 웹 구현 옵션
+							{  
+								breakpoint: 960, //화면 사이즈 960px
+								settings: {
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:3 
+								} 
+							},
+							{ 
+								breakpoint: 768, //화면 사이즈 768px
+								settings: {	
+									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+									slidesToShow:2 
+								} 
+							}
+						]
+					});
 					</script>
 				</div>
 

@@ -49,7 +49,6 @@ include_once(G5_THEME_PATH.'/head-new.php');
                     </div>
                   </div>
                 </div>
-								
                 <!-- <section class="inner" id="about_second">
                   <div class="about__items">
                     <div class="about__items--box">
@@ -101,26 +100,30 @@ include_once(G5_THEME_PATH.'/head-new.php');
                 <div class="inner">
                   <div class="slick__wrapper">
                     <div class="slick__item">
-                      <img src="/assets/img/new/eq-image01.jpg" alt="메이크프로덕션" />
-                      <img src="/assets/img/new/eq-content01.png" class="image__wrapper" alt="메이크프로덕션" />
+                      <video muted autoplay loop>
+                          <source src="/assets/videos/section4-bg-video.mp4" type="video/mp4">
+                          <strong>Your browser does not support the video tag.</strong>
+                      </video>
+                      <!-- <img src="/assets/img/new/eq-image01.jpg" alt="메이크프로덕션" /> -->
+                      <!-- <img src="/assets/img/new/eq-content01.png" class="image__wrapper" alt="메이크프로덕션" /> -->
                     </div>
                     <div class="slick__item">
-                      <img src="/assets/img/new/eq-image02.jpg" alt="메이크프로덕션" />
-                      <img src="/assets/img/new/eq-content021.png" class="image__wrapper" alt="메이크프로덕션" />
+                      <!-- <img src="/assets/img/new/eq-image02.jpg" alt="메이크프로덕션" /> -->
+                      <!-- <img src="/assets/img/new/eq-content021.png" class="image__wrapper" alt="메이크프로덕션" /> -->
                     </div>
                   </div>
                   <div class="equiment__list">
                     <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-01.svg" alt="메이크프로덕션" />
+                      <img src="/assets/img/new/simbol-01.png" alt="메이크프로덕션" />
                     </div>
                     <div class="equiment__item">
                       <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
                     </div>
                     <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-03.svg" alt="메이크프로덕션" />
+                      <img src="/assets/img/new/simbol-03.png" alt="메이크프로덕션" />
                     </div>
                     <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-04.svg" alt="메이크프로덕션" />
+                      <img src="/assets/img/new/simbol-04.png" alt="메이크프로덕션" />
                     </div>
                   </div>
                 </div>
