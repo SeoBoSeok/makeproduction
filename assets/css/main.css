@@ -284,8 +284,8 @@
   padding-top: 56.25%; /* 16 : 9 비율의 요소 생성. */
 }
 .youtube .youtube__cover {
-  background-image: url("/assets/img/new/video_cover_pattern.png");
-  background-color: rgba(0,0,0,0.3);
+  /* background-image: url("/assets/img/new/video_cover_pattern.png"); */
+  /* background-color: rgba(0,0,0,0.3); */
   position: absolute;
   top: 0;
   left: 0;

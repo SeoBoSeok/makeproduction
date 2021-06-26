@@ -32,13 +32,13 @@ $result = sql_query($sql);
 				</div>
 				<div class="youtube__cover">
 					<div class="inner">
-						<img src="/assets/img/new/main-01.png" alt="make01" class="make__d make__d--img1">
+						<!-- <img src="/assets/img/new/main-01.png" alt="make01" class="make__d make__d--img1">
 						<img src="/assets/img/new/main-02.png" alt="make02" class="make__d make__d--img2">
 						<img src="/assets/img/new/main-03.png" alt="make03" class="make__d make__d--img3">
 						<img src="/assets/img/new/main-04.png" alt="make04" class="make__d make__d--img4">
 						<img src="/assets/img/new/main-05.png" alt="make05" class="make__d make__d--img5">
 						<img src="/assets/img/new/main-06.png" alt="make06" class="make__d make__d--img6">
-						<img src="/assets/img/new/main-07.png" alt="make07" class="make__d make__d--img7">
+						<img src="/assets/img/new/main-07.png" alt="make07" class="make__d make__d--img7"> -->
 					</div>
 				</div>
 			</section>
