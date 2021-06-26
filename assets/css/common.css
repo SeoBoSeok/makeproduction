@@ -411,7 +411,7 @@ footer .logo {
   }
   
   #section3 {
-    padding: 100px 0 50px;
+    padding: 100px 0 100px;
   }
 
   #section4 {
@@ -489,6 +489,10 @@ footer .logo {
     width: 250px;
     margin: 30px auto;
   }
+
+  #section3 {
+    padding: 200px 0 180px;
+  }
   
 }
 
@@ -523,6 +527,13 @@ footer .logo {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+
+@media (max-width: 640px) {
+  .inner {
+    width: 540px;
+  }
+}
+
 
 @media (max-width: 480px) {
   
@@ -816,10 +827,10 @@ label {
 }
 .about__image--item {
   position: absolute;
-  left: 0;
-  bottom: -300px;
-  margin-top: 50px;
-  width: 100%;
+  right: 0;
+  bottom: 0px;
+  /* margin-top: 50px; */
+  width: 74%;
 }
 .about__image--item img {
   /* position: absolute;

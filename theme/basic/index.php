@@ -32,6 +32,7 @@ $result = sql_query($sql);
 				</div>
 				<div class="youtube__cover">
 					<div class="inner">
+						<!-- <img src="/assets/img/new/production.png" alt="" srcset=""> -->
 						<!-- <img src="/assets/img/new/main-01.png" alt="make01" class="make__d make__d--img1">
 						<img src="/assets/img/new/main-02.png" alt="make02" class="make__d make__d--img2">
 						<img src="/assets/img/new/main-03.png" alt="make03" class="make__d make__d--img3">
@@ -39,6 +40,9 @@ $result = sql_query($sql);
 						<img src="/assets/img/new/main-05.png" alt="make05" class="make__d make__d--img5">
 						<img src="/assets/img/new/main-06.png" alt="make06" class="make__d make__d--img6">
 						<img src="/assets/img/new/main-07.png" alt="make07" class="make__d make__d--img7"> -->
+						<div class="main__slider--background">
+							<img src="/assets/img/new/video__layer--text.png" alt="메이크프로덕션메인텍스트" />
+						</div>
 					</div>
 				</div>
 			</section>
@@ -54,40 +58,43 @@ $result = sql_query($sql);
 									<p class="section-desc">Highlight Reels</p>
 									
 								</div> -->
-								<div id="divider"></div>
-								<div class="front-section scroll-spy" id="section2">
+								<!-- <div id="divider"></div> -->
+								<!-- <div class="front-section scroll-spy" id="section2">
 									<div class="container standard">
 										<div style="border-top: 1px solid #fff;"></div>
 										<h3 class="section-title italic back-to-position to-right delay-0">									
-											Make Production creates high quality based on the project document so that the promotional video you want can be clearly expressed.<br />
-											We will give you a new experience with brilliant ideas.
-										</h3>
+											Make Production creates high quality based on the project document<br />so that the promotional video you want can be clearly expressed.
+											
+										</h3> -->
+										<!-- We will give you a new experience with brilliant ideas. -->
 										<!-- <p class="section-desc2 back-to-position to-left delay-1">
 											메이크프로덕션은 고객님이 원하시는 홍보영상을 명확하게 표현할 수 있도록 기획서를 기반으로 높은 쿼리티를 만들어 나갑니다.<br>
 											통통튀는 아이디어로 새로운 경험을 드리겠습니다.
 										</p> -->
-										<div class="pt40 mt40" style="border-top: 1px solid #fff;"></div>
+										<!-- <div class="pt40 mt40" style="border-top: 1px solid #fff;"></div> -->
 										<!-- <img src="wp-content/uploads/2020/12/youtube_logo_1201.png" alt="" class="img-responsive"
 											style="margin: 0 auto;"> -->
 										<!-- <div class="mb20"></div> -->
 									<!-- <p class="section-desc2  back-to-position to-right delay-2">홍보관련 업무를 한번에 진행할 수 있기 때문에 공공기관과 다양한 주식회사들과 함께 다양한 결과물을 만들어왔습니다.<br />
 									다른 여러 업체를 통해 번거로운 작업을 하지 않고, 메이크에서 포스터, 책디자인, 홍보영상, 교육영상등 다양한 미디어 홍보물을 손쉽게 만들어보세요.
 									</p> -->
-									</div>
-								</div>
+									<!-- </div>
+								</div> -->
 								<div class="front-section scroll-spy" id="section3">
 									<div class="container text-center">
-										<h3 class="section-title2 back-to-position-y to-top delay-0">SNS 영상레시피 공모전 영상 제작│공주시│공동체세움</h3>
+										<!-- <h3 class="section-title2 back-to-position-y to-top delay-0">SNS 영상레시피 공모전 영상 제작│공주시│공동체세움</h3>
 										<p class="section-title mb10 type5 back-to-position-y to-top delay-1">공주시 : 행사스케치 &#8211; 공동체 세움 SNS 영상 레시피 공모전</p>
-										<p class="section-desc color_a4 mb30 back-to-position-y to-top delay-2">Director : Song. KJ</p>
-										<div class="box1000 bdt_6b"></div>
+										<p class="section-desc color_a4 mb30 back-to-position-y to-top delay-2">Director : Song. KJ</p> -->
+										<!-- <div class="box1000 bdt_6b"></div> -->
 
 										<!-- <iframe
 											src="https://player.vimeo.com/video/381873881?title=0&amp;badge=0&amp;byline=0&amp;portrait=0"
 											width="100%" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen
 											allowfullscreen></iframe> -->
-											<div class="scale-video">
-												<iframe class="back-to-position-y to-top delay-3" width="100%" height="563" src="https://www.youtube.com/embed/DbFNscyl6zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<div class="inner">
+												<div class="scale-video">
+													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/eJufEEVeCOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
 											</div>
 									</div>
 									
@@ -269,10 +276,10 @@ $result = sql_query($sql);
 								</div>
 							</section>
 								</div>
-								<!-- <div class="front-section scroll-spy" id="section5">
+								<div class="front-section scroll-spy" id="section5">
 									<div class="inner">
 										<h3 class="section-title-new back-to-position-y to-top delay-0 black">고객사</h3>
-										<p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p>
+										<!-- <p class="section-description-new mb30 back-to-position-y to-top delay-1 black">메이크프로덕션은 공공기관, 교육기관, 다양한 주식회사들과 함께 작업 하였습니다.</p> -->
 									</div>
 									<div class="inner">
 										<div class="clinets">
@@ -306,7 +313,7 @@ $result = sql_query($sql);
 											</div>
 										</div>
 									</div>
-								</div> -->
+								</div>
 								<div class="front-section scroll-spy" id="section6">
 								<div class="container">
 									<h3 class="section-title2 back-to-position to-right delay-0">LATEST PROJECT</h3>
@@ -347,7 +354,7 @@ $result = sql_query($sql);
 						</article>
 					</main>
 					<!-- CUSTOMER -->
-					<section id="customor" style="background: #fff; padding: 30px 0;">
+					<!-- <section id="customor" style="background: #fff; padding: 30px 0;">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
@@ -373,32 +380,32 @@ $result = sql_query($sql);
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> -->
 					<!-- CUSTOMER -->
 					<script>
-					$('#customor .row').slick({
-						slidesToShow: 6,
-						slidesToScroll: 1,
-						autoplay: true,
-						autoplaySpeed: 2000,
-						arrows: false,
-						responsive: [ // 반응형 웹 구현 옵션
-							{  
-								breakpoint: 960, //화면 사이즈 960px
-								settings: {
-									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-									slidesToShow:4 
-								} 
-							},
-							{ 
-								breakpoint: 768, //화면 사이즈 768px
-								settings: {	
-									//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-									slidesToShow:3 
-								} 
-							}
-						]
-					});
+					// $('#customor .row').slick({
+					// 	slidesToShow: 6,
+					// 	slidesToScroll: 1,
+					// 	autoplay: true,
+					// 	autoplaySpeed: 2000,
+					// 	arrows: false,
+					// 	responsive: [ // 반응형 웹 구현 옵션
+					// 		{  
+					// 			breakpoint: 960, //화면 사이즈 960px
+					// 			settings: {
+					// 				//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+					// 				slidesToShow:4 
+					// 			} 
+					// 		},
+					// 		{ 
+					// 			breakpoint: 768, //화면 사이즈 768px
+					// 			settings: {	
+					// 				//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+					// 				slidesToShow:3 
+					// 			} 
+					// 		}
+					// 	]
+					// });
 					</script>
 				</div>
 

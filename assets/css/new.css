@@ -4445,7 +4445,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #section2 {padding:60px 0 20px; background-color: #000; position: relative;}
 
-#section3 {padding:100px 0;}
+#section3 {padding:100px 0; background-image: url('/assets/img/new/500.png'), url('/assets/img/new/505.png'); background-position: -50px -50px, 100% 100%; background-repeat: no-repeat, no-repeat; background-size: 700px, 500px;}
+/* #section3::before {background-image: url('/assets/img/new/505.png'); background-position: 100% 0; background-repeat: no-repeat; background-size: 700px; -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);} */
 .page-template-front-page .project-title {font-family:'Noto Sans'; color: #000;}
 .page-template-front-page .project-customer {font-family: 'Times New Roman', Times, 'Noto Sans';color: #000;}
 
@@ -4909,6 +4914,9 @@ ul.tagsUl > li > a {display: block; text-align: center; color: #999; white-space
 	.page-id-1750 .landingP1.diff_landingP1 {font-size: 13px;margin-bottom: 20px;}
 	.page-id-1750 .gnb.nav.navbar-nav > li > a {padding: 10px 30px;}
 	#landingslider .owl-dots {bottom: 30px;}
+  #section3 {
+    background-size: 580px;
+  }
 }
 
 @media screen and (max-width:991px){
@@ -5009,6 +5017,9 @@ ul.tagsUl > li > a {display: block; text-align: center; color: #999; white-space
 	.landing_footer .copyright {font-size: 13px;}
 	.header.landing-header #logo img {width: 48px;}
 	.page-id-1750 #section5 iframe {height: 500px;}
+  #section3 {
+    background-size: 500px;
+  }
 }
 
 
@@ -5255,8 +5266,8 @@ footer a,
 footer p {
   color: rgba(194, 194, 194, 0.6);
   margin-bottom: 0;
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.6;
@@ -5270,6 +5281,9 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
+  #section3 {
+    background-size: 380px;
+  }
   footer a,
   footer p {
     letter-spacing: 0;
@@ -5672,16 +5686,26 @@ footer .copyright-social ul li:last-child {
   padding-right: 20px;
   font-size: 30px;
   font-weight: 700;
+  position: relative;
+}
+#section_2_1 .table .items .item__title .left .month {
+  font-family: 'Montserrat';
+  position: absolute;
+  bottom: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #807e7e;
 }
 #section_2_1 .table .items .item__title .right {
 
 }
 #section_2_1 .table .items .item__title .right .sub__title {
+  font-weight: 700;
   padding-bottom: 20px;
   margin-top: 5px;
 }
 #section_2_1 .table .items .item__title .right .sub__dsecription {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 #section_2_1 .table .items .item__title .right .sub__date {}
 #section_2_1 .table .items .item__description {flex: 1; background-image: url('/assets/img/new/signin_bg.jpg'); background-position: center; background-size: cover;}
@@ -5775,4 +5799,13 @@ section.brand-client p {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.main__slider--background {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }

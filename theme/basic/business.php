@@ -85,11 +85,14 @@ Array
                       ?>
                       <div class="items">
                         <div class="item__title">
-                          <div class="left"><?= $row['ca_name'] ?></div>
+                          <div class="left"><?= $row['ca_name'] ?>
+                            <div class="month">
+                              07
+                            </div>
+                          </div>
                           <div class="right">
                             <div class="sub__title"><?= $row['wr_subject'] ?></div>
                             <div class="sub__dsecription"><?= $row['wr_1'] ?></div>
-                            <div class="sub__date"><?= $row['wr_2'] ?></div>
                           </div>
                         </div>
                         <div class="item__description" style="background-image: url('/data/file/business/<?= $row['bf_file'] ?>')">

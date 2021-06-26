@@ -50,7 +50,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                   </div>
                 </div>
 								
-                <section class="inner" id="about_second">
+                <!-- <section class="inner" id="about_second">
                   <div class="about__items">
                     <div class="about__items--box">
                       <div class="about__detail">
@@ -93,7 +93,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                         </div>
                     </div>
                   </div>
-                </section>
+                </section> -->
 
 							</div>
 
