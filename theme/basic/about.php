@@ -213,7 +213,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 
                                 <div class="team-item slick-slide">
                                     <div class="box-img">
-                                        <img src="/assets/img/new/profile02.png" alt="">
+                                        <img src="/assets/img/new/profile03.png" alt="">
                                     </div>
                                     <div class="caption__wrapper">
                                       <h2 class="title">ONG A REUM</h2>
@@ -228,7 +228,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 
                                 <div class="team-item slick-slide">
                                     <div class="box-img">
-                                        <img src="/assets/img/new/profile03.png" alt="">
+                                        <img src="/assets/img/new/profile02.png" alt="">
                                     </div>
                                     <div class="caption__wrapper left">
                                       <h2 class="title">SONG YU JIN</h2>
