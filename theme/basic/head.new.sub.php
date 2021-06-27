@@ -53,6 +53,12 @@ if($config['cf_add_meta'])
 <meta name="keyword" content="production, make" />
 <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon" />
+<meta property="og:title" content="메이크프로덕션"> -> 콘텐츠 제목
+<meta property="og:url" content="https://makeproduction.kr">
+<meta property="og:type" content="web">
+<meta property="og:image" content="/assets/img/new/logo.png">
+<meta property="og:site_name" content="메이크 프로덕션">
+<meta property="og:description" content="체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.">
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
 <!-- Font Google -->
