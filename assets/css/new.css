@@ -5678,7 +5678,7 @@ footer .copyright-social ul li:last-child {
 #section_2_1 .table .items:first-child {border-top: 2px solid #333;}
 #section_2_1 .table .items:last-child {border-bottom: 2px solid #333;}
 #section_2_1 .table .items .item__title {
-  width: 400px;
+  width: 600px;
   padding: 40px 20px;
   display: flex;
 }
@@ -5691,7 +5691,6 @@ footer .copyright-social ul li:last-child {
 #section_2_1 .table .items .item__title .left .month {
   font-family: 'Montserrat';
   position: absolute;
-  bottom: 0;
   font-size: 48px;
   font-weight: 700;
   color: #807e7e;

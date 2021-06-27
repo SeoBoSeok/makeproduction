@@ -87,7 +87,7 @@ Array
                         <div class="item__title">
                           <div class="left"><?= $row['ca_name'] ?>
                             <div class="month">
-                              <?= $row['wr_2'] ?>
+                              <?= substr($row['wr_2'], 0, 2) ?>
                             </div>
                           </div>
                           <div class="right">
@@ -95,9 +95,22 @@ Array
                             <div class="sub__dsecription"><?= $row['wr_1'] ?></div>
                           </div>
                         </div>
-                        <div class="item__description" style="background-image: url('/data/file/business/<?= $row['bf_file'] ?>')">
-                            
-                        </div>
+                        <?php
+                          if (isset($row['wr_link1'])) {
+                            // echo $row['wr_link1'];
+                            preg_match('/^.*(?:(?:youtu\\.be\\/|v\\/|vi\\/|u\\/\\w\\/|embed\\/)|(?:(?:watch)?\\?v(?:i)?=|\\&v(?:i)?=))([^#\\&\\?]*).*/', $row['wr_link1'], $matches);
+                            // var_dump($matches);
+                        ?>
+                        <a href="https://www.youtube.com/watch?v=<?=end($matches)?>&feature=emb_logo" class="vid">
+                          <img src="https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg" alt="thumbnail" />
+                        </a>
+                        <?php
+                          } else {
+                        ?>
+                          <div class="item__description" style="background-image: url('/data/file/business/<?= $row['bf_file'] ?>')"></div>
+                        <?php
+                          }
+                        ?>
                       </div>
                       <?php
                       }
