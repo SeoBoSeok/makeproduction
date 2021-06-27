@@ -128,10 +128,10 @@ include_once(G5_THEME_PATH.'/head-new.php');
                   </div>
                 </div>
               </div>
-              <section class="demo" id="section-wipes">
+              <!-- <section class="demo" id="section-wipes">
 
-                <div class="container-fluid pd0" id="pinContainer">
-                  <section class="panel img1 team1">						
+                <div class="container-fluid pd0" id="pinContainer"> -->
+                  <!-- <section class="panel img1 team1">						
                     <div class="container caption">
                       <div class="row align-items-center">
                         <div class="container caption">
@@ -147,8 +147,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
                         </div>
                       </div>
                     </div>
-                  </section>
-                  <section class="panel img2 team2">						
+                  </section> -->
+                  
+                  <!-- <section class="panel img2 team2">						
                     <div class="container caption">
                       <div class="row align-items-center">
                       <div class="container caption">
@@ -181,10 +182,68 @@ include_once(G5_THEME_PATH.'/head-new.php');
                         </div>
                       </div>
                     </div>
-                  </section>
-                </div>
-              </section>
+                  </section> -->
+                <!-- </div>
+              </section> -->
+              <section class="our-team section-margin section-padding" id="teamMember">
+                    <div class="container">
+                        <!-- <div class="one-title">
+                            <div class="title-sub-container">
+                                <p class="title-sub">our team</p>
+                            </div>
+                            <h2 class="title-main">The best team ever!</h2>
+                        </div> -->
 
+                        <div class="custom-container">
+                            <div class="slick-slider">
+                                <div class="team-item slick-slide">
+                                    <div class="box-img">
+                                        <img src="/assets/img/new/profile01.png" alt="">
+                                    </div>
+                                    <div class="caption__wrapper">
+                                      <h2 class="title">SONG GUK JIN</h2>
+                                      <p>CEO</p>
+                                      <div class="cont">체계적인 기획으로 창의적인<br>콘텐츠를 만들어내는<br />프로덕션</div>
+                                    </div>
+                                    <!-- <div class="box-content">
+                                        <h4>송국진</h4>
+                                        <p>CEO</p>
+                                    </div> -->
+                                </div>
+
+                                <div class="team-item slick-slide">
+                                    <div class="box-img">
+                                        <img src="/assets/img/new/profile02.png" alt="">
+                                    </div>
+                                    <div class="caption__wrapper">
+                                      <h2 class="title">ONG A REUM</h2>
+                                      <p>팀장 (마케팅/기획)</p>
+                                      <div class="cont">보이는 것과 보아야할 것 사이에서<br>완벽함을 추구</div>
+                                    </div>	
+                                    <!-- <div class="box-content">
+                                        <h4>옹아름</h4>
+                                        <p>팀장 (기획, 마케팅)</p>
+                                    </div> -->
+                                </div>
+
+                                <div class="team-item slick-slide">
+                                    <div class="box-img">
+                                        <img src="/assets/img/new/profile03.png" alt="">
+                                    </div>
+                                    <div class="caption__wrapper left">
+                                      <h2 class="title">SONG YU JIN</h2>
+                                      <p>Designer</p>
+                                      <div class="cont">열정과 아이디어로<br>소통을 디자인하다</div>
+                                    </div>	  
+                                    <!-- <div class="box-content">
+                                        <h4>유진</h4>
+                                        <p>디자이너</p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 						</article>
 					</main>
 				</div>
@@ -204,24 +263,24 @@ setTimeout(function() {
   document.querySelector('.pre-loader').style.display = "none";
 }, 500);
 
-$(document).ready(function(){
-  var controller = new ScrollMagic.Controller();
-  // define movement of panels
-  var wipeAnimation = new TimelineMax()
-    .fromTo("section.panel.team2", 1, {x: "-100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from left
-    .fromTo("section.panel.team3", 1, {x:  "100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from right
-    .fromTo("section.panel.team4", 1, {y: "-100%"}, {y: "0%", autoAlpha: 1, ease: Linear.easeNone}); // in from top
-  // create scene to pin and link animation
-  new ScrollMagic.Scene({
-      triggerElement: "#pinContainer",
-      triggerHook: "onLeave",
-      duration: "1000%"
-    })
-    .setPin("#pinContainer")
-    .setTween(wipeAnimation)
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-});
+// $(document).ready(function(){
+//   var controller = new ScrollMagic.Controller();
+//   // define movement of panels
+//   var wipeAnimation = new TimelineMax()
+//     .fromTo("section.panel.team2", 1, {x: "-100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from left
+//     .fromTo("section.panel.team3", 1, {x:  "100%"}, {x: "0%", autoAlpha: 1, ease: Linear.easeNone})  // in from right
+//     .fromTo("section.panel.team4", 1, {y: "-100%"}, {y: "0%", autoAlpha: 1, ease: Linear.easeNone}); // in from top
+//   // create scene to pin and link animation
+//   new ScrollMagic.Scene({
+//       triggerElement: "#pinContainer",
+//       triggerHook: "onLeave",
+//       duration: "1000%"
+//     })
+//     .setPin("#pinContainer")
+//     .setTween(wipeAnimation)
+//     //.addIndicators() // add indicators (requires plugin)
+//     .addTo(controller);
+// });
 
 $('.slick__wrapper').slick({
   infinite: true,

@@ -5821,3 +5821,26 @@ section.brand-client p {
   height: 100px;
   margin: 0 30px;
 }
+#teamMember {
+  position: relative;
+  background-color: #E2E2E2;
+}
+#teamMember .box-img {
+  float: left;
+}
+#teamMember .caption__wrapper {
+  margin-top: 100px;
+  float: left;
+}
+#teamMember .caption__wrapper h2 {
+  font-size: 40px;
+}
+#teamMember .caption__wrapper p {
+  font-size: 32px;
+}
+#teamMember .caption__wrapper .cont {
+  font-size: 28px;
+}
+#teamMember img {
+  height: 500px;
+}

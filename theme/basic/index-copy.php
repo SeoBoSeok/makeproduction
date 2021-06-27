@@ -497,17 +497,6 @@ include_once(G5_THEME_PATH.'/head.php');
                                     <p>디자이너</p>
                                 </div>
                             </div>
-
-                            <!-- <div class="team-item slick-slide">
-                                <div class="box-img">
-                                    <img src="assets/img/member4.jpg" alt="">
-                                </div>
-
-                                <div class="box-content">
-                                    <h4>신승철</h4>
-                                    <p>Assistant Director</p>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>

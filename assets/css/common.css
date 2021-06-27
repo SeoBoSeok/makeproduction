@@ -877,7 +877,7 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#pinContainer .panel {
+/* #pinContainer .panel {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -898,7 +898,7 @@ label {
 }
 #pinContainer .panel.img3 {
   background-image: url('/assets/img/new/profile02.png');
-}
+} */
 a.jx-knightlab, a.jx-knightlab span.juxtapose-name {
   display: none!important;
 }
@@ -999,7 +999,7 @@ section .team6 p,
 section .team6 .cont {
 	color: #fff;
 }
-
+/* 
 .caption__wrapper {
   position: absolute;
   right:50px;
@@ -1007,7 +1007,7 @@ section .team6 .cont {
 .caption__wrapper.left {
   position: absolute;
   left:50px;
-}
+} */
 
 @media (min-width: 992px) {
 	.content-wrapper .front {

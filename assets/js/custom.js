@@ -133,12 +133,31 @@
         } );
 
 
-        $( " .our-news .slick-slider , .our-team .slick-slider , [data-dsn-col=\"2\"] .slick-slider" ).slick( {
+        $( " .our-news .slick-slider , [data-dsn-col=\"2\"] .slick-slider" ).slick( {
             infinite : true,
             slidesToShow : 2,
             arrows : false,
             dots : true,
             autoplay: true,
+            responsive : [
+
+                {
+                    breakpoint : 800,
+                    settings : {
+                        slidesToShow : 1,
+                        slidesToScroll : 1,
+                    },
+                },
+
+            ],
+        } );
+
+        $( ".our-team .slick-slider" ).slick( {
+            infinite : true,
+            slidesToShow : 1,
+            arrows : false,
+            dots : false,
+            autoplay: false,
             responsive : [
 
                 {
