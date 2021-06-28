@@ -40,7 +40,7 @@
 																	data-hover-text="010-5120-6024" href="tel:010-5120-6024" style="width:200px;">010-5120-6024</a></p>
 													<!-- <p><strong>F</strong> <span>:</span>+001 225 3351</p> -->
 													<p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-																	data-hover-text="info@dsngrid.com" href="mailto:makedesgin0724@gmail.com">makedesgin0724@gmail.com</a>
+																	data-hover-text="info@dsngrid.com" href="mailto:makedesign0724@gmail.com">makedesign0724@gmail.com</a>
 													</p>
 											</div>
 									</div>
@@ -49,7 +49,7 @@
 											<div class="col-address">
 													<h4 class="footer-title">Address</h4>
 
-													<p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 감영길 9</a></p>
+													<p><a href="https://map.kakao.com/link/to/메이크프로덕션,36.4528689,127.1223874" target="_blank">충남 공주시 공주대학로 56 산학연구관 222호</a></p>
 											</div>
 									</div>
 							</div>
