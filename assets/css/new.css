@@ -5862,3 +5862,47 @@ section.brand-client p {
     float: right;
   }
 }
+
+@media screen and (max-width: 700px) {
+  #section_2_1 .table .items {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #section_2_1 .table .items .item__title {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+  }
+  #section_2_1 .table .items .item__description {
+    width: 100%;
+  }
+  #section_2_1 .table .items .item__description img {
+    float: none;
+    margin: 0 auto;
+  }
+  #section_2_1 .table .items .item__title .left {
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+  }
+  #section_2_1 .table .items .item__title .left .month {
+    font-family: 'Montserrat';
+    position: absolute;
+    font-size: 48px;
+    font-weight: 700;
+    color: #807e7e;
+  }
+  #section_2_1 .table .items .item__title .right {
+  
+  }
+  #section_2_1 .table .items .item__title .right .sub__title {
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-top: 5px;
+  }
+  #section_2_1 .table .items .item__title .right .sub__dsecription {
+    /* padding-bottom: 20px; */
+  }
+  #section_2_1 .table .items .item__title .right .sub__date {}
+}
