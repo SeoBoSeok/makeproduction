@@ -8,7 +8,7 @@ if (G5_IS_MOBILE) {
 }
 
 include_once(G5_THEME_PATH.'/head-new.php');
-$sql = " SELECT wr_subject, wr_content, wr_link1, wr_1 FROM makeproduction.g5_write_makeproduction ";
+$sql = " SELECT wr_subject, wr_content, wr_link1, wr_1 FROM makeproduction.g5_write_makeproduction ORDER BY wr_datetime DESC ";
 $result = sql_query($sql);
 ?>
 <div class="wrap">
