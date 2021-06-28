@@ -877,6 +877,9 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#about_third .inner {
+  margin-top: 40px;
+}
 /* #pinContainer .panel {
   height: 100%;
   width: 100%;

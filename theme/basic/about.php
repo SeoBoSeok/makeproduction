@@ -10,9 +10,8 @@ if (G5_IS_MOBILE) {
 include_once(G5_THEME_PATH.'/head-new.php');
 ?>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
 <div class="wrap">
 		<!-- <a class="skip-link screen-reader-text" href="#content">Skip to content</a> -->
@@ -44,7 +43,6 @@ include_once(G5_THEME_PATH.'/head-new.php');
                             <img src="/assets/img/new/after.png" />
                         </div>
                         <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-                        <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
                       </div>
                     </div>
                   </div>
@@ -97,7 +95,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 							</div>
 
               <div class="container-fluid pd0" id="about_third">
-                <div class="inner">
+                <div class="container">
                   <div class="slick__wrapper">
                     <div class="slick__item">
                       <video muted autoplay loop>
@@ -107,15 +105,38 @@ include_once(G5_THEME_PATH.'/head-new.php');
                       <!-- <img src="/assets/img/new/eq-image01.jpg" alt="메이크프로덕션" /> -->
                       <!-- <img src="/assets/img/new/eq-content01.png" class="image__wrapper" alt="메이크프로덕션" /> -->
                     </div>
-                    <div class="slick__item">
+                    <!-- <div class="slick__item"> -->
                       <!-- <img src="/assets/img/new/eq-image02.jpg" alt="메이크프로덕션" /> -->
                       <!-- <img src="/assets/img/new/eq-content021.png" class="image__wrapper" alt="메이크프로덕션" /> -->
+                    <!-- </div> -->
+                  </div>
+                  <div class="container" id="equipments">
+                    <div class="row">
+                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="equiment__item">
+                          <img src="/assets/img/new/simbol-01.png" alt="메이크프로덕션" />
+                        </div>
+                      </div>
+                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="equiment__item">
+                          <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
+                        </div>
+                      </div>
+                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="equiment__item">
+                          <img src="/assets/img/new/simbol-03.png" alt="메이크프로덕션" />
+                        </div>
+                      </div>
+                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="equiment__item">
+                          <img src="/assets/img/new/simbol-04.png" alt="메이크프로덕션" />
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="equiment__list">
-                    <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-01.png" alt="메이크프로덕션" />
-                    </div>
+                </div>
+                  <!-- <div class="equiment__list">
+                    
                     <div class="equiment__item">
                       <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
                     </div>
@@ -125,8 +146,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                     <div class="equiment__item">
                       <img src="/assets/img/new/simbol-04.png" alt="메이크프로덕션" />
                     </div>
-                  </div>
-                </div>
+                  </div> -->
               </div>
               <!-- <section class="demo" id="section-wipes">
 

@@ -157,7 +157,7 @@
             slidesToShow : 1,
             arrows : false,
             dots : false,
-            autoplay: false,
+            autoplay: true,
             responsive : [
 
                 {

@@ -661,3 +661,16 @@
     bottom: 15%;
   }
 }
+
+#equipments {
+  margin-top: 100px;
+}
+
+#equipments img {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+#equipments .equiment__item {
+  text-align: center;
+}
