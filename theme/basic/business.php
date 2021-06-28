@@ -25,7 +25,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                     <div class="title">BUSINESS</div>
                     <div class="category">
                       <div class="cat_items">
-                        <div class="cat_item">전체보기</div>
+                        <div class="cat_item">전체</div>
                         <div class="cat_item">2021</div>
                         <div class="cat_item">2020</div>
                         <div class="cat_item">2019</div>
@@ -95,6 +95,7 @@ Array
                             <div class="sub__dsecription"><?= $row['wr_1'] ?></div>
                           </div>
                         </div>
+                        <div class="item__description">
                         <?php
                           if (isset($row['wr_link1'])) {
                             // echo $row['wr_link1'];
@@ -111,6 +112,7 @@ Array
                         <?php
                           }
                         ?>
+                        </div>
                       </div>
                       <?php
                       }

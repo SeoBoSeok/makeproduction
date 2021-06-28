@@ -5678,9 +5678,15 @@ footer .copyright-social ul li:last-child {
 #section_2_1 .table .items:first-child {border-top: 2px solid #333;}
 #section_2_1 .table .items:last-child {border-bottom: 2px solid #333;}
 #section_2_1 .table .items .item__title {
-  width: 600px;
+  width: 40%;
   padding: 40px 20px;
   display: flex;
+}
+#section_2_1 .table .items .item__description {
+  width: 60%;
+}
+#section_2_1 .table .items .item__description img {
+  float: right;
 }
 #section_2_1 .table .items .item__title .left {
   padding-right: 20px;
@@ -5707,7 +5713,6 @@ footer .copyright-social ul li:last-child {
   /* padding-bottom: 20px; */
 }
 #section_2_1 .table .items .item__title .right .sub__date {}
-#section_2_1 .table .items .item__description {flex: 1; background-image: url('/assets/img/new/signin_bg.jpg'); background-position: center; background-size: cover;}
 
 .youtube .youtube__cover::after {
   content: "";
