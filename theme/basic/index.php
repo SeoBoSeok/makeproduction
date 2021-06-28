@@ -56,7 +56,7 @@ $result = sql_query($sql);
 									<div class="container text-center">
 											<div class="inner">
 												<div class="scale-video">
-													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/eJufEEVeCOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/WX2F-s8opsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
 									</div>
