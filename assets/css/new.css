@@ -5827,6 +5827,7 @@ section.brand-client p {
 }
 #teamMember .box-img {
   float: left;
+  width: 50%;
 }
 #teamMember .caption__wrapper {
   margin-top: 100px;
@@ -5843,4 +5844,16 @@ section.brand-client p {
 }
 #teamMember img {
   height: 500px;
+}
+@media screen and (max-width: 800px) {
+  #teamMember .box-img {
+    width: 100%;
+    float: left;
+  }
+  #teamMember .custom-container {
+
+  }
+  #teamMember .caption__wrapper {
+    float: right;
+  }
 }

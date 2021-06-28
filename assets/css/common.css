@@ -814,7 +814,6 @@ label {
 .container-fluid.pd0 {
   background-image: url('/assets/img/new/about_back.png');
   background-size:cover;
-  height: 80vh;
   position: relative;
 }
 .about__title--wrapper {
@@ -826,11 +825,13 @@ label {
   padding-bottom: 150px;
 }
 .about__image--item {
-  position: absolute;
-  right: 0;
-  bottom: 0px;
+  /* position: absolute; */
+  /* right: 0;
+  bottom: 0px; */
   /* margin-top: 50px; */
-  width: 74%;
+  /* width: 74%; */
+  width: 80%;
+  margin: 40px auto 80px;
 }
 .about__image--item img {
   /* position: absolute;
@@ -872,7 +873,7 @@ label {
   text-align: center;
 }
 #about_third {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url('/assets/img/new/eq_back.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -1022,4 +1023,5 @@ section .team6 .cont {
 }
 @media (max-width: 991px) {
 	section .caption {display: none !important;}
+  .about__image--item {width: 100%}
 }

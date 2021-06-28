@@ -660,10 +660,14 @@
   .make__d--img6 {
     bottom: 15%;
   }
+  #equipments img {
+    height: 50px;
+  }
 }
 
 #equipments {
   margin-top: 100px;
+  padding-bottom: 40px;
 }
 
 #equipments img {
@@ -673,4 +677,10 @@
 
 #equipments .equiment__item {
   text-align: center;
+}
+#about_third .slick__wrapper {
+  padding-top: 40px;
+}
+#about_third .slick__wrapper::after {
+  clear: both;
 }

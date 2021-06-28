@@ -30,68 +30,29 @@ include_once(G5_THEME_PATH.'/head-new.php');
                 <div class="container-fluid pd0">
                   <!-- <img src="/assets/img/new/about_back.png" alt="메이크프로덕션" /> -->
                   <div class="about__title--wrapper">
-                    <div class="inner poheight">
+                    <div class="inner">
                       <div class="about__title--item">
                         <img src="/assets/img/new/about-typo.png" alt="메이크프로덕션" />
                       </div>
-                      <div class="about__image--item">
-                        <!-- <img src="/assets/img/new/befor.png" alt="메이크프로덕션" style="clip: rect(0px, 414px, 568px, 0px);" /> -->
-                        <!-- <img src="/assets/img/new/after.png" alt="메이크프로덕션" style="clip: rect(0px, 1100px, 568px, 414px);" />
-                        <img src="/assets/img/new/after-arw.png" alt="메이크프로덕션" id="after-arw" /> -->
-                        <div class="juxtapose">
-                            <img src="/assets/img/new/befor.png" />
-                            <img src="/assets/img/new/after.png" />
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <div class="about__image--item">
+                              <!-- <img src="/assets/img/new/befor.png" alt="메이크프로덕션" style="clip: rect(0px, 414px, 568px, 0px);" /> -->
+                              <!-- <img src="/assets/img/new/after.png" alt="메이크프로덕션" style="clip: rect(0px, 1100px, 568px, 414px);" />
+                              <img src="/assets/img/new/after-arw.png" alt="메이크프로덕션" id="after-arw" /> -->
+                              <div class="juxtapose">
+                                  <img src="/assets/img/new/befor.png" />
+                                  <img src="/assets/img/new/after.png" />
+                              </div>
+                              <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+                            </div>
+                          </div>
                         </div>
-                        <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- <section class="inner" id="about_second">
-                  <div class="about__items">
-                    <div class="about__items--box">
-                      <div class="about__detail">
-                        <div class="about__detail--title">
-                          기획영상
-                        </div>
-                        <div class="about__detail--sub">
-                          현장스케치/인터뷰/홍보영상
-                        </div>
-                        <div class="about__detail--contents">
-                          크리에이티브의 퀄리티와 속도를 동시에 만족시킵니다.
-                          크리에이티브에 대한 고민은 우리 전문가들에게 맡기세요.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="about__items--box">
-                    <div class="about__detail--title">
-                          광고영상
-                        </div>
-                        <div class="about__detail--sub">
-                          바이럴/DID광고
-                        </div>
-                        <div class="about__detail--contents">
-                          올인원 체제 안에서 모든 파트간의
-                          가장 극대화된 효율지점을 찾아
-                          최적화된 광고제작 시스템의 완성을 이룹니다.
-                        </div>
-                    </div>
-                    <div class="about__items--box">
-                      <div class="about__detail--title">
-                          스트리밍 송출
-                        </div>
-                        <div class="about__detail--sub">
-                          행사영상 송출
-                        </div>
-                        <div class="about__detail--contents">
-                          다양한 이벤트를 위한 방송급 동영상
-                          환경을 제공. 여러분의 콘텐츠를 스트리밍이나
-                          VOD를 통해 라이브로 신속하고 안전하게 제공할 수 있습니다.
-                        </div>
-                    </div>
-                  </div>
-                </section> -->
-
 							</div>
 
               <div class="container-fluid pd0" id="about_third">
@@ -112,22 +73,22 @@ include_once(G5_THEME_PATH.'/head-new.php');
                   </div>
                   <div class="container" id="equipments">
                     <div class="row">
-                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                      <div class="col col-xs-6 col-sm-3 col-lg-3 col-md-3">
                         <div class="equiment__item">
                           <img src="/assets/img/new/simbol-01.png" alt="메이크프로덕션" />
                         </div>
                       </div>
-                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                      <div class="col col-xs-6 col-sm-3 col-lg-3 col-md-3">
                         <div class="equiment__item">
                           <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
                         </div>
                       </div>
-                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                      <div class="col col-xs-6 col-sm-3 col-lg-3 col-md-3">
                         <div class="equiment__item">
                           <img src="/assets/img/new/simbol-03.png" alt="메이크프로덕션" />
                         </div>
                       </div>
-                      <div class="col col-lg-3 col-md-3 col-sm-6">
+                      <div class="col col-xs-6 col-sm-3 col-lg-3 col-md-3">
                         <div class="equiment__item">
                           <img src="/assets/img/new/simbol-04.png" alt="메이크프로덕션" />
                         </div>
@@ -135,85 +96,10 @@ include_once(G5_THEME_PATH.'/head-new.php');
                     </div>
                   </div>
                 </div>
-                  <!-- <div class="equiment__list">
-                    
-                    <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-02.svg" alt="메이크프로덕션" />
-                    </div>
-                    <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-03.png" alt="메이크프로덕션" />
-                    </div>
-                    <div class="equiment__item">
-                      <img src="/assets/img/new/simbol-04.png" alt="메이크프로덕션" />
-                    </div>
-                  </div> -->
               </div>
-              <!-- <section class="demo" id="section-wipes">
 
-                <div class="container-fluid pd0" id="pinContainer"> -->
-                  <!-- <section class="panel img1 team1">						
-                    <div class="container caption">
-                      <div class="row align-items-center">
-                        <div class="container caption">
-                          <div class="row align-items-center">
-                            <div class="col-lg-12">	
-                              <div class="caption__wrapper">
-                                <h2 class="title">SONG GUK JIN</h2>
-                                <p>CEO</p>
-                                <div class="cont">체계적인 기획으로 창의적인<br>콘텐츠를 만들어내는<br />프로덕션</div>
-                              </div>								
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section> -->
-                  
-                  <!-- <section class="panel img2 team2">						
-                    <div class="container caption">
-                      <div class="row align-items-center">
-                      <div class="container caption">
-                          <div class="row align-items-center">
-                            <div class="col-lg-12">	
-                              <div class="caption__wrapper">
-                                <h2 class="title">ONG A REUM</h2>
-                                <p>팀장 (마케팅/기획)</p>
-                                <div class="cont">보이는 것과 보아야할 것 사이에서<br>완벽함을 추구</div>
-                              </div>								
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section class="panel img3 team3">						
-                    <div class="container caption">
-                      <div class="row align-items-center">
-                      <div class="container caption">
-                          <div class="row align-items-center">
-                            <div class="col-lg-12">	
-                              <div class="caption__wrapper left">
-                                <h2 class="title">SONG YU JIN</h2>
-                                <p>Designer</p>
-                                <div class="cont">열정과 아이디어로<br>소통을 디자인하다</div>
-                              </div>								
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section> -->
-                <!-- </div>
-              </section> -->
               <section class="our-team section-margin section-padding" id="teamMember">
                     <div class="container">
-                        <!-- <div class="one-title">
-                            <div class="title-sub-container">
-                                <p class="title-sub">our team</p>
-                            </div>
-                            <h2 class="title-main">The best team ever!</h2>
-                        </div> -->
-
                         <div class="custom-container">
                             <div class="slick-slider">
                                 <div class="team-item slick-slide">
@@ -225,10 +111,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                                       <p>CEO</p>
                                       <div class="cont">체계적인 기획으로 창의적인<br>콘텐츠를 만들어내는<br />프로덕션</div>
                                     </div>
-                                    <!-- <div class="box-content">
-                                        <h4>송국진</h4>
-                                        <p>CEO</p>
-                                    </div> -->
+                                    
                                 </div>
 
                                 <div class="team-item slick-slide">
@@ -240,10 +123,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                                       <p>팀장 (마케팅/기획)</p>
                                       <div class="cont">보이는 것과 보아야할 것 사이에서<br>완벽함을 추구</div>
                                     </div>	
-                                    <!-- <div class="box-content">
-                                        <h4>옹아름</h4>
-                                        <p>팀장 (기획, 마케팅)</p>
-                                    </div> -->
+                                   
                                 </div>
 
                                 <div class="team-item slick-slide">
@@ -255,10 +135,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                                       <p>Designer</p>
                                       <div class="cont">열정과 아이디어로<br>소통을 디자인하다</div>
                                     </div>	  
-                                    <!-- <div class="box-content">
-                                        <h4>유진</h4>
-                                        <p>디자이너</p>
-                                    </div> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -307,8 +184,8 @@ $('.slick__wrapper').slick({
   speed: 500,
   fade: true,
   cssEase: 'linear',
-  prevArrow: '<img class="slick__make slick__make--left" src="/assets/img/new/con_arw_l.png" alt="메이크프로덕션" />',
-  nextArrow: '<img class="slick__make slick__make--right" src="/assets/img/new/con_arw_r.png" alt="메이크프로덕션" />'
+  // prevArrow: '<img class="slick__make slick__make--left" src="/assets/img/new/con_arw_l.png" alt="메이크프로덕션" />',
+  // nextArrow: '<img class="slick__make slick__make--right" src="/assets/img/new/con_arw_r.png" alt="메이크프로덕션" />'
 });
 
 </script>
