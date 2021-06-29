@@ -5712,6 +5712,11 @@ footer .copyright-social ul li:last-child {
   padding: 40px 20px;
   display: flex;
 }
+#section_2_1 .table .items .item__title:hover {
+  color:rgba(0, 0, 0, .85);
+  cursor: pointer;
+  background-color: rgba(245, 191, 65, .1);
+}
 #section_2_1 .table .items .item__description {
   position: relative;
   width: 45%;

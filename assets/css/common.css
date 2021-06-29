@@ -1012,6 +1012,113 @@ section .team6 .cont {
   position: absolute;
   left:50px;
 } */
+
+#sb-view .titWrap {
+  position: relative;
+  border-top: 2px solid #545c73;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+#sb-view .titWrap .sbj {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  display: block;
+  padding-right: 220px;
+  font-weight: normal;
+}
+
+#sb-view .titWrap .info {
+  text-align: right;
+  position: absolute;
+  top: 23px;
+  right: 20px;
+}
+
+#sb-view .titWrap .info li {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+#sb-view .titWrap .info li em {
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: normal;
+}
+#sb-view .memoWrap {
+  padding: 50px 10px;
+  min-height: 300px;
+  word-break: break-all;
+  border-bottom: 1px solid #ddd;
+}
+#sb-footer {
+  position: relative;
+  margin-top: 50px;
+  min-height: 35px;
+  text-align: center;
+}
+#sb-footer .left {
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+.sb-btn {
+  padding: 10px;
+}
+.sb-btn.type3 {
+  background: #f7f7f7;
+  background: linear-gradient(
+180deg
+, #ffffff 30%, #f7f7f7 100%);
+  border: 1px solid #ddd;
+  color: #000000 !important;
+}
+.sb-btn.type4 {
+  background: #eaeaea;
+  background: linear-gradient(
+180deg
+, #eaeaea 30%, #d4d4d4 100%);
+  border: 1px solid #d4d4d4;
+  color: #323a45 !important;
+}
+@media screen and (max-width: 750px) {
+  #sb-view .titWrap .sbj {
+      font-size: 14px;
+      line-height: 18px;
+      padding-right: 0;
+      margin-bottom: 10px;
+  }
+  #sb-view .titWrap {
+      padding: 20px 10px;
+  }
+  #sb-view .titWrap .info {
+      text-align: left;
+      position: static;
+      margin: 0;
+  }
+  #sb-view .titWrap .info li:first-child {
+      padding-left: 0;
+  }
+  #sb-view .memoWrap {
+      padding: 20px 10px;
+      min-height: 150px;
+  }
+  #sb-footer.no-abs .left {
+      position: static;
+      text-align: center;
+      width: 100%;
+      white-space: nowrap;
+  }
+}
+
 #business__container{
   padding-left: 50px;
   padding-right: 50px;
