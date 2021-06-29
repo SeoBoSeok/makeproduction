@@ -1027,6 +1027,7 @@ section .team6 .cont {
   display: block;
   padding-right: 220px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 #sb-view .titWrap .info {

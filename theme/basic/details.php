@@ -37,7 +37,7 @@ $total_rows = mysqli_num_rows($result);
                   ?>
                   <div class="container" id="business__container">
                     <div class="row">
-                      <div class="col col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-3 col-sm-6">
+                      <div class="col col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12">
                         <div class="title"><?= $row['wr_subject'] ?></div>
                         <div id="sb-wrap">
                           <div id="sb-view">
@@ -54,14 +54,30 @@ $total_rows = mysqli_num_rows($result);
                               
                             <!-- 내용 영역 -->
                             <div class="memoWrap nostyle">
+                            <?php
+                              if (!empty($row['wr_link1'])) {
+                                preg_match('/^.*(?:(?:youtu\\.be\\/|v\\/|vi\\/|u\\/\\w\\/|embed\\/)|(?:(?:watch)?\\?v(?:i)?=|\\&v(?:i)?=))([^#\\&\\?]*).*/', $row['wr_link1'], $matches);
+                            ?>
+                            <div class="item__description" style="background: url('https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg') center center no-repeat; background-size: cover;">
+                              <a href="https://www.youtube.com/watch?v=<?=end($matches)?>&feature=emb_logo" class="vid overlay">
+                                <!-- <img src="https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg" alt="thumbnail" /> -->
+                              </a>
+                            </div>
+                            <?php
+                              } else {
+                            ?>
+                              <div class="item__description" style="background: url('/data/file/business/<?= $row['bf_file'] ?>') center center no-repeat; background-size: cover;"></div>
+                            <?php
+                              }
+                            ?>
                               <?=$row['wr_content']?>
                             </div>
 
                             <!-- s:foot button -->
                             <div id="sb-footer" class="no-abs">
                               <div class="left">
-                                <a href="/kor/board/interior2?ca=%ED%94%BD%EB%AF%B8%EA%B0%95%EC%A0%90&amp;sel_search=&amp;txt_search=&amp;page=1" class="sb-btn type3">목록</a>
-                                <a href="/_subpage/kor/board/interior2.php?viewMode=view&amp;idx=7&amp;ca=%ED%94%BD%EB%AF%B8%EA%B0%95%EC%A0%90&amp;sel_search=&amp;txt_search=&amp;page=1" class="sb-btn type4">이전</a>							</div>
+                                <a href="/?p=business" class="sb-btn type3">목록</a>
+                                <a href="javascript:history.back();" class="sb-btn type4">이전</a>
                               <div class="right">
                             </div>
                           </div>
