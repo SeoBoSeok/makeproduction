@@ -6066,6 +6066,9 @@ section.brand-client p {
   #sb-view .item__description {
     height: 360px;
   }
+  #section_2_1 .title {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 680px) {
   #section_2_1 .table .items .item__description {
@@ -6094,6 +6097,9 @@ section.brand-client p {
   }
 }
 @media screen and (max-width: 480px) {
+  #section_2_1 .title {
+    font-size: 20px;
+  }
   #section_2_1 .category .cat_item {
     padding: 0 10px;
     font-size: 15px;
