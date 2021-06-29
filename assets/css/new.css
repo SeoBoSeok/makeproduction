@@ -5880,9 +5880,21 @@ section.brand-client p {
   #teamMember .caption__wrapper {
     float: right;
   }
+  #teamMember img {
+    height: auto;
+  }
+  #teamMember .caption__wrapper h2 {
+    padding-top: 50px;
+  }
+  #teamMember .caption__wrapper {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #section_2_1 .table .items {
     flex-wrap: wrap;
     flex-direction: column-reverse;
