@@ -5685,10 +5685,12 @@ footer .copyright-social ul li:last-child {
 #section_2_1 .category .cat_item.active::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 13px;
   bottom: 0;
   left: 0;
+  right: 0;
+  margin: 0 auto;
   background:rgba(245, 191, 65, .35);
 }
 #section_2_1 .category .cat_item:hover { color: #1b1b1b; cursor: pointer; }

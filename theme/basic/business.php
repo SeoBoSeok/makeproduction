@@ -30,6 +30,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                             <?php
                               $sql = " SELECT bo_category_list FROM g5_board WHERE bo_subject = 'BUSINESS' ";
                               $data = sql_fetch($sql);
+
                               $ca_name = '';
                               $str = '';
 
@@ -113,7 +114,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
                               $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id ";
                             }
                             $result = sql_query($sql);
-                            for($i=0; $row=sql_fetch_array($result); $i++) {
+                            $total_rows = mysqli_num_rows($result);
+
+                            for ($i=0; $row=sql_fetch_array($result); $i++) {
                           ?>
                           <div class="items">
                             <div class="item__title">
@@ -146,6 +149,11 @@ include_once(G5_THEME_PATH.'/head-new.php');
                             </div>
                           </div>
                           <?php
+                          }
+                          ?>
+                          <?php
+                          if ($total_rows == 0) {
+                            echo '<div class="container"><div class="row"><div class="col text-center">컨테츠 준비중입니다.</div></div></div>';
                           }
                           ?>
                           <!-- <div class="items">
