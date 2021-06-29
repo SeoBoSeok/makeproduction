@@ -5926,4 +5926,16 @@ section.brand-client p {
     /* padding-bottom: 20px; */
   }
   #section_2_1 .table .items .item__title .right .sub__date {}
+  #teamMember img {
+    height: auto;
+  }
+  #teamMember .caption__wrapper h2 {
+    padding-top: 50px;
+  }
+  #teamMember .caption__wrapper {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+  }
 }
