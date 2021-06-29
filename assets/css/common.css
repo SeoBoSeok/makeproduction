@@ -1012,7 +1012,10 @@ section .team6 .cont {
   position: absolute;
   left:50px;
 } */
-
+#business__container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 @media (min-width: 992px) {
 	.content-wrapper .front {
 		padding: 14rem 0 14rem;	
