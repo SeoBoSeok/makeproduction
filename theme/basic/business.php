@@ -40,7 +40,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                                 $str .= '<a class="cat_item active" href="/?p=business">ALL</a>';
                               }
 
-                              $categories = explode("|", $data['bo_category_list']); // 구분자가 | 로 되어 있음
+                              $categories = array_reverse(explode("|", $data['bo_category_list'])); // 구분자가 | 로 되어 있음
                               for ($i=0; $i<count($categories); $i++) {
                                   $category = trim($categories[$i]);
                                   if (!$category) continue;
@@ -107,7 +107,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
     -->
                           <?php
                             // SELECT a.wr_subject, a.wr_content, a.wr_link1, a.wr_1, b.bf_file FROM makeproduction.g5_write_makeproduction a join makeproduction.g5_board_file b on b.wr_id = a.wr_id WHERE b.bo_table = 'makeproduction'
-                            if (isset($_GET['caname'])) {
+                            if (!empty($_GET['caname'])) {
                               $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id WHERE ca_name = {$_GET['caname']} ";
                             } else {
                               $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id ";
@@ -127,20 +127,19 @@ include_once(G5_THEME_PATH.'/head-new.php');
                                 <div class="sub__dsecription"><?= $row['wr_1'] ?></div>
                               </div>
                             </div>
-                            <div class="item__description">
                             <?php
-                              if (isset($row['wr_link1'])) {
-                                // echo $row['wr_link1'];
+                              if (!empty($row['wr_link1'])) {
                                 preg_match('/^.*(?:(?:youtu\\.be\\/|v\\/|vi\\/|u\\/\\w\\/|embed\\/)|(?:(?:watch)?\\?v(?:i)?=|\\&v(?:i)?=))([^#\\&\\?]*).*/', $row['wr_link1'], $matches);
                                 // var_dump($matches);
                             ?>
-                            <a href="https://www.youtube.com/watch?v=<?=end($matches)?>&feature=emb_logo" class="vid">
-                              <img src="https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg" alt="thumbnail" />
-                            </a>
+                            <div class="item__description" style="background: url('https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg') center center no-repeat; background-size: cover;">
+                              <a href="https://www.youtube.com/watch?v=<?=end($matches)?>&feature=emb_logo" class="vid overlay">
+                                <!-- <img src="https://img.youtube.com/vi/<?=end($matches)?>/hqdefault.jpg" alt="thumbnail" /> -->
+                              </a>
                             <?php
                               } else {
                             ?>
-                              <div class="item__description" style="background-image: url('/data/file/business/<?= $row['bf_file'] ?>')"></div>
+                              <div class="item__description" style="background: url('/data/file/business/<?= $row['bf_file'] ?>') center center no-repeat; background-size: cover;"></div>
                             <?php
                               }
                             ?>
