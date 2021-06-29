@@ -6085,7 +6085,7 @@ section.brand-client p {
     height:290px;
   }
   #sb-view .item__description {
-    height: 280px;
+    height: 260px;
   }
 }
 @media screen and (max-width: 530px) {
@@ -6115,12 +6115,15 @@ section.brand-client p {
     height:240px;
   }
   #sb-view .item__description {
-    height: 260px;
+    height: 240px;
   }
 }
 @media screen and (max-width: 430px) {
   #section_2_1 .table .items .item__description {
     height:210px;
+  }
+  #sb-view .item__description {
+    height: 210px;
   }
 }
 @media screen and (max-width: 400px) {
