@@ -4498,9 +4498,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @media (max-width:480px) {
   #slider1.owl-carousel .owl-nav .owl-prev, #slider1.owl-carousel .owl-nav .owl-next {font-size:13px; }
+  #teamMember .caption__wrapper h2 {
+    font-size: 28px;
+  }
+  #teamMember .caption__wrapper p {
+    font-size: 24px;
+  }
+  #teamMember .caption__wrapper .cont {
+    font-size: 20px;
+  }
 }
 @media(min-width:768px){
-
+  
 }
 
 /*sidebar*/
@@ -5748,6 +5757,7 @@ footer .copyright-social ul li:last-child {
 section.brand-client p {
   padding: 0 20px;
 }
+
 @media screen and (max-width: 767px) {
   .pc_process {
     display: none;
@@ -5892,6 +5902,15 @@ section.brand-client p {
     text-align: center;
     padding-bottom: 40px;
   }
+  #teamMember .caption__wrapper h2 {
+    font-size: 32px;
+  }
+  #teamMember .caption__wrapper p {
+    font-size: 24px;
+  }
+  #teamMember .caption__wrapper .cont {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -5949,5 +5968,20 @@ section.brand-client p {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #section_2_1 .category .cat_item {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  #teamMember .caption__wrapper h2 {
+    font-size: 26px;
+  }
+  #teamMember .caption__wrapper p {
+    font-size: 20px;
+  }
+  #teamMember .caption__wrapper .cont {
+    font-size: 16px;
   }
 }
