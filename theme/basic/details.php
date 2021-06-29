@@ -44,10 +44,10 @@ $total_rows = mysqli_num_rows($result);
 
                             <!-- 타이틀 영역 -->
                             <div class="titWrap">
-                              <h5 class="sbj">세계맥주할인점 내부 </h5>
+                              <h5 class="sbj"><?=$row['wr_subject']?></h5>
                               <ul class="info">
-                                <li><em>작성일</em>2020/03/25 17:55</li>
-                                <li><em>조회</em> 1,745</li>
+                                <li><em>작성일</em><?=substr($row['wr_datetime'], 0, 10)?></li>
+                                <li><em>조회</em> <?=$row['wr_hit']?></li>
                               </ul>
                             </div>
 
