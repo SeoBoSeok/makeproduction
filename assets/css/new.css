@@ -5984,4 +5984,8 @@ section.brand-client p {
   #teamMember .caption__wrapper .cont {
     font-size: 16px;
   }
+  #section3 {
+    background-size: 250px;
+    background-position: -20px 0px, 100% 100%;
+  }
 }
