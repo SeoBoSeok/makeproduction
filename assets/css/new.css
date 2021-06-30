@@ -5278,10 +5278,14 @@ footer p {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0;
   line-height: 1.6;
   font-variant-numeric: proportional-nums;
   font-family: "Montserrat", sans-serif;
+}
+
+footer a.email {
+  text-transform: lowercase;
 }
 
 .v-light footer a, .v-light
@@ -5449,7 +5453,7 @@ footer .copyright-social ul li:last-child {
 .footer .footer-links .footer-title {
   position: relative;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   font-size: 15px;
   padding-bottom: 10px;
