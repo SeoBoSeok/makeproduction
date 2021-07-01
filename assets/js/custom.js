@@ -2106,10 +2106,9 @@ function initMap() {
             var marker = new google.maps.Marker( {
                 position : letLeng,
                 animation : google.maps.Animation.BOUNCE,
-                icon : "assets/img/map-marker.png",
+                icon : "assets/img/new/mappin.png",
                 title : "ASL",
                 map : map,
-
             } );
         } catch ( e ) {
             console.log( e );

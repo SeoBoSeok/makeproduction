@@ -51,8 +51,8 @@ if($config['cf_add_meta'])
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="discrption" content="MAKE PRODUCTION" />
 <meta name="keyword" content="production, make" />
-<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
-<link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
+<link rel="icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
 <!-- Font Google -->

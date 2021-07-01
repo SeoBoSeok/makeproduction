@@ -97,7 +97,57 @@ include_once(G5_THEME_PATH.'/head-new.php');
                   </div>
                 </div>
               </div>
+              <!-- <section class="our-team our-team-not-bg section-margin section-padding">
+                <div class="container">
+                    <div class="custom-container">
+                        <div class="slick-slider">
+                            <div class="team-item slick-slide">
+                                <div class="box-img">
+                                    <img src="/assets/img/new/profile01.png" alt="">
+                                </div>
 
+                                <div class="box-content">
+                                    <h4>송국진</h4>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+
+                            <div class="team-item slick-slide">
+                                <div class="box-img">
+                                    <img src="/assets/img/new/profile02.png" alt="">
+                                </div>
+
+                                <div class="box-content">
+                                    <h4>옹아름</h4>
+                                    <p>팀장 (기획, 마케팅)</p>
+                                </div>
+                            </div>
+
+                            <div class="team-item slick-slide">
+                                <div class="box-img">
+                                    <img src="/assets/img/new/profile03.png" alt="">
+                                </div>
+
+                                <div class="box-content">
+                                    <h4>유진</h4>
+                                    <p>디자이너</p>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="team-item slick-slide">
+                                <div class="box-img">
+                                    <img src="assets/img/member4.jpg" alt="">
+                                </div>
+
+                                <div class="box-content">
+                                    <h4>신승철</h4>
+                                    <p>Assistant Director</p>
+                                </div>
+                            </div> -->
+                        <!-- </div>
+                    </div>
+                  </div>
+              </div> -->
               <section class="our-team section-margin section-padding" id="teamMember">
                     <div class="container">
                         <div class="custom-container">

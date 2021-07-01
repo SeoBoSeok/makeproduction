@@ -66,6 +66,30 @@ $result = sql_query($sql);
 									<div class="container">
 										<h3 class="section-title-new back-to-position-y to-top delay-0 mb-5">고객사</h3>
 										<div class="row">
+										<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L7.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L2.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L10.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L16.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L1.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L11.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L4.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L9.png" alt="공주시" />
+											</div> -->
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0012_client-01.png" alt="공주시" />
 											</div>
@@ -78,8 +102,11 @@ $result = sql_query($sql);
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0010_client-04.png" alt="공주시" />
 											</div>
-											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0009_client-05.png" alt="공주시" />
+											</div> -->
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L13.png" alt="공주시" />
 											</div>
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0008_client-06.png" alt="공주시" />
@@ -89,6 +116,30 @@ $result = sql_query($sql);
 											</div>
 										</div>
 										<div class="row2">
+										<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L3.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L14.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L6.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L12.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L5.png" alt="공주시" />
+											</div> -->
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L13.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L8.png" alt="공주시" />
+											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L15.png" alt="공주시" />
+											</div> -->
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0006.png" alt="공주시" />
 											</div>
@@ -107,8 +158,11 @@ $result = sql_query($sql);
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0001.png" alt="공주시" />
 											</div>
-											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+											<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0000.png" alt="공주시" />
+											</div> -->
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/L9.png" alt="공주시" style="margin-top: 20px;" />
 											</div>
 										</div>
 									</div>

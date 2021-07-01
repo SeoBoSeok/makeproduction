@@ -51,8 +51,8 @@ if($config['cf_add_meta'])
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="discrption" content="MAKE PRODUCTION" />
 <meta name="keyword" content="production, make" />
-<link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon" />
-<link rel="icon" href="/assets/img/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
+<link rel="icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
 <meta property="og:title" content="메이크프로덕션">
 <meta property="og:url" content="https://makeproduction.kr">
 <meta property="og:type" content="web">
