@@ -25,8 +25,8 @@ $result = sql_query($sql);
 				<div class="youtube__area">
 					<!-- <div id="player"></div> -->
 					<video class="bg-video__content" playsinline autoplay muted loop id="myVideo">
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main_new.mp4" type="video/mp4" />
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type="video/mp4" />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main_new.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 						Your browser is not supported!
 					</video>
 				</div>
@@ -56,7 +56,7 @@ $result = sql_query($sql);
 									<div class="container text-center">
 											<div class="inner">
 												<div class="scale-video">
-													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/WX2F-s8opsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/wb8kmnhLbyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
 									</div>

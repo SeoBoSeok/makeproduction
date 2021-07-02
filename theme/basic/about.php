@@ -60,7 +60,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
                   <div class="slick__wrapper">
                     <div class="slick__item">
                       <video muted autoplay loop>
-                          <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/section4-bg-video.mp4" type="video/mp4">
+                          <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/section4-bg-video.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
                           <strong>Your browser does not support the video tag.</strong>
                       </video>
                       <!-- <img src="/assets/img/new/eq-image01.jpg" alt="메이크프로덕션" /> -->
