@@ -53,10 +53,17 @@ $result = sql_query($sql);
 						<article id="post-2" class="post-2 page type-page status-publish hentry">
 							<div class="entry-content">
 								<div class="front-section scroll-spy" id="section3">
+									<?php
+									$sql = " SELECT cf_2_subj FROM g5_config ";
+									$data = sql_fetch($sql);
+									if (!empty($data['cf_2_subj'])) {
+										preg_match('/^.*(?:(?:youtu\\.be\\/|v\\/|vi\\/|u\\/\\w\\/|embed\\/)|(?:(?:watch)?\\?v(?:i)?=|\\&v(?:i)?=))([^#\\&\\?]*).*/', $data['cf_2_subj'], $matches);
+									}
+									?>
 									<div class="container text-center">
 											<div class="inner">
 												<div class="scale-video">
-													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/wb8kmnhLbyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													<iframe class="" width="100%" height="563" src="https://www.youtube.com/embed/<?=end($matches)?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
 									</div>

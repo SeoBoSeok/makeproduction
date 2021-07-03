@@ -330,6 +330,17 @@ if ($config['cf_sms_use'] && $config['cf_icode_id'] && $config['cf_icode_pw']) {
             <th scope="row"><label for="cf_title">홈페이지 제목<strong class="sound_only">필수</strong></label></th>
             <td colspan="3"><input type="text" name="cf_title" value="<?php echo get_sanitize_input($config['cf_title']); ?>" id="cf_title" required class="required frm_input" size="40"></td>
         </tr>
+        <?php 
+            $_labels = array("메인 탑 동영상", "메인 동영상", "어바웃 동영상");
+        ?>
+        <?php for ($i=1; $i<=3; $i++) { ?>
+        <tr>
+            <th scope="row"><?php echo $_labels[$i-1] ?></th>
+            <td colspan="3">
+                <input type="text" name="cf_<?php echo $i ?>_subj" value="<?php echo get_text($config['cf_'.$i.'_subj']) ?>" id="cf_<?php echo $i ?>_subj" class="frm_input" size="50">
+            </td>
+        </tr>
+        <?php } ?>
         <tr>
             <th scope="row"><label for="cf_admin">최고관리자<strong class="sound_only">필수</strong></label></th>
             <td colspan="3"><?php echo get_member_id_select('cf_admin', 10, $config['cf_admin'], 'required') ?></td>
@@ -1349,7 +1360,7 @@ include_once('_rewrite_config_form.php');
             <col>
         </colgroup>
         <tbody>
-        <?php for ($i=1; $i<=10; $i++) { ?>
+        <?php for ($i=5; $i<=10; $i++) { ?>
         <tr>
             <th scope="row">여분필드<?php echo $i ?></th>
             <td class="td_extra">
