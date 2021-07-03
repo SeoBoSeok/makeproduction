@@ -21,6 +21,15 @@ $(function() {
 <![endif]-->
 <script type="text/javascript" src="<?php echo G5_URL ?>/assets/js/main-new.js"></script>
 <?php run_event('tail_sub'); ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-72ZZ4ES5Q1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-72ZZ4ES5Q1');
+</script>
 <?php
 if(isset($_REQUEST['category'])){
     ?>
