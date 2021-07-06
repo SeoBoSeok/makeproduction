@@ -30,7 +30,7 @@ $result = sql_query($sql);
 						Your browser is not supported!
 					</video>
 					<video class="bg-video__content" playsinline autoplay muted loop id="myVideoMo">
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/mo.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/mobile.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 						<!-- <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' /> -->
 						Your browser is not supported!
 					</video>
@@ -42,7 +42,7 @@ $result = sql_query($sql);
 					#myVideoMo {
 						display: none;
 					}
-					@media screen (max-width: 767px) {
+					@media screen and (min-width: 768px) {
 						#myVideo {
 							display: none;
 						}
