@@ -30,7 +30,8 @@ $result = sql_query($sql);
 						Your browser is not supported!
 					</video>
 					<video class="bg-video__content" playsinline autoplay muted loop id="myVideoMo">
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/mobile.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<source src="/assets/videos/mobile_test.mov" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<source src="/assets/videos/mobile_test.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
 						<!-- <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' /> -->
 						Your browser is not supported!
 					</video>
