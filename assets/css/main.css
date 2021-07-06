@@ -665,6 +665,12 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .bg-video__content {
+    top: 0;
+  }
+}
+
 #equipments {
   margin-top: 100px;
   padding-bottom: 40px;
