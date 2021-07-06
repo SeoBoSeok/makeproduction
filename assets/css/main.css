@@ -671,6 +671,16 @@
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .bg-video__content {
+    width: 94%;
+    height: 90%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+}
+
 #equipments {
   margin-top: 100px;
   padding-bottom: 40px;
