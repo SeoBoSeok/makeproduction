@@ -37,17 +37,17 @@ $result = sql_query($sql);
 				</div>
 				<style>
 					#myVideo {
-						display: block;
+						display: none;
 					}
 					#myVideoMo {
-						display: none;
+						display: block;
 					}
 					@media screen and (min-width: 768px) {
 						#myVideo {
-							display: none;
+							display: block;
 						}
 						#myVideoMo {
-							display: block;
+							display: none;
 						}
 					}
 				</style>
