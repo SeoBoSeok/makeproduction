@@ -671,9 +671,9 @@
   }
   .youtube .youtube__area {
     width: 100%;
-    position: none;
-    left: none;
-    top: none;
+    position: revert;
+    left: unset;
+    top: unset;
     transform: none;
   }
   .bg-video__content {
