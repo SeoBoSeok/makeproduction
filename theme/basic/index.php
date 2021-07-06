@@ -25,11 +25,43 @@ $result = sql_query($sql);
 				<div class="youtube__area">
 					<!-- <div id="player"></div> -->
 					<video class="bg-video__content" playsinline autoplay muted loop id="myVideo">
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main_new.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/wide.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<!-- <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' /> -->
+						Your browser is not supported!
+					</video>
+					<video class="bg-video__content" playsinline autoplay muted loop id="myVideoMo">
+						<source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/mo.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+						<!-- <source src="https://makeproduction.s3.ap-northeast-2.amazonaws.com/main.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' /> -->
 						Your browser is not supported!
 					</video>
 				</div>
+				<style>
+					#myVideo {
+						display: block;
+					}
+					#myVideoMo {
+						display: none;
+					}
+					@media screen (max-width: 767px) {
+						#myVideo {
+							display: none;
+						}
+						#myVideoMo {
+							display: block;
+						}
+					}
+				</style>
+				<script>
+					// $( window ).resize( function() {
+					// 	// do somthing
+					// 	var width = window.innerWidth;
+					// 	if (width < 767) {
+					// 		$('.bg-video__content source').attr('src', 'https://makeproduction.s3.ap-northeast-2.amazonaws.com/mo.mp4');
+					// 	} else {
+					// 		$('.bg-video__content source').attr('src', 'https://makeproduction.s3.ap-northeast-2.amazonaws.com/wide.mp4');
+					// 	}
+					// } );
+				</script>
 				<div class="youtube__cover">
 					<div class="inner">
 						<!-- <img src="/assets/img/new/production.png" alt="" srcset=""> -->
