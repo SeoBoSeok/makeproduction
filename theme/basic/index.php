@@ -154,6 +154,9 @@ $result = sql_query($sql);
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0007_client-07.png" alt="공주시" />
 											</div>
+											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
+												<img src="/assets/img/new/cl17.png" alt="공주시" />
+											</div>
 										</div>
 										<div class="row2">
 										<!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
@@ -190,7 +193,7 @@ $result = sql_query($sql);
 												<img src="/assets/img/new/client_0004.png" alt="공주시" />
 											</div>
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
-												<img src="/assets/img/new/client_0003.png" alt="공주시" />
+												<img src="/assets/img/new/cl7.png" alt="공주시" />
 											</div>
 											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 project-item pad3">
 												<img src="/assets/img/new/client_0002.png" alt="공주시" />
