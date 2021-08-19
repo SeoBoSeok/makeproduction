@@ -7,7 +7,7 @@ if (G5_IS_MOBILE) {
     return;
 }
 
-include_once(G5_THEME_PATH.'/head.php');
+include_once(G5_THEME_PATH.'/head-new.php');
 ?>
 
 <main class="main-root">

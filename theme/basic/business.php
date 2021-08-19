@@ -60,9 +60,9 @@ include_once(G5_THEME_PATH.'/head-new.php');
                           <?php
                             // SELECT a.wr_subject, a.wr_content, a.wr_link1, a.wr_1, b.bf_file FROM makeproduction.g5_write_makeproduction a join makeproduction.g5_board_file b on b.wr_id = a.wr_id WHERE b.bo_table = 'makeproduction'
                             if (!empty($_GET['caname'])) {
-                              $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id WHERE ca_name = {$_GET['caname']} ";
+                              $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id WHERE ca_name = {$_GET['caname']} AND b.bo_table = 'business' ";
                             } else {
-                              $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id ";
+                              $sql = " SELECT a.*, b.bf_file FROM makeproduction.g5_write_business a JOIN makeproduction.g5_board_file b ON b.wr_id = a.wr_id WHERE b.bo_table = 'business' ";
                             }
                             $result = sql_query($sql);
                             $total_rows = mysqli_num_rows($result);
