@@ -42,10 +42,10 @@ include_once(G5_THEME_PATH.'/head-new.php');
                               <!-- <img src="/assets/img/new/after.png" alt="메이크프로덕션" style="clip: rect(0px, 1100px, 568px, 414px);" />
                               <img src="/assets/img/new/after-arw.png" alt="메이크프로덕션" id="after-arw" /> -->
                               <div class="juxtapose">
-                                  <img src="/assets/img/new/befor.png" />
+                                  <!-- <img src="/assets/img/new/befor.png" /> -->
                                   <img src="/assets/img/new/after.png" />
                               </div>
-                              <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+                              <!-- <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script> -->
                             </div>
                           </div>
                         </div>
