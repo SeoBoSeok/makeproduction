@@ -16,7 +16,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
 		<div class="site-content-contain">
         <div class="">
           <!-- 36.4696336,127.1409435,17z -->
-          <div class="map-custom" id="map" data-lat="36.4696336" data-len="127.1409435" data-zoom="17">
+          <div class="map-custom" id="map" data-lat="36.47107997466952" data-len="127.14104588960247" data-zoom="17">
         </div>
 		</div><!-- .site-content-contain -->
     <!-- CONTACT -->
