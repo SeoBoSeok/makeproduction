@@ -34,30 +34,62 @@ header("Pragma: no-cache"); // HTTP/1.0
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<?php
-// if (G5_IS_MOBILE) {
-//     echo '<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">'.PHP_EOL;
-//     echo '<meta name="HandheldFriendly" content="true">'.PHP_EOL;
-//     echo '<meta name="format-detection" content="telephone=no">'.PHP_EOL;
-// } else {
-//     echo '<meta http-equiv="imagetoolbar" content="no">'.PHP_EOL;
-//     echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">'.PHP_EOL;
-// }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="production, make">
+  <meta name="description" content="MAKE PRODUCTION">
+  <meta name="author" content="Make production">
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="메이크 프로덕션">
+  <meta property="og:description" content="체계적인 기획으로 창의적인 콘텐츠를 만들어내는 프로덕션입니다.">
+  <meta property="og:image" content="/images/makeproduction_link.png">
+  <meta property="og:url" content="">
+  <title>Make production</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+  <script src="/js/jquery-2.1.4.js"></script>
+  <!-- Page Scroll Effects JS & CSS -->
+  <script src="/js/velocity/velocity.min.js"></script>
+  <script src="/js/velocity/velocity.ui.min.js"></script>
+  <script src="/js/velocity/main.js"></script>
+  <link rel="stylesheet" href="/js/velocity/velocity.css">
+  <!-- Smooth Scrolling -->
+  <script src="/js/jquery.scrollTo.min.js"></script>
+  <!-- Slick.js -->
+  <script src="/js/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="/js/slick/slick-theme.css">
+  <link rel="stylesheet" href="/js/slick/slick.css">
+  <!-- Featherlight.js -->
+  <script src="/js/featherlight/featherlight.js"></script>
+  <link rel="stylesheet" href="/js/featherlight/featherlight.css">
+  <!-- Custom JS & CSS -->
+  <script src="/custom.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/responsive.css">
+  <link rel="stylesheet" href="/font/stylesheet.css">
 
+<?php
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="discrption" content="MAKE PRODUCTION" />
-<meta name="keyword" content="production, make" />
-<link rel="shortcut icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
-<link rel="icon" href="/assets/img/new/32logo.png" type="image/x-icon" />
-<title><?php echo $g5_head_title; ?></title>
-<link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
-<!-- Font Google -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
+
 <!-- custom styles (optional) -->
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
@@ -75,43 +107,7 @@ var g5_editor    = "<?php echo ($config['cf_editor'] && $board['bo_use_dhtml_edi
 var g5_cookie_domain = "<?php echo G5_COOKIE_DOMAIN ?>";
 </script>
 <?php
-add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/jquery.menu.js?ver='.G5_JS_VER.'"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/common.js?ver='.G5_JS_VER.'"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>', 0);
-add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
-add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
-
-if(G5_IS_MOBILE) {
-    add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
-}
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
 </head>
-<body class="v-light hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true" <?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
-<?php
-if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
-    $sr_admin_msg = '';
-    if ($is_admin == 'super') $sr_admin_msg = "최고관리자 ";
-    else if ($is_admin == 'group') $sr_admin_msg = "그룹관리자 ";
-    else if ($is_admin == 'board') $sr_admin_msg = "게시판관리자 ";
-
-    echo '<div id="hd_login_msg">'.$sr_admin_msg.get_text($member['mb_nick']).'님 로그인 중 ';
-    echo '<a href="'.G5_BBS_URL.'/logout.php">로그아웃</a></div>';
-}
-?>
-<div data-dsn-temp="light"></div>
-<!-- <div class="preloader">
-    <div class="preloader-after"></div>
-    <div class="preloader-before"></div>
-    <div class="preloader-block">
-        <div class="title">MAKE PRODUCTION</div>
-        <div class="percent">0</div>
-        <div class="loading">loading...</div>
-    </div>
-    <div class="preloader-bar">
-        <div class="preloader-progress"></div>
-    </div>
-</div> -->

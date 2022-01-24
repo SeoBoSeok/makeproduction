@@ -1,0 +1,989 @@
+/* 모바일 (해상도 ~ 320 px) */
+@media (max-width: 320px) {
+
+  /* contact 페이지 */
+  .contact-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .contact-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+}
+
+
+/* 모바일 (해상도 ~ 767px) */
+@media (max-width: 767px) {
+  /* Entire Layout */
+  .cd-section {
+    height: auto;
+  }
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* video */
+  .content-video {
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
+  }
+
+
+  /* Header */
+  header {}
+  header.active {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* .slogan {
+    display: none;
+  } */
+
+  .gnb {
+    right: -250px;
+  }
+  .gnb.active {
+    right: 0;
+  }
+
+  .logo img{
+    width:65%;
+    padding-top: 17px;
+    padding-left: 17px;
+  }
+  .menu {}
+  .menu a {
+    font-size: 3em;
+    line-height: 2em;
+  }
+  
+  /* Trigger */
+  .trigger {
+    display: block;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+  }
+  .trigger span {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: 0.5s;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg)
+  }
+  .trigger.active span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg)
+  }
+  
+  /* Gototop */
+  .gototop {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #000;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .gototop.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .btn-hiring {
+    right: 20px;
+    bottom: 20px;
+  }
+  .cd-vertical-nav {
+    display: none;
+  }
+
+  /* Show Hide Section */
+
+  /* #plan, */
+  /* #awards, */
+  /* #location, */
+  #home,
+  #about,
+  #main-content,
+  #passion,
+  #project,
+  #process,
+  #contact {
+    display: block;
+  }
+
+  /* ################# Section : Home ################ */
+  .home-inner {
+    height: 100vh;
+  }
+  .welcome-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .home-heading  {
+    left: 20px;
+  }
+  .home-heading span {
+    font-size: 50px;
+  }
+
+  .main-content-inner__1,
+  .main-content-inner__2,
+  .main-content-inner__3,
+  .main-content-inner__4 {
+    height: 100vh;
+  }
+
+  #video_player{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width:80%;
+    height: 80%;
+    pointer-events: none;
+  }
+
+  /* ################# Section : about  ################# */
+  .about-inner {
+    height: 100vh;
+  }
+  .about-professional__1,
+  .about-professional__2,
+  .about-professional__3 {
+    height: 100vh;
+    padding: 20px;
+  }
+  .about-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .about-text span{
+    font-size: 2rem;
+  }
+  .about-opacity-image {
+    background-position: center;
+    background-size: contain;
+  }
+  .about-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(0%, 0%);
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+  }
+  .about-heading .span-1 {
+    font-size: 3rem;
+  }
+  .about-heading .span-2 {
+    font-size: 2rem;
+  }
+
+  /* ################# Section : process #################*/
+  .process-inner {
+    height: 100vh;
+  }
+
+  /* ################# Section : performance #################*/
+  .performance-inner {
+    height: 100vh;
+  }
+
+   /* ################# Section : location  #################
+  .location-inner {
+    height: auto;
+  }
+  .feature {
+    width: 100%;
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+  }
+  .feature > div {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }  */
+
+  /* ################# Section : Passion  #################*/
+  /* .passion-inner__1 {
+    height: 100vh;
+  }
+  .passion-inner__2 {
+    height: 100vh;
+  }
+  .passion-inner__3 {
+    height: 100vh;
+  }
+  .passion-inner__4 {
+    height: 100vh;
+  }
+  .passion-inner__5 {
+    height: 100vh;
+  } */
+
+  /* ############## Section : passion  ##############*/
+  .tab > div {
+    float: none;
+    width: 100%;
+  }
+  /* .project-inner {
+    height: auto;
+    border: none;
+  } */
+  /* .view-project {
+    width: 100%;
+  }  
+  .project-info {
+    padding: 20px;
+  }
+  .project-info p {
+    position: relative;
+  }
+    .detail div {
+    font-size: 13px;
+  }
+  .btn {
+    width: 100%;
+    bottom: 10px;
+  }   */
+
+  /* ################# Section : portfolio  ################# */
+  .portfolio-inner {}
+  .portfolio-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .portfolio-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .portfolio-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+
+  .portfolio .categories-grid .categories ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+
+  .portfolio_item .portfolio_item_hover .item_info span {
+    font-size: 18px;
+  }
+  .portfolio_item .portfolio_item_hover .item_info em {
+    font-style: normal;
+  }
+
+  /* #################### Section : contact  ####################*/
+  .contact-inner {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .contact-feature  {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+  .contact-feature > div {
+    float: none;
+    width: 100%;
+  }
+  .contact-info .copyright {
+    font-size: 1.3rem;
+  }
+
+  /* Contact 페이지 */
+  .contact-inner-1 {
+    height: 100vh;
+  }
+  .contact-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .contact-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .contact-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+
+  /* Featherlight Mobile CSS */
+  .featherlight .featherlight-close-icon {
+    font-size: 24px;
+    right: 20px;
+    top: 35px;
+  }
+
+  .portfolio-inner-1 {
+    height: 100vh;
+  }
+
+  .footer {
+    padding: 30px 0;
+    text-align: center;
+    background: #fff;
+    display: none;
+  }
+  
+  .copyright {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+  }
+  
+  .footer img {
+    margin: 0 auto;
+  }
+}
+
+/* bootstrap */
+
+@media only screen and (max-width: 520px) {
+  .main-container {
+    padding: 50px 0;
+  }
+  
+}
+
+@media only screen and (max-width: 670px) {
+  .portfolio .categories-grid .categories ul li {
+    float: none;
+  }
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  /* Entire Layout */
+  .cd-section {
+    height: auto;
+  }
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-video {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
+  }
+
+  /* Header */
+  header {}
+  header.active {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* .slogan {
+    display: none;
+  } */
+
+  .gnb {
+    right: -250px;
+  }
+  .gnb.active {
+    right: 0;
+  }
+
+  .logo img{
+    width:65%;
+    padding-top: 17px;
+    padding-left: 17px;
+  }
+  .menu {}
+  .menu a {
+    font-size: 3em;
+    line-height: 2.5em;
+  }
+  
+  /* Trigger */
+  .trigger {
+    display: block;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+  }
+  .trigger span {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: 0.5s;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg)
+  }
+  .trigger.active span:nth-child(2) {
+    top: 50%;
+    width: 80%;
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg)
+  }
+  
+  /* Gototop */
+  .gototop {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #000;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .gototop.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .btn-hiring {
+    right: 20px;
+    bottom: 20px;
+  }
+  .cd-vertical-nav {
+    display: none;
+  }
+
+  /* Show Hide Section */
+
+  /* #plan, */
+  /* #awards, */
+  /* #location, */
+  #home,
+  #about,
+  #main-content,
+  #passion,
+  #project,
+  #process,
+  #contact {
+    display: block;
+  }
+
+  /* ################# Section : Home ################ */
+  .home-inner {
+    height: 100vh;
+  }
+  .welcome-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .home-heading  {
+    left: 20px;
+  }
+  .home-heading span {
+    font-size: 50px;
+  }
+  .home-opacity-video {
+    animation: opacity-image 2s 2.5s ease-in both;
+  }
+
+  #video_player{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    min-width: 70%;
+    min-height: 70%;
+    pointer-events: none;
+    object-fit: contain;
+  }
+
+  .main-content-inner__1,
+  .main-content-inner__2,
+  .main-content-inner__3,
+  .main-content-inner__4 {
+    height: 100vh;
+  }
+
+
+  /* ################# Section : about  ################# */
+  .about-inner {
+    height: 100vh;
+  }
+  .about-professional__1,
+  .about-professional__2,
+  .about-professional__3 {
+    height: 100vh;
+    padding: 20px;
+  }
+  .about-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .about-text span{
+    font-size: 2rem;
+  }
+  .about-opacity-image {
+    background-position: center;
+    background-size: contain;
+  }
+  .about-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(0%, 0%);
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+  }
+  .about-heading .span-1 {
+    font-size: 3rem;
+  }
+  .about-heading .span-2 {
+    font-size: 2rem;
+  }
+
+  /* ################# Section : process #################*/
+  .process-inner {
+    height: 100vh;
+  }
+
+  /* ################# Section : performance #################*/
+  .performance-inner {
+    height: 100vh;
+  }
+
+   /* ################# Section : location  #################
+  .location-inner {
+    height: auto;
+  }
+  .feature {
+    width: 100%;
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+  }
+  .feature > div {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }  */
+
+  /* ################# Section : Passion  #################*/
+  /* .passion-inner__1 {
+    height: 100vh;
+  }
+  .passion-inner__2 {
+    height: 100vh;
+  }
+  .passion-inner__3 {
+    height: 100vh;
+  }
+  .passion-inner__4 {
+    height: 100vh;
+  }
+  .passion-inner__5 {
+    height: 100vh;
+  } */
+
+  /* ############## Section : passion  ##############*/
+  .tab > div {
+    float: none;
+    width: 100%;
+  }
+  /* .project-inner {
+    height: auto;
+    border: none;
+  } */
+  /* .view-project {
+    width: 100%;
+  }  
+  .project-info {
+    padding: 20px;
+  }
+  .project-info p {
+    position: relative;
+  }
+    .detail div {
+    font-size: 13px;
+  }
+  .btn {
+    width: 100%;
+    bottom: 10px;
+  }   */
+
+  /* ################# Section : portfolio  ################# */
+  .portfolio-inner {
+    
+  }
+  .portfolio-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .portfolio-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .portfolio-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+
+  .portfolio .categories-grid .categories ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+
+  .portfolio_item .portfolio_item_hover .item_info span {
+    font-size: 18px;
+  }
+  .portfolio_item .portfolio_item_hover .item_info em {
+    font-style: normal;
+  }
+
+  /* #################### Section : contact  ####################*/
+  .contact-inner {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .contact-feature  {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+  .contact-feature > div {
+    float: none;
+    width: 100%;
+  }
+  .contact-info .copyright {
+    font-size: 1.3rem;
+  }
+
+  /* Contact 페이지 */
+  .contact-inner-1 {
+    height: 100vh;
+  }
+  .contact-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .contact-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .contact-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+
+  /* Featherlight Mobile CSS */
+  .featherlight .featherlight-close-icon {
+    font-size: 24px;
+    right: 20px;
+    top: 35px;
+  }
+
+  .portfolio-inner-1 {
+    height: 100vh;
+  }
+
+  .footer {
+    padding: 30px 0;
+    background: #fff;
+    display: none;
+  }
+  
+  .copyright {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+  }
+  
+  .footer img {
+    margin: 0 auto;
+  }
+}
+
+/* PC (해상도 1024px)*/
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  iframe {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70%;
+  }
+
+  .content-video {
+    height:70%;
+  }
+
+  /* ################# Section : About ################ */
+  .about-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(0%, 0%);
+    line-height: 12rem;
+    width: 100%;
+    text-align: center;
+  }
+  .about-heading .span-1 {
+    font-size: 8rem;
+  }
+  .about-heading .span-2 {
+    font-size: 6rem;
+  }
+
+  /* ################# Section : Home ################ */
+  .home-opacity-video {
+    background-size: 50%;
+  }
+
+  /* ################# Section : Portfolio ################ */
+  .portfolio-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .portfolio-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .portfolio-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+
+  .portfolio .categories-grid .categories ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  /* Contact 페이지 */
+  .contact-inner-1 {
+    height: 100vh;
+  }
+  .contact-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+  }
+  .contact-heading {
+    position: absolute;
+    top: 45%;
+    transform: translate(10%,-50%);
+    line-height: 85px;
+    width: 80%;
+  }
+  .contact-heading span {
+    display: block;
+    font-size: 58px;
+    font-weight: 600;
+    overflow: hidden;
+    animation: reveal 1s 2s ease-in-out both;
+    text-transform: uppercase;
+  }
+}
+
+/* PC (와이드 해상도 1440px)*/
+@media all and (min-width:1440px) {
+
+  /* Header */
+  .menu ul {
+    line-height: 160px;
+  }
+
+  /* video */
+  .content-video {
+    height: 80%;
+  }
+
+  /* portfolio */
+  .portfolio .categories-grid .categories ul li {
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+  }
+
+  .main-container {
+    width: 750px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .portfolio .categories-grid span {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .portfolio .categories-grid .categories ul li {
+    text-align: center;
+  }
+  .portfolio .categories-grid .categories ul li a {
+    margin-left: 0;
+  }
+  .col-md-6 h3 {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width:992px) {
+  .col-md-4{
+    width:33.33333333%
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+  }
+
+  .main-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+
+@media (min-width: 1200px) {
+  .main-container {
+    width: 1170px;
+  }
+}
+
+
+@media screen and (min-width:1024) and (max-width:1050px) {
+  .cd-vertical-nav {
+    display: none;
+  }
+}

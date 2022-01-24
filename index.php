@@ -9,15 +9,18 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 //     return;
 // }
 
-parse_str($_SERVER['QUERY_STRING'], $output);
+// parse_str($_SERVER['QUERY_STRING'], $output);
 
-if(isset($output['p'])) {
-    include_once(G5_THEME_PATH.'/'.$output['p'].'.php');
-    return;
-} else {
-    include_once(G5_THEME_PATH.'/index.php');
-    return;
-}
+// if(isset($output['p'])) {
+//     include_once(G5_THEME_PATH.'/'.$output['p'].'.php');
+//     return;
+// } else {
+//     include_once(G5_THEME_PATH.'/index.php');
+//     return;
+// }
+
+include_once(G5_THEME_PATH.'/index.php');
+return;
 
 if (G5_IS_MOBILE) {
     include_once(G5_MOBILE_PATH.'/index.php');

@@ -2,45 +2,56 @@
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 ?>
 
-<?php if ($is_admin == 'super') {  ?><!-- <div style='float:left; text-align:center;'>RUN TIME : <?php echo get_microtime()-$begin_time; ?><br></div> --><?php }  ?>
+<!-- Get in touch onclick -->
+<script type="text/javaScript">
+    function moveContact(){
+      location.href = "/contact.html";
+    }
+</script>
 
-<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
-<!--[if lte IE 7]>
+<!-- Channel Plugin Scripts -->
 <script>
-$(function() {
-    var $sv_use = $(".sv_use");
-    var count = $sv_use.length;
-
-    $sv_use.each(function() {
-        $(this).css("z-index", count);
-        $(this).css("position", "relative");
-        count = count - 1;
-    });
+(function() {
+    var w = window;
+    if (w.ChannelIO) {
+    return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+    }
+    var ch = function() {
+    ch.c(arguments);
+    };
+    ch.q = [];
+    ch.c = function(args) {
+    ch.q.push(args);
+    };
+    w.ChannelIO = ch;
+    function l() {
+    if (w.ChannelIOInitialized) {
+        return;
+    }
+    w.ChannelIOInitialized = true;
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+    s.charset = 'UTF-8';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    }
+    if (document.readyState === 'complete') {
+    l();
+    } else if (window.attachEvent) {
+    window.attachEvent('onload', l);
+    } else {
+    window.addEventListener('DOMContentLoaded', l, false);
+    window.addEventListener('load', l, false);
+    }
+})();
+ChannelIO('boot', {
+    "pluginKey": "fbb9fcf7-e234-4d70-aa0b-d31632c834ab"
 });
 </script>
-<![endif]-->
-<script type="text/javascript" src="<?php echo G5_URL ?>/assets/js/main-new.js"></script>
-<?php run_event('tail_sub'); ?>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-72ZZ4ES5Q1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- End Channel Plugin -->
 
-  gtag('config', 'G-72ZZ4ES5Q1');
-</script>
-<?php
-if(isset($_REQUEST['category'])){
-    ?>
-    <script>
-        setTimeout(() => {
-            activeCategory("<?=$_REQUEST['category']?>");
-        }, 500);
-    </script>
-    <?php
-}
-?>
 </body>
 </html>
 <?php echo html_end(); // HTML 마지막 처리 함수 : 반드시 넣어주시기 바랍니다. ?>

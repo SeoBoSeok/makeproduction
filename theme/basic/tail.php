@@ -8,51 +8,51 @@ if (G5_IS_MOBILE) {
 ?>
 <!-- Channel Plugin Scripts -->
 <script>
-  (function() {
-    var w = window;
-    if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
-    }
-    var ch = function() {
-      ch.c(arguments);
-    };
-    ch.q = [];
-    ch.c = function(args) {
-      ch.q.push(args);
-    };
-    w.ChannelIO = ch;
-    function l() {
-      if (w.ChannelIOInitialized) {
-        return;
-      }
-      w.ChannelIOInitialized = true;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
-      s.charset = 'UTF-8';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-    if (document.readyState === 'complete') {
-      l();
-    } else if (window.attachEvent) {
-      window.attachEvent('onload', l);
-    } else {
-      window.addEventListener('DOMContentLoaded', l, false);
-      window.addEventListener('load', l, false);
-    }
-  })();
-  ChannelIO('boot', {
-    "pluginKey": "fbb9fcf7-e234-4d70-aa0b-d31632c834ab"
-  });
+  // (function() {
+  //   var w = window;
+  //   if (w.ChannelIO) {
+  //     return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+  //   }
+  //   var ch = function() {
+  //     ch.c(arguments);
+  //   };
+  //   ch.q = [];
+  //   ch.c = function(args) {
+  //     ch.q.push(args);
+  //   };
+  //   w.ChannelIO = ch;
+  //   function l() {
+  //     if (w.ChannelIOInitialized) {
+  //       return;
+  //     }
+  //     w.ChannelIOInitialized = true;
+  //     var s = document.createElement('script');
+  //     s.type = 'text/javascript';
+  //     s.async = true;
+  //     s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+  //     s.charset = 'UTF-8';
+  //     var x = document.getElementsByTagName('script')[0];
+  //     x.parentNode.insertBefore(s, x);
+  //   }
+  //   if (document.readyState === 'complete') {
+  //     l();
+  //   } else if (window.attachEvent) {
+  //     window.attachEvent('onload', l);
+  //   } else {
+  //     window.addEventListener('DOMContentLoaded', l, false);
+  //     window.addEventListener('load', l, false);
+  //   }
+  // })();
+  // ChannelIO('boot', {
+  //   "pluginKey": "fbb9fcf7-e234-4d70-aa0b-d31632c834ab"
+  // });
 </script>
 <!-- End Channel Plugin -->
 </body>
 <script>
 $(function() {
     // 폰트 리사이즈 쿠키있으면 실행
-    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+    // font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
 });
 </script>
 
