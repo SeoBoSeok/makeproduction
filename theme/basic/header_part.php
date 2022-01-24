@@ -1,7 +1,7 @@
 <header>
       <div class="gnb-inner">
         <div class="logo">
-          <a href="/" target="_blank"><img src="/images/logo.png"></a>
+          <a href="/"><img src="/images/logo.png"></a>
         </div>
         <div class="gnb">
           <div class="menu">
