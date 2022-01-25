@@ -5,7 +5,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 <!-- Get in touch onclick -->
 <script type="text/javaScript">
     function moveContact(){
-      location.href = "/contact.html";
+      location.href = "/contact/";
     }
 </script>
 
