@@ -2,16 +2,21 @@
 include_once('./_common.php');
 include_once(G5_LIB_PATH.'/naver_syndi.lib.php');
 include_once(G5_CAPTCHA_PATH.'/captcha.lib.php');
+include_once(G5_LIB_PATH.'/mailer.lib.php');
+
+// [code] :: check
+$_project = implode(";",$_POST['wr_4']);
 
 // 토큰체크
-check_write_token($bo_table);
+// check_write_token($bo_table);
 
 $g5['title'] = '게시글 저장';
 
 $msg = array();
+$uid = isset($_POST['uid']) ? preg_replace('/[^0-9]/', '', $_POST['uid']) : 0;
 
 if($board['bo_use_category']) {
-    $ca_name = trim($_POST['ca_name']);
+    $ca_name = isset($_POST['ca_name']) ? trim($_POST['ca_name']) : '';
     if(!$ca_name) {
         $msg[] = '<strong>분류</strong>를 선택하세요.';
     } else {
@@ -76,6 +81,11 @@ if (empty($_POST)) {
 }
 
 $notice_array = explode(",", $board['bo_notice']);
+$wr_password = isset($_POST['wr_password']) ? $_POST['wr_password'] : '';
+$bf_content = isset($_POST['bf_content']) ? (array) $_POST['bf_content'] : array();
+$_POST['html'] = isset($_POST['html']) ? clean_xss_tags($_POST['html'], 1, 1) : '';
+$_POST['secret'] = isset($_POST['secret']) ? clean_xss_tags($_POST['secret'], 1, 1) : '';
+$_POST['mail'] = isset($_POST['mail']) ? clean_xss_tags($_POST['mail'], 1, 1) : '';
 
 if ($w == 'u' || $w == 'r') {
     $wr = get_write($write_table, $wr_id);
@@ -197,9 +207,9 @@ if ($w == '' || $w == 'u') {
 
 $is_use_captcha = ((($board['bo_use_captcha'] && $w !== 'u') || $is_guest) && !$is_admin) ? 1 : 0;
 
-if ($is_use_captcha && !chk_captcha()) {
-    alert('자동등록방지 숫자가 틀렸습니다.');
-}
+// if ($is_use_captcha && !chk_captcha()) {
+//     alert('자동등록방지 숫자가 틀렸습니다.');
+// }
 
 if ($w == '' || $w == 'r') {
     if (isset($_SESSION['ss_datetime'])) {
@@ -247,6 +257,9 @@ if ($w == '' || $w == 'r') {
         $wr_reply = '';
     }
 
+    // [code] :: check
+    // $info = explode(";", $_POST['wr_4']);
+
     $sql = " insert into $write_table
                 set wr_num = '$wr_num',
                      wr_reply = '$wr_reply',
@@ -274,7 +287,7 @@ if ($w == '' || $w == 'r') {
                      wr_1 = '$wr_1',
                      wr_2 = '$wr_2',
                      wr_3 = '$wr_3',
-                     wr_4 = '$wr_4',
+                     wr_4 = '$_project',
                      wr_5 = '$wr_5',
                      wr_6 = '$wr_6',
                      wr_7 = '$wr_7',
@@ -282,6 +295,9 @@ if ($w == '' || $w == 'r') {
                      wr_9 = '$wr_9',
                      wr_10 = '$wr_10' ";
     sql_query($sql);
+
+    // mailer
+    mailer('메이크프로덕션 상담신청', 'makedesign0724@gmail.com', 'makedesign0724@gmail.com', '[문의] 메이크프로덕션 상담신청.', '<span style="font-size:9pt;">[홈페이지 상담신청] 상담신청 <br /> * 제목 : '. $wr_subject .'<br /> * 성함 : '. $wr_1 .' <br /> * 이메일 : '. $wr_3 .'<br /> * 연락처 : '. $wr_2 .'<br /> * 예산 : ' . $wr_5 . '<br /> * 프로젝트 : ' . $_project . '<br /> * 내용 : ' . $wr_content, 1);
 
     $wr_id = sql_insert_id();
 
@@ -526,7 +542,7 @@ if(isset($_FILES['bf_file']['name']) && is_array($_FILES['bf_file']['name'])) {
             // image type
             if ( preg_match("/\.({$config['cf_image_extension']})$/i", $filename) ||
                  preg_match("/\.({$config['cf_flash_extension']})$/i", $filename) ) {
-                if ($timg['2'] < 1 || $timg['2'] > 16)
+                if ($timg['2'] < 1 || $timg['2'] > 18)
                     continue;
             }
             //=================================================================
@@ -537,14 +553,16 @@ if(isset($_FILES['bf_file']['name']) && is_array($_FILES['bf_file']['name'])) {
             if ($w == 'u') {
                 // 존재하는 파일이 있다면 삭제합니다.
                 $row = sql_fetch(" select * from {$g5['board_file_table']} where bo_table = '$bo_table' and wr_id = '$wr_id' and bf_no = '$i' ");
-
-                $delete_file = run_replace('delete_file_path', G5_DATA_PATH.'/file/'.$bo_table.'/'.str_replace('../', '', $row['bf_file']), $row);
-                if( file_exists($delete_file) ){
-                    @unlink(G5_DATA_PATH.'/file/'.$bo_table.'/'.$row['bf_file']);
-                }
-                // 이미지파일이면 썸네일삭제
-                if(preg_match("/\.({$config['cf_image_extension']})$/i", $row['bf_file'])) {
-                    delete_board_thumbnail($bo_table, $row['bf_file']);
+                
+                if(isset($row['bf_file']) && $row['bf_file']){
+                    $delete_file = run_replace('delete_file_path', G5_DATA_PATH.'/file/'.$bo_table.'/'.str_replace('../', '', $row['bf_file']), $row);
+                    if( file_exists($delete_file) ){
+                        @unlink(G5_DATA_PATH.'/file/'.$bo_table.'/'.$row['bf_file']);
+                    }
+                    // 이미지파일이면 썸네일삭제
+                    if(preg_match("/\.({$config['cf_image_extension']})$/i", $row['bf_file'])) {
+                        delete_board_thumbnail($bo_table, $row['bf_file']);
+                    }
                 }
             }
 
@@ -553,7 +571,7 @@ if(isset($_FILES['bf_file']['name']) && is_array($_FILES['bf_file']['name'])) {
             $upload[$i]['filesize'] = $filesize;
 
             // 아래의 문자열이 들어간 파일은 -x 를 붙여서 웹경로를 알더라도 실행을 하지 못하도록 함
-            $filename = preg_replace("/\.(php|pht|phtm|htm|cgi|pl|exe|jsp|asp|inc)/i", "$0-x", $filename);
+            $filename = preg_replace("/\.(php|pht|phtm|htm|cgi|pl|exe|jsp|asp|inc|phar)/i", "$0-x", $filename);
 
             shuffle($chars_array);
             $shuffle = implode('', $chars_array);
@@ -578,9 +596,11 @@ if(isset($_FILES['bf_file']['name']) && is_array($_FILES['bf_file']['name'])) {
 // 나중에 테이블에 저장하는 이유는 $wr_id 값을 저장해야 하기 때문입니다.
 for ($i=0; $i<count($upload); $i++)
 {
-    if (!get_magic_quotes_gpc()) {
-        $upload[$i]['source'] = addslashes($upload[$i]['source']);
-    }
+    $upload[$i]['source'] = sql_real_escape_string($upload[$i]['source']);
+    $bf_content[$i] = isset($bf_content[$i]) ? sql_real_escape_string($bf_content[$i]) : '';
+    $bf_width = isset($upload[$i]['image'][0]) ? (int) $upload[$i]['image'][0] : 0;
+    $bf_height = isset($upload[$i]['image'][1]) ? (int) $upload[$i]['image'][1] : 0;
+    $bf_type = isset($upload[$i]['image'][2]) ? (int) $upload[$i]['image'][2] : 0;
 
     $row = sql_fetch(" select count(*) as cnt from {$g5['board_file_table']} where bo_table = '{$bo_table}' and wr_id = '{$wr_id}' and bf_no = '{$i}' ");
     if ($row['cnt'])
@@ -597,9 +617,9 @@ for ($i=0; $i<count($upload); $i++)
                              bf_thumburl = '{$upload[$i]['thumburl']}',
                              bf_storage = '{$upload[$i]['storage']}',
                              bf_filesize = '".(int)$upload[$i]['filesize']."',
-                             bf_width = '".(int)$upload[$i]['image'][0]."',
-                             bf_height = '".(int)$upload[$i]['image'][1]."',
-                             bf_type = '".(int)$upload[$i]['image'][2]."',
+                             bf_width = '".$bf_width."',
+                             bf_height = '".$bf_height."',
+                             bf_type = '".$bf_type."',
                              bf_datetime = '".G5_TIME_YMDHIS."'
                       where bo_table = '{$bo_table}'
                                 and wr_id = '{$wr_id}'
@@ -630,9 +650,9 @@ for ($i=0; $i<count($upload); $i++)
                          bf_storage = '{$upload[$i]['storage']}',
                          bf_download = 0,
                          bf_filesize = '".(int)$upload[$i]['filesize']."',
-                         bf_width = '".(int)$upload[$i]['image'][0]."',
-                         bf_height = '".(int)$upload[$i]['image'][1]."',
-                         bf_type = '".(int)$upload[$i]['image'][2]."',
+                         bf_width = '".$bf_width."',
+                         bf_height = '".$bf_height."',
+                         bf_type = '".$bf_type."',
                          bf_datetime = '".G5_TIME_YMDHIS."' ";
         sql_query($sql);
 
@@ -648,7 +668,7 @@ for ($i=(int)$row['max_bf_no']; $i>=0; $i--)
     $row2 = sql_fetch(" select bf_file from {$g5['board_file_table']} where bo_table = '{$bo_table}' and wr_id = '{$wr_id}' and bf_no = '{$i}' ");
 
     // 정보가 있다면 빠집니다.
-    if ($row2['bf_file']) break;
+    if (isset($row2['bf_file']) && $row2['bf_file']) break;
 
     // 그렇지 않다면 정보를 삭제합니다.
     sql_query(" delete from {$g5['board_file_table']} where bo_table = '{$bo_table}' and wr_id = '{$wr_id}' and bf_no = '{$i}' ");
@@ -715,8 +735,10 @@ if (!($w == 'u' || $w == 'cu') && $config['cf_email_use'] && $board['bo_use_emai
     }
 
     // 옵션에 메일받기가 체크되어 있고, 게시자의 메일이 있다면
-    if (strstr($wr['wr_option'], 'mail') && $wr['wr_email'])
-        $array_email[] = $wr['wr_email'];
+    if (isset($wr['wr_option']) && isset($wr['wr_email'])) {
+        if (strstr($wr['wr_option'], 'mail') && $wr['wr_email'])
+            $array_email[] = $wr['wr_email'];
+    }
 
     // 중복된 메일 주소는 제거
     $unique_email = array_unique($array_email);
@@ -740,5 +762,4 @@ run_event('write_update_after', $board, $wr_id, $w, $qstr, $redirect_url);
 if ($file_upload_msg)
     alert($file_upload_msg, $redirect_url);
 else
-    goto_url($redirect_url);
-?>
+    goto_url("/");
