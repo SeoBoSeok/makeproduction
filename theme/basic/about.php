@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
       <div>
         <div class="content">
           <div class="about-inner">
-            <h3 class="about-text">About <span> <br> <img src="images/home-logo.png" alt=""></span></h3>
+            <h3 class="about-text">About <span> <br> <img src="/images/home-logo.png" alt=""></span></h3>
             <div class="about-opacity-image"></div>
             <div class="about-heading">
               <span class="span-1">Standing Standard</span>
