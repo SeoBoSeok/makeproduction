@@ -225,6 +225,14 @@ include_once(G5_THEME_PATH.'/head-new.php');
       <li><a href="#0" class="cd-next">Prev</a></li>
     </ul>
   </nav>
+
+  <script>
+  // filebox //
+  $("#file").on('change',function(){
+    var fileName = $("#file").val();
+    $(".upload-name").val(fileName);
+  });
+  </script>
   
   <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
   </script>

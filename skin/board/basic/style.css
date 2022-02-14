@@ -85,7 +85,7 @@
 /* ### 기본 스타일 커스터마이징 끝 ### */
 
 /* 게시판 목록 */
-#bo_list {position:relative;margin-bottom:20px}
+#bo_list {position:relative;margin-bottom:20px;padding-top: 100px;}
 #bo_list:after {display:block;visibility:hidden;clear:both;content:""}
 #bo_list .td_board {width:120px;text-align:center}
 #bo_list .td_chk {width:30px;text-align:center;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1}

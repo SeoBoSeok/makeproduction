@@ -226,6 +226,8 @@ if ($member['mb_id'] && ($is_admin === 'super' || $group['gr_admin'] === $member
 
 include_once(G5_BBS_PATH.'/board_head.php');
 
+include_once(G5_THEME_PATH.'/header_part.php');
+
 // 게시물 아이디가 있다면 게시물 보기를 INCLUDE
 if (isset($wr_id) && $wr_id) {
     include_once(G5_BBS_PATH.'/view.php');
