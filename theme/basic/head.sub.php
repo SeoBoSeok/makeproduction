@@ -37,7 +37,7 @@ header("Pragma: no-cache"); // HTTP/1.0
 if(substr($_SERVER["SCRIPT_NAME"], 0, 5) == "/bbs/") {
 ?>
 <!doctype html>
-<html lang="ko">
+<html lang="ko">    
 <head>
 <meta charset="utf-8">
 <?php
@@ -99,6 +99,7 @@ if(!defined('G5_IS_ADMIN'))
 <link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="/responsive.css">
 <link rel="stylesheet" href="/font/stylesheet.css">
+
 </head>
 <?php
 } else {
