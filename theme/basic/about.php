@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
       <div>
         <div class="content">
           <div class="about-inner">
-            <h3 class="about-text">About <span> <br> <img src="images/home-logo.png" alt=""></span></h3>
+            <h3 class="about-text">About <span> <br> <img src="/images/home-logo.png" alt=""></span></h3>
             <div class="about-opacity-image"></div>
             <div class="about-heading">
               <span class="span-1">Standing Standard</span>
@@ -83,10 +83,10 @@ include_once(G5_THEME_PATH.'/head-new.php');
             <div class="tabs">
               <div class="tab">
                 <div class="project-photo">
-                  <img src="images/SGJ.png">
-                  <img src="images/OAR.png">
-                  <img src="images/SYJ.png">
-                  <img src="images/NHK.png">
+                  <img src="/images/SGJ.png">
+                  <img src="/images/OAR.png">
+                  <img src="/images/SYJ.png">
+                  <img src="/images/NHK.png">
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ include_once(G5_THEME_PATH.'/head-new.php');
     ?>
   </div>
   
-  <a href="#" class="gototop"><img src="images/gototop.png"></a>
+  <a href="#" class="gototop"><img src="/images/gototop.png"></a>
   
   <nav>
     <ul class="cd-vertical-nav">
