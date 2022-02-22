@@ -377,7 +377,7 @@ if ($w == '' || $w == 'r') {
     } else {
         $mb_id = "";
         // 비회원의 경우 이름이 누락되는 경우가 있음
-        if (!trim($wr_name)) alert("이름은 필히 입력하셔야 합니다.");
+        // if (!trim($wr_name)) alert("이름은 필히 입력하셔야 합니다."); // 비회원일 경우 이름입력 넘어가기
         $wr_name = clean_xss_tags(trim($_POST['wr_name']));
         $wr_email = get_email_address(trim($_POST['wr_email']));
     }
@@ -762,4 +762,4 @@ run_event('write_update_after', $board, $wr_id, $w, $qstr, $redirect_url);
 if ($file_upload_msg)
     alert($file_upload_msg, $redirect_url);
 else
-    goto_url("/");
+    goto_url("/contact");
