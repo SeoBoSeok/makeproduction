@@ -762,4 +762,5 @@ run_event('write_update_after', $board, $wr_id, $w, $qstr, $redirect_url);
 if ($file_upload_msg)
     alert($file_upload_msg, $redirect_url);
 else
+    alert('문의해주셔서 감사합니다. \n확인 후 답변드리겠습니다.');
     goto_url("/contact");
